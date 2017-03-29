@@ -230,7 +230,16 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
         log += "State {0:d}\n".format(index)
         try:
             # Charge molecule.
-            charged_molecule = omtoe.get_charges(mol2_molecule, max_confs=100, strictStereo=False, normalize=True, keep_confs=None)
+            charged_molecule = omtoe.get_charges(mol2_molecule, max_confs=500, strictStereo=False, normalize=True, keep_confs=None)
+
+            log += "Charging completed.\n"
+            # Assign Tripos types
+            oechem.OETriposAtomTypeNames(charged_molecule)
+            oechem.OETriposBondTypeNames(charged_molecule)
+            # Store tags.
+            oechem.OECopySDData(charged_molecule, sdf_molecule)
+            # Store molecule
+            charged_molecules.append(charged_molecule)
 
             # If more than one warning was raised
             # This still allows the single line "trans conformer warning"
@@ -242,15 +251,8 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
 
             oehandler.Clear()
 
-            log += "Charging completed.\n"
-            # Assign Tripos types
-            oechem.OETriposAtomTypeNames(charged_molecule)
-            oechem.OETriposBondTypeNames(charged_molecule)
-            # Store tags.
-            oechem.OECopySDData(charged_molecule, sdf_molecule)
-            # Store molecule
-            charged_molecules.append(charged_molecule)
         except Exception as e:
+            charged_molecules.append(charged_molecule)
             failed_states.add(index)
             logging.info(e)
             log += "Skipping state because of failed charging.\n"
@@ -317,14 +319,14 @@ def main(args):
     from openpyxl import load_workbook
     import shutil
     from openpyxl.comments import Comment
-    workbook = load_workbook('Queue.xlsx')
+    workbook = load_workbook(args[1])
     to_run = workbook['To Run']
     successes = workbook['Successes']
     failures = workbook['Failures']
     topdir = os.getcwd()
-    # Makes the OE license available globally
-    os.environ['OE_LICENSE'] = os.getcwd() + '\\oe_license.txt'
-    os.environ['SCHRODINGER'] = 'C:\\Program Files\\Schrodinger2015-3'
+    # # Makes the OE license available globally
+    # os.environ['OE_LICENSE'] = os.getcwd() + '\\oe_license.txt'
+    # os.environ['SCHRODINGER'] = 'C:\\Program Files\\Schrodinger2015-3'
     # Create the directories to store output
     directories = ['InProgress', 'Failures', 'Successes']
 
@@ -422,8 +424,11 @@ def main(args):
             cell.value = ""
 
     os.chdir(topdir)
-    workbook.save('Queue.xlsx')
-
+    # If second argument present, uses that as outputfile instead of overwriting input
+    if len(args) < 3:
+        workbook.save(args[1])
+    else:
+        workbook.save(args[2])
 
 if __name__ == '__main__':
     main(args=argv)
