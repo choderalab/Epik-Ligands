@@ -240,7 +240,8 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
             oechem.OECopySDData(charged_molecule, sdf_molecule)
             # Store molecule
             charged_molecules.append(charged_molecule)
-
+            log += str(oss)
+            log += "\n"
             # If more than one warning was raised
             # This still allows the single line "trans conformer warning"
             if oehandler.Count(0) > 1:

@@ -1,0 +1,290 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ AMP 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/ADENOSINE MONOPHOSPHATE/pH_7.0/ADENOSINE MONOPHOSPHATE_pH_7.0-before_epik.mol2" 
+  1
+  0.999997216410988
+    0.1025 
+    0.1020 
+    0.0004 
+    0.0864 
+  0.188443994258443
+  -2
+  2
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[35] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 8.043000 39.686000 18.813000 1 15 "AMP " " P  " 15 0 P  <> <>
+  2 15 7.774000 40.637000 19.995000 1 70 "AMP " " O1P" 8 0 O1P  <> <>
+  3 18 6.883000 38.784000 18.643000 1 70 "AMP " " O2P" 8 -1 O2P    6.274    0.618 
+  4 18 9.316000 38.856000 19.092000 1 70 "AMP " " O3P" 8 -1 O3P    6.274    0.618 
+  5 16 8.290000 40.534000 17.463000 1 70 "AMP " " O5'" 8 0 O5'  <> <>
+  6 3 9.275000 41.545000 17.412000 1 2 "AMP " " C5'" 6 0 C5'  <> <>
+  7 3 9.922000 41.617000 16.032000 1 2 "AMP " " C4'" 6 0 C4'  <> <>
+  8 16 10.626000 40.417000 15.752000 1 70 "AMP " " O4'" 8 0 O4'  <> <>
+  9 3 8.899000 41.815000 14.923000 1 2 "AMP " " C3'" 6 0 C3'  <> <>
+  10 16 9.238000 42.933000 14.133000 1 70 "AMP " " O3'" 8 0 O3'   -1.628    0.950 
+  11 3 8.933000 40.529000 14.114000 1 2 "AMP " " C2'" 6 0 C2'  <> <>
+  12 16 8.932000 40.781000 12.726000 1 70 "AMP " " O2'" 8 0 O2'   -2.067    0.950 
+  13 3 10.220000 39.828000 14.530000 1 2 "AMP " " C1'" 6 0 C1'  <> <>
+  14 25 10.093000 38.369000 14.756000 1 43 "AMP " " N9 " 7 0 N9  <> <>
+  15 2 9.377000 37.767000 15.753000 1 2 "AMP " " C8 " 6 0 C8  <> <>
+  16 25 9.495000 36.418000 15.645000 1 43 "AMP " " N7 " 7 0 N7    2.629    2.220 
+  17 2 10.287000 36.160000 14.586000 1 2 "AMP " " C5 " 6 0 C5  <> <>
+  18 2 10.707000 34.951000 14.063000 1 2 "AMP " " C6 " 6 0 C6  <> <>
+  19 25 10.337000 33.806000 14.627000 1 43 "AMP " " N6 " 7 0 N6  <> <>
+  20 25 11.551000 34.995000 12.959000 1 43 "AMP " " N1 " 7 0 N1    3.826    0.730 
+  21 2 11.915000 36.195000 12.375000 1 2 "AMP " " C2 " 6 0 C2  <> <>
+  22 25 11.488000 37.403000 12.902000 1 43 "AMP " " N3 " 7 0 N3   -0.674    0.800 
+  23 2 10.672000 37.369000 14.001000 1 2 "AMP " " C4 " 6 0 C4  <> <>
+  24 41 8.813158 42.518382 17.633878 1 21 "AMP " "H5'1" 1 0 H5'1  <> <>
+  25 41 10.057446 41.332462 18.155375 1 21 "AMP " "H5'2" 1 0 H5'2  <> <>
+  26 41 10.657594 42.434835 16.038853 1 21 "AMP " " H4'" 1 0 H4'  <> <>
+  27 41 7.891453 42.079156 15.276652 1 21 "AMP " " H3'" 1 0 H3'  <> <>
+  28 42 9.256875 43.937529 14.580845 1 21 "AMP " "HO3'" 1 0 HO3'   12.882    0.468 
+  29 41 8.023842 39.921200 14.232365 1 21 "AMP " " H2'" 1 0 H2'  <> <>
+  30 42 8.072231 41.283585 12.258875 1 21 "AMP " "HO2'" 1 0 HO2'   12.306    0.700 
+  31 41 10.983393 39.955989 13.748431 1 21 "AMP " " H1'" 1 0 H1'  <> <>
+  32 41 8.806000 38.284000 16.510000 1 21 "AMP " " H8 " 1 0 H8  <> <>
+  33 43 9.667473 33.813899 15.499737 1 21 "AMP " "HN61" 1 0 HN61   13.016    0.730 
+  34 43 10.700263 32.850337 14.221109 1 21 "AMP " "HN62" 1 0 HN62   13.016    0.730 
+  35 41 12.541000 36.190000 11.495000 1 21 "AMP " " H2 " 1 0 H2  <> <>
+  :::
+ } 
+ m_bond[37] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 1 5 1
+  5 5 6 1
+  6 6 7 1
+  7 6 24 1
+  8 6 25 1
+  9 7 8 1
+  10 7 9 1
+  11 7 26 1
+  12 8 13 1
+  13 9 10 1
+  14 9 11 1
+  15 9 27 1
+  16 10 28 1
+  17 11 12 1
+  18 11 13 1
+  19 11 29 1
+  20 12 30 1
+  21 13 14 1
+  22 13 31 1
+  23 14 15 1
+  24 14 23 1
+  25 15 16 2
+  26 15 32 1
+  27 16 17 1
+  28 17 18 2
+  29 17 23 1
+  30 18 19 1
+  31 18 20 1
+  32 19 33 1
+  33 19 34 1
+  34 20 21 2
+  35 21 22 1
+  36 21 35 1
+  37 22 23 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ AMP 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/ADENOSINE MONOPHOSPHATE/pH_7.0/ADENOSINE MONOPHOSPHATE_pH_7.0-before_epik.mol2" 
+  1
+  0.999997216410988
+    1.0931 
+    0.0001 
+    1.0930 
+    1.1834 
+  1.18352924504781
+  -1
+  1
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[36] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 8.043000 39.686000 18.813000 1 15 "AMP " " P  " 15 0 P  <> <>
+  2 15 7.774000 40.637000 19.995000 1 70 "AMP " " O1P" 8 0 O1P  <> <>
+  3 18 6.883000 38.784000 18.643000 1 70 "AMP " " O2P" 8 -1 O2P    3.325    0.610 
+  4 16 9.316000 38.856000 19.092000 1 70 "AMP " " O3P" 8 0 O3P  <> <>
+  5 16 8.290000 40.534000 17.463000 1 70 "AMP " " O5'" 8 0 O5'  <> <>
+  6 3 9.275000 41.545000 17.412000 1 2 "AMP " " C5'" 6 0 C5'  <> <>
+  7 3 9.922000 41.617000 16.032000 1 2 "AMP " " C4'" 6 0 C4'  <> <>
+  8 16 10.626000 40.417000 15.752000 1 70 "AMP " " O4'" 8 0 O4'  <> <>
+  9 3 8.899000 41.815000 14.923000 1 2 "AMP " " C3'" 6 0 C3'  <> <>
+  10 16 9.238000 42.933000 14.133000 1 70 "AMP " " O3'" 8 0 O3'   -1.902    0.950 
+  11 3 8.933000 40.529000 14.114000 1 2 "AMP " " C2'" 6 0 C2'  <> <>
+  12 16 8.932000 40.781000 12.726000 1 70 "AMP " " O2'" 8 0 O2'   -2.179    0.950 
+  13 3 10.220000 39.828000 14.530000 1 2 "AMP " " C1'" 6 0 C1'  <> <>
+  14 25 10.093000 38.369000 14.756000 1 43 "AMP " " N9 " 7 0 N9  <> <>
+  15 2 9.377000 37.767000 15.753000 1 2 "AMP " " C8 " 6 0 C8  <> <>
+  16 25 9.495000 36.418000 15.645000 1 43 "AMP " " N7 " 7 0 N7    2.629    2.220 
+  17 2 10.287000 36.160000 14.586000 1 2 "AMP " " C5 " 6 0 C5  <> <>
+  18 2 10.707000 34.951000 14.063000 1 2 "AMP " " C6 " 6 0 C6  <> <>
+  19 25 10.337000 33.806000 14.627000 1 43 "AMP " " N6 " 7 0 N6  <> <>
+  20 25 11.551000 34.995000 12.959000 1 43 "AMP " " N1 " 7 0 N1    3.826    0.730 
+  21 2 11.915000 36.195000 12.375000 1 2 "AMP " " C2 " 6 0 C2  <> <>
+  22 25 11.488000 37.403000 12.902000 1 43 "AMP " " N3 " 7 0 N3   -0.674    0.800 
+  23 2 10.672000 37.369000 14.001000 1 2 "AMP " " C4 " 6 0 C4  <> <>
+  24 42 9.362392 38.199609 19.973475 1 21 "AMP " "HOP3" 1 0 HOP3    6.274    0.708 
+  25 41 8.813158 42.518382 17.633878 1 21 "AMP " "H5'1" 1 0 H5'1  <> <>
+  26 41 10.057446 41.332462 18.155375 1 21 "AMP " "H5'2" 1 0 H5'2  <> <>
+  27 41 10.657594 42.434835 16.038853 1 21 "AMP " " H4'" 1 0 H4'  <> <>
+  28 41 7.891453 42.079156 15.276652 1 21 "AMP " " H3'" 1 0 H3'  <> <>
+  29 42 9.256875 43.937529 14.580845 1 21 "AMP " "HO3'" 1 0 HO3'   12.523    0.468 
+  30 41 8.023842 39.921200 14.232365 1 21 "AMP " " H2'" 1 0 H2'  <> <>
+  31 42 8.072231 41.283585 12.258875 1 21 "AMP " "HO2'" 1 0 HO2'   12.159    0.700 
+  32 41 10.983393 39.955989 13.748431 1 21 "AMP " " H1'" 1 0 H1'  <> <>
+  33 41 8.806000 38.284000 16.510000 1 21 "AMP " " H8 " 1 0 H8  <> <>
+  34 43 9.667473 33.813899 15.499737 1 21 "AMP " "HN61" 1 0 HN61   13.016    0.730 
+  35 43 10.700263 32.850337 14.221109 1 21 "AMP " "HN62" 1 0 HN62   13.016    0.730 
+  36 41 12.541000 36.190000 11.495000 1 21 "AMP " " H2 " 1 0 H2  <> <>
+  :::
+ } 
+ m_bond[38] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 1 5 1
+  5 4 24 1
+  6 5 6 1
+  7 6 7 1
+  8 6 25 1
+  9 6 26 1
+  10 7 8 1
+  11 7 9 1
+  12 7 27 1
+  13 8 13 1
+  14 9 10 1
+  15 9 11 1
+  16 9 28 1
+  17 10 29 1
+  18 11 12 1
+  19 11 13 1
+  20 11 30 1
+  21 12 31 1
+  22 13 14 1
+  23 13 32 1
+  24 14 15 1
+  25 14 23 1
+  26 15 16 2
+  27 15 33 1
+  28 16 17 1
+  29 17 18 2
+  30 17 23 1
+  31 18 19 1
+  32 18 20 1
+  33 19 34 1
+  34 19 35 1
+  35 20 21 2
+  36 21 22 1
+  37 21 36 1
+  38 22 23 2
+  :::
+ } 
+} 
+

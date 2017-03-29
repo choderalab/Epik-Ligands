@@ -1,0 +1,97 @@
+ATOM      1  PG  GTP A   1       4.566  31.391  21.635  1.00 10.00           P
+ATOM      2  O1G GTP A   1       4.613  31.907  23.069  1.00 10.00           O
+ATOM      3  O2G GTP A   1       3.892  32.319  20.631  1.00 10.00           O
+ATOM      4  O3G GTP A   1       4.143  30.012  21.613  1.00 10.00           O
+ATOM      5  O3B GTP A   1       6.160  31.360  21.228  1.00 10.00           O
+ATOM      6  PB  GTP A   1       6.877  31.202  19.745  1.00 10.00           P
+ATOM      7  O1B GTP A   1       7.079  29.709  19.473  1.00 10.00           O
+ATOM      8  O2B GTP A   1       6.125  31.970  18.749  1.00 10.00           O
+ATOM      9  O3A GTP A   1       8.251  31.890  20.003  1.00 10.00           O
+ATOM     10  PA  GTP A   1       8.846  33.261  19.411  1.00 10.00           P
+ATOM     11  O1A GTP A   1       8.888  33.256  17.957  1.00 10.00           O
+ATOM     12  O2A GTP A   1       8.105  34.398  20.129  1.00 10.00           O
+ATOM     13  O5' GTP A   1      10.430  33.153  19.900  1.00 10.00           O
+ATOM     14  C5' GTP A   1      10.549  33.044  21.378  1.00 10.00           C
+ATOM     15  C4' GTP A   1      12.046  33.618  21.474  1.00 10.00           C
+ATOM     16  O4' GTP A   1      13.052  32.830  20.818  1.00 10.00           O
+ATOM     17  C3' GTP A   1      12.307  34.969  21.057  1.00 10.00           C
+ATOM     18  O3' GTP A   1      13.109  35.672  21.971  1.00 10.00           O
+ATOM     19  C2' GTP A   1      12.839  34.971  19.593  1.00 10.00           C
+ATOM     20  O2' GTP A   1      13.672  35.961  19.355  1.00 10.00           O
+ATOM     21  C1' GTP A   1      13.846  33.622  19.927  1.00 10.00           C
+ATOM     22  N9  GTP A   1      14.001  32.833  18.649  1.00 10.00           N
+ATOM     23  C8  GTP A   1      12.934  32.452  17.848  1.00 10.00           C
+ATOM     24  N7  GTP A   1      13.640  31.798  16.899  1.00 10.00           N
+ATOM     25  C5  GTP A   1      15.029  31.889  17.001  1.00 10.00           C
+ATOM     26  C6  GTP A   1      15.899  31.394  16.238  1.00 10.00           C
+ATOM     27  O6  GTP A   1      15.982  30.680  15.191  1.00 10.00           O
+ATOM     28  N1  GTP A   1      17.274  31.628  16.800  1.00 10.00           N
+ATOM     29  C2  GTP A   1      17.304  32.295  17.896  1.00 10.00           C
+ATOM     30  N2  GTP A   1      18.677  32.450  18.475  1.00 10.00           N
+ATOM     31  N3  GTP A   1      16.384  32.736  18.739  1.00 10.00           N
+ATOM     32  C4  GTP A   1      15.218  32.517  18.135  1.00 10.00           C
+ATOM     33 HOG2 GTP A   1       3.595  33.105  21.075  1.00 10.00           H
+ATOM     34 HOG3 GTP A   1       3.982  29.715  22.501  1.00 10.00           H
+ATOM     35 HOB2 GTP A   1       5.858  31.396  18.041  1.00 10.00           H
+ATOM     36 HOA2 GTP A   1       7.743  34.996  19.486  1.00 10.00           H
+ATOM     37  H5' GTP A   1       9.819  33.672  21.910  1.00 10.00           H
+ATOM     38 H5'' GTP A   1      10.469  32.007  21.735  1.00 10.00           H
+ATOM     39  H4' GTP A   1      12.283  33.581  22.548  1.00 10.00           H
+ATOM     40  H3' GTP A   1      11.335  35.482  21.016  1.00 10.00           H
+ATOM     41 HO3' GTP A   1      13.253  36.555  21.653  1.00 10.00           H
+ATOM     42  H2' GTP A   1      12.075  34.730  18.840  1.00 10.00           H
+ATOM     43 HO2' GTP A   1      13.966  35.918  18.453  1.00 10.00           H
+ATOM     44  H1' GTP A   1      14.805  33.958  20.347  1.00 10.00           H
+ATOM     45  H8  GTP A   1      11.873  32.624  17.951  1.00 10.00           H
+ATOM     46  HN1 GTP A   1      18.102  31.290  16.354  1.00 10.00           H
+ATOM     47 HN21 GTP A   1      18.794  32.845  19.386  1.00 10.00           H
+ATOM     48 HN22 GTP A   1      19.477  32.159  17.950  1.00 10.00           H
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1   33
+CONECT    4    1   34
+CONECT    5    1    6
+CONECT    6    5    7    8    9
+CONECT    7    6
+CONECT    8    6   35
+CONECT    9    6   10
+CONECT   10    9   11   12   13
+CONECT   11   10
+CONECT   12   10   36
+CONECT   13   10   14
+CONECT   14   13   15   37   38
+CONECT   15   14   16   17   39
+CONECT   16   15   21
+CONECT   17   15   18   19   40
+CONECT   18   17   41
+CONECT   19   17   20   21   42
+CONECT   20   19   43
+CONECT   21   16   19   22   44
+CONECT   22   21   23   32
+CONECT   23   22   24   45
+CONECT   24   23   25
+CONECT   25   24   26   32
+CONECT   26   25   27   28
+CONECT   27   26
+CONECT   28   26   29   46
+CONECT   29   28   30   31
+CONECT   30   29   47   48
+CONECT   31   29   32
+CONECT   32   22   25   31
+CONECT   33    3
+CONECT   34    4
+CONECT   35    8
+CONECT   36   12
+CONECT   37   14
+CONECT   38   14
+CONECT   39   15
+CONECT   40   17
+CONECT   41   18
+CONECT   42   19
+CONECT   43   20
+CONECT   44   21
+CONECT   45   23
+CONECT   46   28
+CONECT   47   30
+CONECT   48   30
+END   
