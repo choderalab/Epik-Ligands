@@ -3,6 +3,7 @@
 """Run epik on all substrates, products and cofactors."""
 
 from sys import argv
+import re
 import numpy as np
 import logging
 from openeye import oechem
@@ -86,6 +87,71 @@ def write_mol2_preserving_atomnames(filename, molecules, residue_name):
         oechem.OEWriteMolecule(ofs, molecules)
     ofs.close()
     fix_mol2_resname(filename, residue_name)
+
+def openeye_charge_log_parser(openeye_output, raise_on_fail=False):
+    """
+    Parse the output produced by OpenEye charging log and indicate when 
+    an unacceptable warning occurs. 
+    
+    Returns False if a problematic clause is found in the log.
+    
+    :param openeye_output:
+     :param raise_on_fail: bool,
+      if True raises an error if a problem is detected. Default False
+    :return: bool
+    
+    
+    """
+    fail_indicators = set()
+    fail_indicators.add("Unable to assign partial charges to any conf")
+    fail_indicators.add("Unable to average charges")
+
+    status = True
+    for line in openeye_output.splitlines():
+        for indicator in fail_indicators:
+            # If the fail passage is found in the sentence
+            if re.search(indicator, line) is not None:
+                status = False
+                if raise_on_fail:
+                    raise RuntimeError(line)
+                else:
+                    return status
+
+    return status
+
+
+def select_conformers(multiconformers, original_molecule, keep_confs=None):
+    """
+    
+    :param keep_confs: 
+    :return: 
+    """
+
+    molcopy = oechem.OEMol(multiconformers)
+
+    if keep_confs is None:
+        #If returning original conformation
+        original = original_molecule.GetCoords()
+        #Delete conformers over 1
+        for k, conf in enumerate(molcopy.GetConfs()):
+            if k > 0:
+                molcopy.DeleteConf(conf)
+        #Copy coordinates to single conformer
+        molcopy.SetCoords(original)
+    elif keep_confs > 0:
+        #Otherwise if a number is provided, return this many confs if available
+        for k, conf in enumerate(molcopy.GetConfs()):
+            if k > keep_confs - 1:
+                molcopy.DeleteConf(conf)
+    elif keep_confs == -1:
+        #If we want all conformations, continue
+        pass
+    else:
+        #Not a valid option to keep_confs
+        raise(ValueError('Not a valid option to keep_confs.'))
+
+    return molcopy
+
 
 def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.4):
     """Run Epik to get protonation states using PDB residue templates for naming.
@@ -230,9 +296,16 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
         log += "State {0:d}\n".format(index)
         try:
             # Charge molecule.
-            charged_molecule = omtoe.get_charges(mol2_molecule, max_confs=500, strictStereo=False, normalize=True, keep_confs=None)
+            charged_molecule_conformers = omtoe.get_charges(mol2_molecule, max_confs=800, strictStereo=False, normalize=True, keep_confs=-1)
 
-            log += "Charging completed.\n"
+            log += "Charging stage output:\n"
+            OEOutput = str(oss)
+            log += OEOutput
+            log += "\nCharging state completed.\n"
+
+            # Restore coordinates to original
+            charged_molecule = select_conformers(charged_molecule_conformers, mol2_molecule, keep_confs=None)
+
             # Assign Tripos types
             oechem.OETriposAtomTypeNames(charged_molecule)
             oechem.OETriposBondTypeNames(charged_molecule)
@@ -240,26 +313,24 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
             oechem.OECopySDData(charged_molecule, sdf_molecule)
             # Store molecule
             charged_molecules.append(charged_molecule)
-            log += str(oss)
-            log += "\n"
-            # If more than one warning was raised
-            # This still allows the single line "trans conformer warning"
-            if oehandler.Count(0) > 1:
-                raise RuntimeError(str(oss))
 
-            else:
-                oss.clear()
+            # Check for failure in the log
+            openeye_charge_log_parser(OEOutput, True)
 
             oehandler.Clear()
 
         except Exception as e:
-            charged_molecules.append(charged_molecule)
             failed_states.add(index)
             logging.info(e)
-            log += "Skipping state because of failed charging.\n"
+            log += "State failed charging.\n"
             log += str(e)
             log += "\n"
+
+            filename_failure = name + 'conformers-failed-state-{}-.mol2'.format(index)
+            write_mol2_preserving_atomnames(filename_failure, charged_molecule_conformers, residue_name)
+
             success_status = False
+            oehandler.Clear()
 
     # Clean up
     ifs_sdf.close()
@@ -281,12 +352,9 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
 
     # Write as PDB
     charged_pdb_filename = name + '-charged_output.pdb'
-    failed_pdb_filename = name + '-failures.pdb'
     ofs = oechem.oemolostream(charged_pdb_filename)
-    ofs_fail = oechem.oemolostream(failed_pdb_filename)
     flavor = oechem.OEOFlavor_PDB_CurrentResidues | oechem.OEOFlavor_PDB_ELEMENT | oechem.OEOFlavor_PDB_BONDS | oechem.OEOFlavor_PDB_HETBONDS | oechem.OEOFlavor_PDB_BOTH
     ofs.SetFlavor(oechem.OEFormat_PDB, flavor)
-    ofs_fail.SetFlavor(oechem.OEFormat_PDB,flavor)
     for (index, charged_molecule) in enumerate(charged_molecules):
         # Fix residue names
         for atom in charged_molecule.GetAtoms():
@@ -294,10 +362,8 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
             residue.SetName(residue_name)
             oechem.OEAtomSetResidue(atom, residue)
         oechem.OEWriteMolecule(ofs, charged_molecule)
-        if index + 1 in failed_states:
-            oechem.OEWriteMolecule(ofs_fail, charged_molecule)
     ofs.close()
-    ofs_fail.close()
+
 
     # Write molecules as mol2.
     charged_mol2_filename = name + '-charged_output.mol2'
@@ -307,6 +373,7 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
         log += "Status: Success\n"
     else:
         log += "Status: Failure\n"
+        log += "Failed states: {}".format(" ".join([str(state) for state in sorted(list(failed_states))]))
 
     with open("log.txt", 'w') as logfile:
         logfile.write(log)
