@@ -10,41 +10,42 @@ Running Epik.
 Epik run completed.
 Assigning charges to protonation states.
 State 1
-Charging completed.
+Charging stage output:
 
+Charging state completed.
 State 2
-Charging completed.
+Charging stage output:
 
+Charging state completed.
 State 3
-Charging completed.
+Charging stage output:
 
+Charging state completed.
 State 4
-Charging completed.
+Charging stage output:
 
+Charging state completed.
 State 5
-Charging completed.
+Charging stage output:
 
+Charging state completed.
 State 6
-Charging completed.
+Charging stage output:
 Warning: SEmpAtomCharger: AM1 scf failed to converge
 Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[[5-(2-amino-6-oxo-1~{H}-purin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-hydroxy-phosphoryl]oxy-oxido-phosphoryl] phosphate
 Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
 Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
 Warning: OESEmpBCCPartialCharges: Unable to average charges
 
-Skipping state because of failed charging.
-Warning: SEmpAtomCharger: AM1 scf failed to converge
-Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[[5-(2-amino-6-oxo-1~{H}-purin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-hydroxy-phosphoryl]oxy-oxido-phosphoryl] phosphate
-Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Charging state completed.
+State failed charging.
 Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
-Warning: OESEmpBCCPartialCharges: Unable to average charges
-
 Writing Epik data for state 1
 Writing Epik data for state 2
 Writing Epik data for state 3
 Writing Epik data for state 4
 Writing Epik data for state 5
 Writing Epik data for state 6
-Writing Epik data for state 7
 Run completed.
 Status: Failure
+Failed states: 6

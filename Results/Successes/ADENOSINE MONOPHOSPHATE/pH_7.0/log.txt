@@ -10,13 +10,16 @@ Running Epik.
 Epik run completed.
 Assigning charges to protonation states.
 State 1
-Charging completed.
+Charging stage output:
 Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 
+Charging state completed.
 State 2
-Charging completed.
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 
+Charging state completed.
 Writing Epik data for state 1
 Writing Epik data for state 2
 Run completed.
