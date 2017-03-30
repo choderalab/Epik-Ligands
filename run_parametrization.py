@@ -327,7 +327,10 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
             log += "\n"
 
             filename_failure = name + '-conformers-failed-state-{}-.mol2'.format(index)
-            write_mol2_preserving_atomnames(filename_failure, charged_molecule_conformers, residue_name)
+            try:
+                write_mol2_preserving_atomnames(filename_failure, charged_molecule_conformers, residue_name)
+            except:
+                log += "Could not store result, most likely failed during Omega step!\n"
 
             success_status = False
             oehandler.Clear()
