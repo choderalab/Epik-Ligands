@@ -326,7 +326,7 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
             log += str(e)
             log += "\n"
 
-            filename_failure = name + 'conformers-failed-state-{}-.mol2'.format(index)
+            filename_failure = name + '-conformers-failed-state-{}-.mol2'.format(index)
             write_mol2_preserving_atomnames(filename_failure, charged_molecule_conformers, residue_name)
 
             success_status = False
@@ -373,7 +373,7 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
         log += "Status: Success\n"
     else:
         log += "Status: Failure\n"
-        log += "Failed states: {}".format(" ".join([str(state) for state in sorted(list(failed_states))]))
+        log += "Failed states: {}\n".format(" ".join([str(state) for state in sorted(list(failed_states))]))
 
     with open("log.txt", 'w') as logfile:
         logfile.write(log)
