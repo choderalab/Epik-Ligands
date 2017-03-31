@@ -1,134 +1,189 @@
 # Summary of results
 
-Results/Successes/ADENOSINE-5'-TRIPHOSPHATE/pH_7.0/log.txt
-Results/Successes/ADENOSINE-5'-TRIPHOSPHATE/pH_7.4/log.txt
-Results/Successes/ADENOSINE-5'-TRIPHOSPHATE/pH_10.0/log.txt
-Results/Successes/ADENOSINE-5'-DIPHOSPHATE/pH_7.0/log.txt
-Results/Successes/ADENOSINE-5'-DIPHOSPHATE/pH_4.0/log.txt
-Results/Successes/ADENOSINE-5'-DIPHOSPHATE/pH_7.4/log.txt
-Results/Successes/ADENOSINE-5'-DIPHOSPHATE/pH_10.0/log.txt
-Results/Successes/ADENOSINE MONOPHOSPHATE/pH_7.0/log.txt
-Results/Successes/ADENOSINE MONOPHOSPHATE/pH_4.0/log.txt
-Results/Successes/ADENOSINE MONOPHOSPHATE/pH_7.4/log.txt
-Results/Successes/ADENOSINE MONOPHOSPHATE/pH_10.0/log.txt
-Results/Successes/GUANOSINE-5'-TRIPHOSPHATE/pH_10.0/log.txt
-Results/Successes/PHOSPHATE ION/pH_7.0/log.txt
-Results/Successes/PHOSPHATE ION/pH_4.0/log.txt
-Results/Successes/PHOSPHATE ION/pH_7.4/log.txt
-Results/Successes/PHOSPHATE ION/pH_10.0/log.txt
-Results/Successes/ACETATE ION/pH_4.0/log.txt
-Results/Successes/ACETATE ION/pH_7.0/log.txt
-Results/Successes/ACETATE ION/pH_7.4/log.txt
-Results/Successes/ACETATE ION/pH_10.0/log.txt
-Results/Successes/FORMIC ACID/pH_4.0/log.txt
-Results/Successes/FORMIC ACID/pH_7.0/log.txt
-Results/Successes/FORMIC ACID/pH_7.4/log.txt
-Results/Successes/FORMIC ACID/pH_10.0/log.txt
-Results/Successes/FLAVIN-ADENINE DINUCLEOTIDE/pH_7.0/log.txt
-Results/Successes/FLAVIN-ADENINE DINUCLEOTIDE/pH_7.4/log.txt
-Results/Successes/FLAVIN-ADENINE DINUCLEOTIDE/pH_10.0/log.txt
-Results/Successes/FLAVIN-ADENINE DINUCLEOTIDE/pH_4.0/log.txt
-Results/Successes/CITRIC ACID/pH_4.0/log.txt
-Results/Successes/CITRIC ACID/pH_7.0/log.txt
-Results/Successes/CITRIC ACID/pH_7.4/log.txt
-Results/Successes/CITRIC ACID/pH_10.0/log.txt
-Results/Successes/PYRIDOXAL-5'-PHOSPHATE/pH_4.0/log.txt
-Results/Successes/PYRIDOXAL-5'-PHOSPHATE/pH_7.0/log.txt
-Results/Successes/PYRIDOXAL-5'-PHOSPHATE/pH_7.4/log.txt
-Results/Successes/PYRIDOXAL-5'-PHOSPHATE/pH_10.0/log.txt
-Results/Successes/ACETIC ACID/pH_4.0/log.txt
-Results/Successes/ACETIC ACID/pH_7.0/log.txt
-Results/Successes/ACETIC ACID/pH_7.4/log.txt
-Results/Successes/ACETIC ACID/pH_10.0/log.txt
-Results/Successes/COENZYME A/pH_4.0/log.txt
-Results/Successes/COENZYME A/pH_7.0/log.txt
-Results/Successes/4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID/pH_4.0/log.txt
-Results/Successes/4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID/pH_7.0/log.txt
-Results/Successes/4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID/pH_7.4/log.txt
-Results/Successes/4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID/pH_10.0/log.txt
-Results/Successes/FLAVIN MONONUCLEOTIDE/pH_7.0/log.txt
-Results/Successes/FLAVIN MONONUCLEOTIDE/pH_7.4/log.txt
-Results/Successes/FLAVIN MONONUCLEOTIDE/pH_10.0/log.txt
-Results/Successes/NITRATE ION/pH_4.0/log.txt
-Results/Successes/NITRATE ION/pH_7.0/log.txt
-Results/Successes/NITRATE ION/pH_7.4/log.txt
-Results/Successes/NITRATE ION/pH_10.0/log.txt
-Results/Successes/ACETYL GROUP/pH_4.0/log.txt
-Results/Successes/ACETYL GROUP/pH_7.0/log.txt
-Results/Successes/ACETYL GROUP/pH_7.4/log.txt
-Results/Successes/ACETYL GROUP/pH_10.0/log.txt
-Results/Successes/S-ADENOSYL-L-HOMOCYSTEINE/pH_4.0/log.txt
-Results/Successes/S-ADENOSYL-L-HOMOCYSTEINE/pH_7.0/log.txt
-Results/Successes/S-ADENOSYL-L-HOMOCYSTEINE/pH_7.4/log.txt
-Results/Successes/S-ADENOSYL-L-HOMOCYSTEINE/pH_10.0/log.txt
-Results/Successes/BETA-D-GALACTOSE/pH_4.0/log.txt
-Results/Successes/BETA-D-GALACTOSE/pH_7.0/log.txt
-Results/Successes/BETA-D-GALACTOSE/pH_7.4/log.txt
-Results/Successes/BETA-D-GALACTOSE/pH_10.0/log.txt
-Results/Successes/L(+)-TARTARIC ACID/pH_4.0/log.txt
-Results/Successes/L(+)-TARTARIC ACID/pH_7.0/log.txt
-Results/Successes/L(+)-TARTARIC ACID/pH_7.4/log.txt
-Results/Successes/L(+)-TARTARIC ACID/pH_10.0/log.txt
-Results/Successes/ALPHA-D-GLUCOSE/pH_4.0/log.txt
-Results/Successes/ALPHA-D-GLUCOSE/pH_7.0/log.txt
-Results/Successes/ALPHA-D-GLUCOSE/pH_7.4/log.txt
-Results/Successes/ALPHA-D-GLUCOSE/pH_10.0/log.txt
-Results/Successes/GLUTATHIONE/pH_4.0/log.txt
-Results/Successes/GLUTATHIONE/pH_7.0/log.txt
-Results/Successes/GLUTATHIONE/pH_7.4/log.txt
-Results/Successes/GLUTATHIONE/pH_10.0/log.txt
-Results/Successes/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_4.0/log.txt
-Results/Successes/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_7.0/log.txt
-Results/Successes/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_7.4/log.txt
-Results/Successes/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_10.0/log.txt
-Results/Successes/(4R)-2-METHYLPENTANE-2,4-DIOL/pH_4.0/log.txt
-Results/Successes/(4R)-2-METHYLPENTANE-2,4-DIOL/pH_7.0/log.txt
-Results/Successes/(4R)-2-METHYLPENTANE-2,4-DIOL/pH_7.4/log.txt
-Results/Successes/(4R)-2-METHYLPENTANE-2,4-DIOL/pH_10.0/log.txt
-Results/Successes/THIOCYANATE ION/pH_4.0/log.txt
-Results/Successes/THIOCYANATE ION/pH_7.0/log.txt
-Results/Successes/THIOCYANATE ION/pH_7.4/log.txt
-Results/Successes/THIOCYANATE ION/pH_10.0/log.txt
-Results/Successes/S-HYDROXYCYSTEINE/pH_4.0/log.txt
-Results/Successes/S-HYDROXYCYSTEINE/pH_7.0/log.txt
-Results/Successes/S-HYDROXYCYSTEINE/pH_7.4/log.txt
-Results/Successes/S-HYDROXYCYSTEINE/pH_10.0/log.txt
-Results/Successes/MALTOSE/pH_4.0/log.txt
-Results/Successes/MALTOSE/pH_7.0/log.txt
-Results/Successes/MALTOSE/pH_7.4/log.txt
-Results/Successes/MALTOSE/pH_10.0/log.txt
-Results/Successes/PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER/pH_7.0/log.txt
-Results/Successes/PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER/pH_7.4/log.txt
-Results/Successes/PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER/pH_10.0/log.txt
-Results/Successes/FRUCTOSE-6-PHOSPHATE/pH_4.0/log.txt
-Results/Successes/FRUCTOSE-6-PHOSPHATE/pH_7.0/log.txt
-Results/Successes/FRUCTOSE-6-PHOSPHATE/pH_7.4/log.txt
-Results/Successes/FRUCTOSE-6-PHOSPHATE/pH_10.0/log.txt
-Results/Successes/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_4.0/log.txt
-Results/Successes/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_7.0/log.txt
-Results/Successes/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_7.4/log.txt
-Results/Successes/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_10.0/log.txt
-Results/Successes/PEPTIDE DERIVED CHROMOPHORE/pH_7.0/log.txt
-Results/Successes/PEPTIDE DERIVED CHROMOPHORE/pH_7.4/log.txt
-Results/Successes/PEPTIDE DERIVED CHROMOPHORE/pH_10.0/log.txt
-Results/Failures/ADENOSINE-5'-TRIPHOSPHATE/pH_4.0/log.txt
-Results/Failures/GUANOSINE-5'-TRIPHOSPHATE/pH_7.0/log.txt
-Results/Failures/GUANOSINE-5'-TRIPHOSPHATE/pH_4.0/log.txt
-Results/Failures/GUANOSINE-5'-TRIPHOSPHATE/pH_7.4/log.txt
-Results/Failures/NICOTINAMIDE-ADENINE-DINUCLEOTIDE/pH_4.0/log.txt
-Results/Failures/NICOTINAMIDE-ADENINE-DINUCLEOTIDE/pH_7.0/log.txt
-Results/Failures/NICOTINAMIDE-ADENINE-DINUCLEOTIDE/pH_7.4/log.txt
-Results/Failures/NICOTINAMIDE-ADENINE-DINUCLEOTIDE/pH_10.0/log.txt
-Results/Failures/IRON SULFUR CLUSTER/pH_4.0/log.txt
-Results/Failures/IRON SULFUR CLUSTER/pH_7.0/log.txt
-Results/Failures/IRON SULFUR CLUSTER/pH_7.4/log.txt
-Results/Failures/IRON SULFUR CLUSTER/pH_10.0/log.txt
-Results/Failures/COENZYME A/pH_7.4/log.txt
-Results/Failures/COENZYME A/pH_10.0/log.txt
-Results/Failures/FLAVIN MONONUCLEOTIDE/pH_4.0/log.txt
-Results/Failures/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE/pH_4.0/log.txt
-Results/Failures/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE/pH_7.0/log.txt
-Results/Failures/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE/pH_7.4/log.txt
-Results/Failures/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE/pH_10.0/log.txt
-Results/Failures/PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER/pH_4.0/log.txt
-Results/Failures/PEPTIDE DERIVED CHROMOPHORE/pH_4.0/log.txt
+## Failed runs
+
+### pH 7
+
+* **GUANOSINE-5'-TRIPHOSPHATE - pH 7.0**
+* **NICOTINAMIDE-ADENINE-DINUCLEOTIDE - pH 7.0**
+* **IRON SULFUR CLUSTER - pH 7.0**
+* **NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE - pH 7.0**
+
+### Other pHs
+
+* ADENOSINE-5'-TRIPHOSPHATE - pH 4.0
+
+* GUANOSINE-5'-TRIPHOSPHATE - pH 4.0
+* GUANOSINE-5'-TRIPHOSPHATE - pH 7.4
+
+* NICOTINAMIDE-ADENINE-DINUCLEOTIDE - pH 4.0
+* NICOTINAMIDE-ADENINE-DINUCLEOTIDE - pH 7.4
+* NICOTINAMIDE-ADENINE-DINUCLEOTIDE - pH 10.0
+
+
+* IRON SULFUR CLUSTER - pH 4.0
+* IRON SULFUR CLUSTER - pH 7.4
+* IRON SULFUR CLUSTER - pH 10.0
+
+* COENZYME A - pH 7.4
+* COENZYME A - pH 10.0
+
+* FLAVIN MONONUCLEOTIDE - pH 4.0
+
+* NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE - pH 4.0
+* NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE - pH 7.4
+* NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE - pH 10.0
+
+* PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER - pH 4.0
+
+* PEPTIDE DERIVED CHROMOPHORE - pH 4.0
+
+## Successful runs
+
+### pH 7
+
+* **ADENOSINE-5'-TRIPHOSPHATE - pH 7.0**
+* **ADENOSINE-5'-DIPHOSPHATE - pH 7.0**
+* **ADENOSINE MONOPHOSPHATE - pH 7.0**
+* **PHOSPHATE ION - pH 7.0**
+* **ACETATE ION - pH 7.0**
+* **FORMIC ACID - pH 7.0**
+* **FLAVIN-ADENINE DINUCLEOTIDE - pH 7.0**
+* **CITRIC ACID - pH 7.0**
+* **PYRIDOXAL-5'-PHOSPHATE - pH 7.0**
+* **ACETIC ACID - pH 7.0**
+* **COENZYME A - pH 7.0**
+* **4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID - pH 7.0**
+* **FLAVIN MONONUCLEOTIDE - pH 7.0**
+* **NITRATE ION - pH 7.0**
+* **ACETYL GROUP - pH 7.0**
+* **S-ADENOSYL-L-HOMOCYSTEINE - pH 7.0**
+* **BETA-D-GALACTOSE - pH 7.0**
+* **L(+)-TARTARIC ACID - pH 7.0**
+* **ALPHA-D-GLUCOSE - pH 7.0**
+* **GLUTATHIONE - pH 7.0**
+* **(4R)-2-METHYLPENTANE-2,4-DIOL - pH 7.0**
+* **2,3-DIHYDROXY-1,4-DITHIOBUTANE - pH 7.0**
+* **THIOCYANATE ION - pH 7.0**
+* **S-HYDROXYCYSTEINE - pH 7.0**
+* **MALTOSE - pH 7.0**
+* **PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER - pH 7.0**
+* **FRUCTOSE-6-PHOSPHATE - pH 7.0**
+* **BETA-FRUCTOSE-1,6-DIPHOSPHATE - pH 7.0**
+* **PEPTIDE DERIVED CHROMOPHORE - pH 7.0**
+
+
+### Other pHs
+
+* ADENOSINE-5'-TRIPHOSPHATE - pH 7.4
+* ADENOSINE-5'-TRIPHOSPHATE - pH 10.0
+
+* ADENOSINE-5'-DIPHOSPHATE - pH 4.0
+* ADENOSINE-5'-DIPHOSPHATE - pH 7.4
+* ADENOSINE-5'-DIPHOSPHATE - pH 10.0
+
+* ADENOSINE MONOPHOSPHATE - pH 4.0
+* ADENOSINE MONOPHOSPHATE - pH 7.4
+* ADENOSINE MONOPHOSPHATE - pH 10.0
+
+* GUANOSINE-5'-TRIPHOSPHATE - pH 10.0
+
+* PHOSPHATE ION - pH 4.0
+* PHOSPHATE ION - pH 7.4
+* PHOSPHATE ION - pH 10.0
+
+* ACETATE ION - pH 4.0
+* ACETATE ION - pH 7.4
+* ACETATE ION - pH 10.0
+
+* FORMIC ACID - pH 4.0
+* FORMIC ACID - pH 7.4
+* FORMIC ACID - pH 10.0
+
+* FLAVIN-ADENINE DINUCLEOTIDE - pH 7.4
+* FLAVIN-ADENINE DINUCLEOTIDE - pH 10.0
+* FLAVIN-ADENINE DINUCLEOTIDE - pH 4.0
+
+* CITRIC ACID - pH 4.0
+* CITRIC ACID - pH 7.4
+* CITRIC ACID - pH 10.0
+
+* PYRIDOXAL-5'-PHOSPHATE - pH 4.0
+* PYRIDOXAL-5'-PHOSPHATE - pH 7.4
+* PYRIDOXAL-5'-PHOSPHATE - pH 10.0
+
+* ACETIC ACID - pH 4.0
+* ACETIC ACID - pH 7.4
+* ACETIC ACID - pH 10.0
+
+* COENZYME A - pH 4.0
+
+* 4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID - pH 4.0
+* 4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID - pH 7.4
+* 4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID - pH 10.0
+
+* FLAVIN MONONUCLEOTIDE - pH 7.4
+* FLAVIN MONONUCLEOTIDE - pH 10.0
+
+* NITRATE ION - pH 4.0
+* NITRATE ION - pH 7.4
+* NITRATE ION - pH 10.0
+
+* ACETYL GROUP - pH 4.0
+* ACETYL GROUP - pH 7.4
+* ACETYL GROUP - pH 10.0
+
+* S-ADENOSYL-L-HOMOCYSTEINE - pH 4.0
+* S-ADENOSYL-L-HOMOCYSTEINE - pH 7.4
+* S-ADENOSYL-L-HOMOCYSTEINE - pH 10.0
+
+* BETA-D-GALACTOSE - pH 4.0
+* BETA-D-GALACTOSE - pH 7.4
+* BETA-D-GALACTOSE - pH 10.0
+
+* L(+)-TARTARIC ACID - pH 4.0
+* L(+)-TARTARIC ACID - pH 7.4
+* L(+)-TARTARIC ACID - pH 10.0
+
+* ALPHA-D-GLUCOSE - pH 4.0
+* ALPHA-D-GLUCOSE - pH 7.4
+* ALPHA-D-GLUCOSE - pH 10.0
+
+* GLUTATHIONE - pH 4.0
+* GLUTATHIONE - pH 7.4
+* GLUTATHIONE - pH 10.0
+
+* 2,3-DIHYDROXY-1,4-DITHIOBUTANE - pH 4.0
+* 2,3-DIHYDROXY-1,4-DITHIOBUTANE - pH 7.4
+* 2,3-DIHYDROXY-1,4-DITHIOBUTANE - pH 10.0
+
+* (4R)-2-METHYLPENTANE-2,4-DIOL - pH 4.0
+* (4R)-2-METHYLPENTANE-2,4-DIOL - pH 7.4
+* (4R)-2-METHYLPENTANE-2,4-DIOL - pH 10.0
+
+* THIOCYANATE ION - pH 4.0
+* THIOCYANATE ION - pH 7.4
+* THIOCYANATE ION - pH 10.0
+
+* S-HYDROXYCYSTEINE - pH 4.0
+* S-HYDROXYCYSTEINE - pH 7.4
+* S-HYDROXYCYSTEINE - pH 10.0
+
+* MALTOSE - pH 4.0
+* MALTOSE - pH 7.4
+* MALTOSE - pH 10.0
+
+* PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER - pH 7.4
+* PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER - pH 10.0
+
+* FRUCTOSE-6-PHOSPHATE - pH 4.0
+* FRUCTOSE-6-PHOSPHATE - pH 7.4
+* FRUCTOSE-6-PHOSPHATE - pH 10.0
+
+* BETA-FRUCTOSE-1,6-DIPHOSPHATE - pH 4.0
+* BETA-FRUCTOSE-1,6-DIPHOSPHATE - pH 7.4
+* BETA-FRUCTOSE-1,6-DIPHOSPHATE - pH 10.0
+
+* PEPTIDE DERIVED CHROMOPHORE - pH 7.4
+* PEPTIDE DERIVED CHROMOPHORE - pH 10.0
+
