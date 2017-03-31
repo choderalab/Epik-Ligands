@@ -1,0 +1,310 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ CIT 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/CITRIC ACID/pH_7.4/CITRIC ACID_pH_7.4-before_epik.mol2" 
+  1
+    0.0018 
+    0.0018 
+    0.0000 
+    0.0012 
+  0.00303960231379078
+  -3
+  3
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[18] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 2 68.418000 48.385000 33.023000 1 2 "CIT " " C1 " 6 0 C1  <> <>
+  2 15 68.820000 47.571000 32.398000 1 70 "CIT " " O1 " 8 0 O1  <> <>
+  3 18 68.637000 49.556000 32.978000 1 70 "CIT " " O2 " 8 -1 O2    4.820    0.945 
+  4 3 67.483000 48.069000 34.223000 1 2 "CIT " " C2 " 6 0 C2  <> <>
+  5 3 65.935000 48.115000 34.049000 1 2 "CIT " " C3 " 6 0 C3  <> <>
+  6 16 65.489000 49.422000 33.583000 1 70 "CIT " " O7 " 8 0 O7    2.788    2.220 
+  7 3 65.539000 47.145000 32.912000 1 2 "CIT " " C4 " 6 0 C4  <> <>
+  8 2 64.042000 46.992000 32.792000 1 2 "CIT " " C5 " 6 0 C5  <> <>
+  9 15 63.650000 46.281000 31.741000 1 70 "CIT " " O3 " 8 0 O3  <> <>
+  10 18 63.222000 47.369000 33.585000 1 70 "CIT " " O4 " 8 -1 O4    4.820    0.945 
+  11 2 65.260000 47.776000 35.354000 1 2 "CIT " " C6 " 6 0 C6  <> <>
+  12 15 65.325000 46.558000 35.726000 1 70 "CIT " " O5 " 8 0 O5  <> <>
+  13 18 64.722000 48.718000 36.017000 1 70 "CIT " " O6 " 8 -1 O6    4.068    0.860 
+  14 41 67.676415 47.046376 34.579134 1 21 "CIT " " H21" 1 0 H21  <> <>
+  15 41 67.676587 48.783390 35.036739 1 21 "CIT " " H22" 1 0 H22  <> <>
+  16 42 65.880263 49.832843 32.640598 1 21 "CIT " " HO7" 1 0 HO7  <> <>
+  17 41 65.922250 47.526807 31.954220 1 21 "CIT " " H41" 1 0 H41  <> <>
+  18 41 65.970063 46.152526 33.109937 1 21 "CIT " " H42" 1 0 H42  <> <>
+  :::
+ } 
+ m_bond[17] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 4 5 1
+  5 4 14 1
+  6 4 15 1
+  7 5 6 1
+  8 5 7 1
+  9 5 11 1
+  10 6 16 1
+  11 7 8 1
+  12 7 17 1
+  13 7 18 1
+  14 8 9 2
+  15 8 10 1
+  16 11 12 2
+  17 11 13 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ CIT 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/CITRIC ACID/pH_7.4/CITRIC ACID_pH_7.4-before_epik.mol2" 
+  1
+    3.5221 
+    0.0003 
+    3.5218 
+    3.7576 
+  3.75791578735766
+  -2
+  2
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[19] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 2 68.418000 48.385000 33.023000 1 2 "CIT " " C1 " 6 0 C1  <> <>
+  2 15 68.820000 47.571000 32.398000 1 70 "CIT " " O1 " 8 0 O1  <> <>
+  3 18 68.637000 49.556000 32.978000 1 70 "CIT " " O2 " 8 -1 O2    3.904    0.945 
+  4 3 67.483000 48.069000 34.223000 1 2 "CIT " " C2 " 6 0 C2  <> <>
+  5 3 65.935000 48.115000 34.049000 1 2 "CIT " " C3 " 6 0 C3  <> <>
+  6 16 65.489000 49.422000 33.583000 1 70 "CIT " " O7 " 8 0 O7    0.964    0.950 
+  7 3 65.539000 47.145000 32.912000 1 2 "CIT " " C4 " 6 0 C4  <> <>
+  8 2 64.042000 46.992000 32.792000 1 2 "CIT " " C5 " 6 0 C5  <> <>
+  9 15 63.650000 46.281000 31.741000 1 70 "CIT " " O3 " 8 0 O3  <> <>
+  10 16 63.222000 47.369000 33.585000 1 70 "CIT " " O4 " 8 0 O4  <> <>
+  11 2 65.260000 47.776000 35.354000 1 2 "CIT " " C6 " 6 0 C6  <> <>
+  12 15 65.325000 46.558000 35.726000 1 70 "CIT " " O5 " 8 0 O5  <> <>
+  13 18 64.722000 48.718000 36.017000 1 70 "CIT " " O6 " 8 -1 O6    3.566    1.117 
+  14 41 67.676415 47.046376 34.579134 1 21 "CIT " " H21" 1 0 H21  <> <>
+  15 41 67.676587 48.783390 35.036739 1 21 "CIT " " H22" 1 0 H22  <> <>
+  16 42 65.880263 49.832843 32.640598 1 21 "CIT " " HO7" 1 0 HO7  <> <>
+  17 41 65.922250 47.526807 31.954220 1 21 "CIT " " H41" 1 0 H41  <> <>
+  18 41 65.970063 46.152526 33.109937 1 21 "CIT " " H42" 1 0 H42  <> <>
+  19 42 63.533325 47.958688 34.459840 1 21 "CIT " " HO4" 1 0 HO4    4.820    1.117 
+  :::
+ } 
+ m_bond[18] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 4 5 1
+  5 4 14 1
+  6 4 15 1
+  7 5 6 1
+  8 5 7 1
+  9 5 11 1
+  10 6 16 1
+  11 7 8 1
+  12 7 17 1
+  13 7 18 1
+  14 8 9 2
+  15 8 10 1
+  16 10 19 1
+  17 11 12 2
+  18 11 13 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ CIT 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/CITRIC ACID/pH_7.4/CITRIC ACID_pH_7.4-before_epik.mol2" 
+  1
+    4.5464 
+    0.0005 
+    4.5460 
+    4.8518 
+  4.85226451102107
+  -2
+  2
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[19] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 2 68.418000 48.385000 33.023000 1 2 "CIT " " C1 " 6 0 C1  <> <>
+  2 15 68.820000 47.571000 32.398000 1 70 "CIT " " O1 " 8 0 O1  <> <>
+  3 18 68.637000 49.556000 32.978000 1 70 "CIT " " O2 " 8 -1 O2    4.283    1.474 
+  4 3 67.483000 48.069000 34.223000 1 2 "CIT " " C2 " 6 0 C2  <> <>
+  5 3 65.935000 48.115000 34.049000 1 2 "CIT " " C3 " 6 0 C3  <> <>
+  6 16 65.489000 49.422000 33.583000 1 70 "CIT " " O7 " 8 0 O7   -2.236    0.950 
+  7 3 65.539000 47.145000 32.912000 1 2 "CIT " " C4 " 6 0 C4  <> <>
+  8 2 64.042000 46.992000 32.792000 1 2 "CIT " " C5 " 6 0 C5  <> <>
+  9 15 63.650000 46.281000 31.741000 1 70 "CIT " " O3 " 8 0 O3  <> <>
+  10 18 63.222000 47.369000 33.585000 1 70 "CIT " " O4 " 8 -1 O4    4.283    1.474 
+  11 2 65.260000 47.776000 35.354000 1 2 "CIT " " C6 " 6 0 C6  <> <>
+  12 15 65.325000 46.558000 35.726000 1 70 "CIT " " O5 " 8 0 O5  <> <>
+  13 16 64.722000 48.718000 36.017000 1 70 "CIT " " O6 " 8 0 O6  <> <>
+  14 41 67.676415 47.046376 34.579134 1 21 "CIT " " H21" 1 0 H21  <> <>
+  15 41 67.676587 48.783390 35.036739 1 21 "CIT " " H22" 1 0 H22  <> <>
+  16 42 65.880263 49.832843 32.640598 1 21 "CIT " " HO7" 1 0 HO7   14.617    0.800 
+  17 41 65.922250 47.526807 31.954220 1 21 "CIT " " H41" 1 0 H41  <> <>
+  18 41 65.970063 46.152526 33.109937 1 21 "CIT " " H42" 1 0 H42  <> <>
+  19 42 64.714693 49.740875 35.612434 1 21 "CIT " " HO6" 1 0 HO6    4.068    1.081 
+  :::
+ } 
+ m_bond[18] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 4 5 1
+  5 4 14 1
+  6 4 15 1
+  7 5 6 1
+  8 5 7 1
+  9 5 11 1
+  10 6 16 1
+  11 7 8 1
+  12 7 17 1
+  13 7 18 1
+  14 8 9 2
+  15 8 10 1
+  16 11 12 2
+  17 11 13 1
+  18 13 19 1
+  :::
+ } 
+} 
+

@@ -1,0 +1,56 @@
+New run:
+PDB code: COA; Molecule: COENZYME A_pH_7.4; pH 7.4
+Retrieving PDB structure from RCSB ligand expo: COENZYME A_pH_7.4-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: COENZYME A_pH_7.4-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+
+Charging state completed.
+State 2
+Charging stage output:
+
+Charging state completed.
+State 3
+Charging stage output:
+
+Charging state completed.
+State 4
+Charging stage output:
+
+Charging state completed.
+State 5
+Charging stage output:
+
+Charging state completed.
+State 6
+Charging stage output:
+
+Charging state completed.
+State 7
+Charging stage output:
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [5-(6-aminopurin-9-yl)-2-[[[[3-hydroxy-2,2-dimethyl-4-oxo-4-[[3-oxo-3-(2-sulfanylethylamino)propyl]amino]butoxy]-oxido-phosphoryl]oxy-oxido-phosphoryl]oxymethyl]-4-oxido-tetrahydrofuran-3-yl] phosphate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Writing Epik data for state 1
+Writing Epik data for state 2
+Writing Epik data for state 3
+Writing Epik data for state 4
+Writing Epik data for state 5
+Writing Epik data for state 6
+Writing Epik data for state 7
+Run completed.
+Status: Failure
+Failed states: 7

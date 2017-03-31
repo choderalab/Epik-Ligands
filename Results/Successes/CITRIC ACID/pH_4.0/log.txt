@@ -1,0 +1,74 @@
+New run:
+PDB code: CIT; Molecule: CITRIC ACID_pH_4.0; pH 4.0
+Retrieving PDB structure from RCSB ligand expo: CITRIC ACID_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: CITRIC ACID_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol citric acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+
+Charging state completed.
+State 2
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol citric acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 3
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol citric acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-(carboxymethyl)-2,4-dihydroxy-4-oxo-butanoate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+
+Charging state completed.
+State 4
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol citric acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-(carboxymethyl)-2,4-dihydroxy-4-oxo-butanoate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 5
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol citric acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-(carboxymethyl)-2,4-dihydroxy-4-oxo-butanoate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 6
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol citric acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-(carboxymethyl)-2,4-dihydroxy-4-oxo-butanoate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+Writing Epik data for state 1
+Writing Epik data for state 2
+Writing Epik data for state 3
+Writing Epik data for state 4
+Writing Epik data for state 5
+Writing Epik data for state 6
+Run completed.
+Status: Success

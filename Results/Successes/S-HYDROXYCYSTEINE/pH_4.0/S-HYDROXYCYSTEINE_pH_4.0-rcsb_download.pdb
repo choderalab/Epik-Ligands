@@ -1,0 +1,31 @@
+ATOM      1  N   CSO A   1      23.026   5.596  17.684  1.00 10.00           N
+ATOM      2  CA  CSO A   1      23.866   4.555  18.252  1.00 10.00           C
+ATOM      3  CB  CSO A   1      23.491   3.181  17.677  1.00 10.00           C
+ATOM      4  SG  CSO A   1      22.103   2.441  18.558  1.00 10.00           S
+ATOM      5  C   CSO A   1      25.347   4.780  17.993  1.00 10.00           C
+ATOM      6  O   CSO A   1      26.181   4.456  18.837  1.00 10.00           O
+ATOM      7  OXT CSO A   1      25.660   5.321  16.814  1.00 10.00           O
+ATOM      8  OD  CSO A   1      22.564   2.073  20.251  1.00 10.00           O
+ATOM      9  H   CSO A   1      22.833   6.287  18.381  1.00 10.00           H
+ATOM     10  HN2 CSO A   1      23.500   6.023  16.914  1.00 10.00           H
+ATOM     11  HA  CSO A   1      23.690   4.590  19.337  1.00 10.00           H
+ATOM     12  HB2 CSO A   1      23.212   3.305  16.620  1.00 10.00           H
+ATOM     13  HB3 CSO A   1      24.360   2.515  17.786  1.00 10.00           H
+ATOM     14  HXT CSO A   1      26.604   5.408  16.745  1.00 10.00           H
+ATOM     15  HD  CSO A   1      23.510   2.008  20.315  1.00 10.00           H
+CONECT    1    2    9   10
+CONECT    2    1    3    5   11
+CONECT    3    2    4   12   13
+CONECT    4    3    8
+CONECT    5    2    6    7
+CONECT    6    5
+CONECT    7    5   14
+CONECT    8    4   15
+CONECT    9    1
+CONECT   10    1
+CONECT   11    2
+CONECT   12    3
+CONECT   13    3
+CONECT   14    7
+CONECT   15    8
+END   

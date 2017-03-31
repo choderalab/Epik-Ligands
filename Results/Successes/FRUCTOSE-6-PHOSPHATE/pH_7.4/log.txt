@@ -1,0 +1,26 @@
+New run:
+PDB code: F6P  ; Molecule: FRUCTOSE-6-PHOSPHATE_pH_7.4; pH 7.4
+Splitting 'F6P  ' into first entry only: 'F6P'Retrieving PDB structure from RCSB ligand expo: FRUCTOSE-6-PHOSPHATE_pH_7.4-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: FRUCTOSE-6-PHOSPHATE_pH_7.4-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 2
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+Writing Epik data for state 1
+Writing Epik data for state 2
+Run completed.
+Status: Success

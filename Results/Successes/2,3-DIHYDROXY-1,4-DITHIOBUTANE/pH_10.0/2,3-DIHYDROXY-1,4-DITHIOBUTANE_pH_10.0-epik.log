@@ -1,0 +1,62 @@
+COMMAND:
+ /cbio/jclab/share/schrodinger/schrodinger2016-4/epik-v3.8/bin/Linux-x86_64/epik_app -imae /scratch/8332595.hal-sched1.local/tmpf189ef_o/2,3-DIHYDROXY-1,4-DITHIOBUTANE_pH_10.0-before_epik.mae -omae /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_10.0/2,3-DIHYDROXY-1,4-DITHIOBUTANE_pH_10.0-epik.mae -ms 50 -ph 10.0 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: /cbio/jclab/share/schrodinger/schrodinger2016-4
+
+Running Epik version     3.8015
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        /scratch/8332595.hal-sched1.local/tmpf189ef_o/2,3-DIHYDROXY-1,4-DITHIOBUTANE_pH_10.0-before_epik.mae
+Output file name:                       /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_10.0/2,3-DIHYDROXY-1,4-DITHIOBUTANE_pH_10.0-epik.mae
+Maximum number of states set to: 50
+Structure adjustment calculation requested.
+  Target pH set to 10.000
+Minimum probability set to 4.539993e-05
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 1.000000e+01 and minimum probability 4.539993e-05
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: DTT
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                             1   Conj_Base  9.79
+                                             8   Conj_Base  9.79
+                                             4   Conj_Base  2.12
+                                             6   Conj_Base  2.12
+ pKa penalty:                                 0.29 kcal/mol
+     Charging penalty:                        0.29 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  0.30 kcal/mol
+ Total Charge: -2
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                            12   Conj_Acid 16.39
+                                            14   Conj_Acid 15.07
+                                            17   Conj_Acid  9.79
+                                             1   Conj_Base  9.04
+                                             4   Conj_Base  1.04
+                                             6   Conj_Base  0.04
+ pKa penalty:                                 0.63 kcal/mol
+     Charging penalty:                        0.06 kcal/mol
+     Neutralization penalty:                  0.57 kcal/mol
+ Overall Penalty (tautomerization included):  0.60 kcal/mol
+ Total Charge: -1
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            13   Conj_Acid 13.75
+                                            15   Conj_Acid 13.75
+                                             9   Conj_Acid  9.04
+                                            18   Conj_Acid  9.04
+                                             4   Conj_Base -0.43
+                                             6   Conj_Base -0.43
+ pKa penalty:                                 1.37 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  1.37 kcal/mol
+ Overall Penalty (tautomerization included):  2.00 kcal/mol
+ Total Charge: 0
+---------------------------

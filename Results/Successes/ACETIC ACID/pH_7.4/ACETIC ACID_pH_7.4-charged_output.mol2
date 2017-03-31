@@ -1,0 +1,48 @@
+@<TRIPOS>MOLECULE
+acetate
+    7     6     1     0     0
+SMALL
+USER_CHARGES
+
+@<TRIPOS>ATOM
+      1 C          -8.6820    8.1700    3.8030 C.2       1 ACY         0.9046
+      2 O          -9.4670    8.5240    4.7830 O.co2     1 ACY        -0.8603
+      3 OXT        -8.1920    7.0090    3.5800 O.co2     1 ACY        -0.8603
+      4 CH3        -8.4020    9.2940    2.8210 C.3       1 ACY        -0.2030
+      5 H1         -8.8964   10.2140    3.1661 H         1 ACY         0.0064
+      6 H2         -8.7899    9.0193    1.8290 H         1 ACY         0.0064
+      7 H3         -7.3169    9.4628    2.7566 H         1 ACY         0.0064
+@<TRIPOS>BOND
+     1    1    2 2
+     2    1    3 1
+     3    1    4 1
+     4    4    5 1
+     5    4    6 1
+     6    4    7 1
+@<TRIPOS>SUBSTRUCTURE
+     1 ACY         1 GROUP   0 A     ****
+@<TRIPOS>MOLECULE
+acetic acid
+    8     7     1     0     0
+SMALL
+USER_CHARGES
+
+@<TRIPOS>ATOM
+      1 C          -8.6820    8.1700    3.8030 C.2       1 ACY         0.6238
+      2 O          -9.4670    8.5240    4.7830 O.2       1 ACY        -0.4866
+      3 OXT        -8.1920    7.0090    3.5800 O.3       1 ACY        -0.5830
+      4 CH3        -8.4020    9.2940    2.8210 C.3       1 ACY        -0.1997
+      5 HXT        -8.3867    6.1856    4.2829 H         1 ACY         0.4226
+      6 H1         -8.8964   10.2140    3.1661 H         1 ACY         0.0743
+      7 H2         -8.7899    9.0193    1.8290 H         1 ACY         0.0743
+      8 H3         -7.3169    9.4628    2.7566 H         1 ACY         0.0743
+@<TRIPOS>BOND
+     1    1    2 2
+     2    1    3 1
+     3    1    4 1
+     4    3    5 1
+     5    4    6 1
+     6    4    7 1
+     7    4    8 1
+@<TRIPOS>SUBSTRUCTURE
+     1 ACY         1 GROUP   0 A     ****

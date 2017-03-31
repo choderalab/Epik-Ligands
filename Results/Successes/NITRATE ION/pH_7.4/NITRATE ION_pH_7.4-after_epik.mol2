@@ -1,0 +1,18 @@
+@<TRIPOS>MOLECULE
+NO3
+4   3    1
+SMALL
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          -7.5290    9.8780   13.8730 N.pl3     1 NO3         0.0000 
+      2 O1         -7.7300   10.1330   12.6950 O.2       1 NO3         0.0000 
+      3 O2         -6.6050    9.2020   14.2010 O.3       1 NO3         0.0000 
+      4 O3         -8.3380   10.3090   14.6660 O.3       1 NO3         0.0000 
+@<TRIPOS>BOND
+     1    1    2 2    
+     2    1    3 1    
+     3    1    4 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 NO3         1 GROUP             0       ****    0 ROOT    

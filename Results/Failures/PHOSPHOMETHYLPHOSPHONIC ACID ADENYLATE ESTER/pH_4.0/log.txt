@@ -1,0 +1,181 @@
+New run:
+PDB code: ACP   ; Molecule: PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER_pH_4.0; pH 4.0
+Splitting 'ACP   ' into first entry only: 'ACP'Retrieving PDB structure from RCSB ligand expo: PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+
+Charging state completed.
+State 2
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 3
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 4
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 5
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 6
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 7
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 8
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 9
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 10
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 11
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 12
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+State 13
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SEmpAtomCharger: AM1 scf failed to converge
+Warning: OESEmpPartialCharges: Stopping the charging process for molecule [[5-(6-amino-1,8-dihydropurine-6,8-diylium-7-id-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl]oxy-[[hydroxy(oxido)phosphoryl]methyl]phosphinate
+Warning: SEmpAverageConfs: Unable to assign partial charges to conf; going to next conf
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Warning: OESEmpBCCPartialCharges: Unable to average charges
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State failed charging.
+Warning: SEmpAverageConfs: Unable to assign partial charges to any conf
+Writing Epik data for state 1
+Writing Epik data for state 2
+Writing Epik data for state 3
+Writing Epik data for state 4
+Writing Epik data for state 5
+Writing Epik data for state 6
+Writing Epik data for state 7
+Writing Epik data for state 8
+Writing Epik data for state 9
+Writing Epik data for state 10
+Writing Epik data for state 11
+Writing Epik data for state 12
+Writing Epik data for state 13
+Run completed.
+Status: Failure
+Failed states: 4 5 6 7 8 9 10 11 12 13

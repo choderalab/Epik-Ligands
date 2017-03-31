@@ -1,0 +1,551 @@
+COMMAND:
+ /cbio/jclab/share/schrodinger/schrodinger2016-4/epik-v3.8/bin/Linux-x86_64/epik_app -imae /scratch/8332595.hal-sched1.local/tmpct2a2bmf/GUANOSINE-5'-TRIPHOSPHATE_pH_4.0-before_epik.mae -omae /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/GUANOSINE-5'-TRIPHOSPHATE/pH_4.0/GUANOSINE-5'-TRIPHOSPHATE_pH_4.0-epik.mae -ms 50 -ph 4.0 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: /cbio/jclab/share/schrodinger/schrodinger2016-4
+
+Running Epik version     3.8015
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        /scratch/8332595.hal-sched1.local/tmpct2a2bmf/GUANOSINE-5'-TRIPHOSPHATE_pH_4.0-before_epik.mae
+Output file name:                       /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/GUANOSINE-5'-TRIPHOSPHATE/pH_4.0/GUANOSINE-5'-TRIPHOSPHATE_pH_4.0-epik.mae
+Maximum number of states set to: 50
+Structure adjustment calculation requested.
+  Target pH set to 4.000
+Minimum probability set to 4.539993e-05
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 4.000000e+00 and minimum probability 4.539993e-05
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: GTP
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            38   Conj_Acid 12.62
+                                            40   Conj_Acid 12.23
+                                            33   Conj_Acid  6.16
+                                             3   Conj_Base  3.23
+                                             8   Conj_Base  3.33
+                                            12   Conj_Base  3.53
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            43   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            44   Conj_Acid 12.22
+                                            45   Conj_Acid 12.22
+                                            18   Conj_Base -1.83
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 0.43 kcal/mol
+     Charging penalty:                        0.38 kcal/mol
+     Neutralization penalty:                  0.05 kcal/mol
+ Overall Penalty (tautomerization included):  0.46 kcal/mol
+ Total Charge: -3
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                            38   Conj_Acid 12.43
+                                            40   Conj_Acid 11.87
+                                            33   Conj_Acid  6.16
+                                             3   Conj_Base  3.23
+                                             8   Conj_Base  3.33
+                                            12   Conj_Base  3.53
+                                            46   Conj_Acid  2.85
+                                            43   Conj_Acid  7.13
+                                            44   Conj_Acid 11.68
+                                            45   Conj_Acid 11.68
+                                            18   Conj_Base -1.97
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 2.00 kcal/mol
+     Charging penalty:                        1.99 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  1.10 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            39   Conj_Acid 12.62
+                                            41   Conj_Acid 12.23
+                                            33   Conj_Acid  5.58
+                                            34   Conj_Acid  3.33
+                                             3   Conj_Base  2.77
+                                            12   Conj_Base  3.07
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            44   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            45   Conj_Acid 12.22
+                                            46   Conj_Acid 12.22
+                                            18   Conj_Base -1.83
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 1.19 kcal/mol
+     Charging penalty:                        0.10 kcal/mol
+     Neutralization penalty:                  1.08 kcal/mol
+ Overall Penalty (tautomerization included):  1.32 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 4
+                                            39   Conj_Acid 12.44
+                                            41   Conj_Acid 12.23
+                                            33   Conj_Acid  6.09
+                                            34   Conj_Acid  3.53
+                                             3   Conj_Base  3.18
+                                             8   Conj_Base  2.87
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            44   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            45   Conj_Acid 12.22
+                                            46   Conj_Acid 12.22
+                                            18   Conj_Base -1.96
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 0.98 kcal/mol
+     Charging penalty:                        0.13 kcal/mol
+     Neutralization penalty:                  0.86 kcal/mol
+ Overall Penalty (tautomerization included):  1.41 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 5
+                                            39   Conj_Acid 12.25
+                                            41   Conj_Acid 11.87
+                                            33   Conj_Acid  6.09
+                                            34   Conj_Acid  3.53
+                                             3   Conj_Base  3.18
+                                             8   Conj_Base  2.87
+                                            47   Conj_Acid  2.85
+                                            44   Conj_Acid  7.13
+                                            45   Conj_Acid 11.68
+                                            46   Conj_Acid 11.68
+                                            18   Conj_Base -2.11
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 2.56 kcal/mol
+     Charging penalty:                        1.74 kcal/mol
+     Neutralization penalty:                  0.82 kcal/mol
+ Overall Penalty (tautomerization included):  1.84 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 6
+                                            39   Conj_Acid 12.62
+                                            41   Conj_Acid 12.23
+                                            33   Conj_Acid  3.23
+                                            34   Conj_Acid  3.23
+                                             8   Conj_Base  3.10
+                                            12   Conj_Base  3.51
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            44   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            45   Conj_Acid 12.22
+                                            46   Conj_Acid 12.22
+                                            18   Conj_Base -1.83
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 1.42 kcal/mol
+     Charging penalty:                        0.23 kcal/mol
+     Neutralization penalty:                  1.18 kcal/mol
+ Overall Penalty (tautomerization included):  1.89 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 7
+                                            39   Conj_Acid 12.43
+                                            41   Conj_Acid 11.87
+                                            33   Conj_Acid  3.23
+                                            34   Conj_Acid  3.23
+                                             8   Conj_Base  3.10
+                                            12   Conj_Base  3.50
+                                            47   Conj_Acid  2.85
+                                            44   Conj_Acid  7.13
+                                            45   Conj_Acid 11.68
+                                            46   Conj_Acid 11.68
+                                            18   Conj_Base -1.97
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 2.98 kcal/mol
+     Charging penalty:                        1.84 kcal/mol
+     Neutralization penalty:                  1.14 kcal/mol
+ Overall Penalty (tautomerization included):  2.07 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 8
+                                            39   Conj_Acid 12.43
+                                            41   Conj_Acid 11.87
+                                            33   Conj_Acid  5.58
+                                            34   Conj_Acid  3.33
+                                             3   Conj_Base  2.77
+                                            12   Conj_Base  3.07
+                                            47   Conj_Acid  2.85
+                                            44   Conj_Acid  7.13
+                                            45   Conj_Acid 11.68
+                                            46   Conj_Acid 11.68
+                                            18   Conj_Base -1.97
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 2.75 kcal/mol
+     Charging penalty:                        1.71 kcal/mol
+     Neutralization penalty:                  1.04 kcal/mol
+ Overall Penalty (tautomerization included):  2.10 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 9
+                                            40   Conj_Acid 12.44
+                                            42   Conj_Acid 12.23
+                                            33   Conj_Acid  3.18
+                                            34   Conj_Acid  3.18
+                                            35   Conj_Acid  3.51
+                                             8   Conj_Base  2.63
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            45   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            46   Conj_Acid 12.22
+                                            47   Conj_Acid 12.22
+                                            18   Conj_Base -1.96
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 2.11 kcal/mol
+     Charging penalty:                        0.02 kcal/mol
+     Neutralization penalty:                  2.09 kcal/mol
+ Overall Penalty (tautomerization included):  2.53 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 10
+                                            40   Conj_Acid 12.44
+                                            42   Conj_Acid 12.23
+                                            33   Conj_Acid  5.51
+                                            34   Conj_Acid  2.87
+                                            35   Conj_Acid  3.07
+                                             3   Conj_Base  2.72
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            45   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            46   Conj_Acid 12.22
+                                            47   Conj_Acid 12.22
+                                            18   Conj_Base -1.96
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 3.01 kcal/mol
+     Charging penalty:                        0.03 kcal/mol
+     Neutralization penalty:                  2.98 kcal/mol
+ Overall Penalty (tautomerization included):  2.91 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 11
+                                            40   Conj_Acid 12.25
+                                            42   Conj_Acid 11.87
+                                            33   Conj_Acid  3.18
+                                            34   Conj_Acid  3.18
+                                            35   Conj_Acid  3.50
+                                             8   Conj_Base  2.63
+                                            48   Conj_Acid  2.85
+                                            45   Conj_Acid  7.13
+                                            46   Conj_Acid 11.68
+                                            47   Conj_Acid 11.68
+                                            18   Conj_Base -2.11
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 3.69 kcal/mol
+     Charging penalty:                        1.64 kcal/mol
+     Neutralization penalty:                  2.05 kcal/mol
+ Overall Penalty (tautomerization included):  3.26 kcal/mol
+ Total Charge: 0
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 12
+                                            40   Conj_Acid 12.62
+                                            42   Conj_Acid 12.23
+                                            33   Conj_Acid  2.77
+                                            34   Conj_Acid  2.77
+                                            35   Conj_Acid  3.10
+                                            12   Conj_Base  3.04
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            45   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            46   Conj_Acid 12.22
+                                            47   Conj_Acid 12.22
+                                            18   Conj_Base -1.83
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 3.12 kcal/mol
+     Charging penalty:                        0.06 kcal/mol
+     Neutralization penalty:                  3.06 kcal/mol
+ Overall Penalty (tautomerization included):  3.30 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 13
+                                            38   Conj_Acid 12.62
+                                            40   Conj_Acid 12.23
+                                            33   Conj_Acid  4.26
+                                             3   Conj_Base  5.58
+                                             4   Conj_Base  5.58
+                                            12   Conj_Base  3.19
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            43   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            44   Conj_Acid 12.22
+                                            45   Conj_Acid 12.22
+                                            18   Conj_Base -1.83
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 2.56 kcal/mol
+     Charging penalty:                        2.26 kcal/mol
+     Neutralization penalty:                  0.30 kcal/mol
+ Overall Penalty (tautomerization included):  3.74 kcal/mol
+ Total Charge: -3
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 14
+                                            40   Conj_Acid 12.25
+                                            42   Conj_Acid 11.87
+                                            33   Conj_Acid  5.51
+                                            34   Conj_Acid  2.87
+                                            35   Conj_Acid  3.07
+                                             3   Conj_Base  2.72
+                                            48   Conj_Acid  2.85
+                                            45   Conj_Acid  7.13
+                                            46   Conj_Acid 11.68
+                                            47   Conj_Acid 11.68
+                                            18   Conj_Base -2.11
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 4.58 kcal/mol
+     Charging penalty:                        1.64 kcal/mol
+     Neutralization penalty:                  2.94 kcal/mol
+ Overall Penalty (tautomerization included):  3.81 kcal/mol
+ Total Charge: 0
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 15
+                                            37   Conj_Acid 12.62
+                                            39   Conj_Acid 12.23
+                                             3   Conj_Base  6.16
+                                             4   Conj_Base  6.16
+                                             8   Conj_Base  4.26
+                                            12   Conj_Base  3.65
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            42   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            43   Conj_Acid 12.22
+                                            44   Conj_Acid 12.22
+                                            18   Conj_Base -1.83
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 3.83 kcal/mol
+     Charging penalty:                        3.79 kcal/mol
+     Neutralization penalty:                  0.04 kcal/mol
+ Overall Penalty (tautomerization included):  4.02 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 16
+                                            40   Conj_Acid 12.43
+                                            42   Conj_Acid 11.87
+                                            33   Conj_Acid  2.77
+                                            34   Conj_Acid  2.77
+                                            35   Conj_Acid  3.10
+                                            12   Conj_Base  3.04
+                                            48   Conj_Acid  2.85
+                                            45   Conj_Acid  7.13
+                                            46   Conj_Acid 11.68
+                                            47   Conj_Acid 11.68
+                                            18   Conj_Base -1.97
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 4.69 kcal/mol
+     Charging penalty:                        1.67 kcal/mol
+     Neutralization penalty:                  3.01 kcal/mol
+ Overall Penalty (tautomerization included):  4.08 kcal/mol
+ Total Charge: 0
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 17
+                                            38   Conj_Acid 12.44
+                                            40   Conj_Acid 12.23
+                                            33   Conj_Acid  3.65
+                                             3   Conj_Base  6.09
+                                             4   Conj_Base  6.09
+                                             8   Conj_Base  3.80
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            43   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            44   Conj_Acid 12.22
+                                            45   Conj_Acid 12.22
+                                            18   Conj_Base -1.96
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 3.89 kcal/mol
+     Charging penalty:                        3.15 kcal/mol
+     Neutralization penalty:                  0.74 kcal/mol
+ Overall Penalty (tautomerization included):  4.57 kcal/mol
+ Total Charge: -3
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 18
+                                            41   Conj_Acid 12.44
+                                            43   Conj_Acid 12.23
+                                            33   Conj_Acid  2.72
+                                            34   Conj_Acid  2.72
+                                            35   Conj_Acid  2.63
+                                            36   Conj_Acid  3.04
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            46   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            47   Conj_Acid 12.22
+                                            48   Conj_Acid 12.22
+                                            18   Conj_Base -1.96
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 5.08 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  5.08 kcal/mol
+ Overall Penalty (tautomerization included):  4.71 kcal/mol
+ Total Charge: 0
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 19
+                                            39   Conj_Acid 12.44
+                                            41   Conj_Acid 12.23
+                                            33   Conj_Acid  3.80
+                                            34   Conj_Acid  3.19
+                                             3   Conj_Base  5.51
+                                             4   Conj_Base  5.51
+                                            30   Conj_Base -2.61
+                                            24   Conj_Base  2.85
+                                            44   Conj_Acid  9.51
+                                            31   Conj_Base  1.73
+                                            45   Conj_Acid 12.22
+                                            46   Conj_Acid 12.22
+                                            18   Conj_Base -1.96
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 3.88 kcal/mol
+     Charging penalty:                        2.08 kcal/mol
+     Neutralization penalty:                  1.80 kcal/mol
+ Overall Penalty (tautomerization included):  4.84 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 20
+                                            38   Conj_Acid 12.43
+                                            40   Conj_Acid 11.87
+                                            33   Conj_Acid  4.26
+                                             3   Conj_Base  5.58
+                                             4   Conj_Base  5.58
+                                            12   Conj_Base  3.18
+                                            46   Conj_Acid  2.85
+                                            43   Conj_Acid  7.13
+                                            44   Conj_Acid 11.68
+                                            45   Conj_Acid 11.68
+                                            18   Conj_Base -1.97
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 4.13 kcal/mol
+     Charging penalty:                        3.87 kcal/mol
+     Neutralization penalty:                  0.26 kcal/mol
+ Overall Penalty (tautomerization included):  4.86 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 21
+                                            37   Conj_Acid 12.43
+                                            39   Conj_Acid 11.87
+                                             3   Conj_Base  6.16
+                                             4   Conj_Base  6.16
+                                             8   Conj_Base  4.26
+                                            12   Conj_Base  3.64
+                                            45   Conj_Acid  2.85
+                                            42   Conj_Acid  7.13
+                                            43   Conj_Acid 11.68
+                                            44   Conj_Acid 11.68
+                                            18   Conj_Base -1.97
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 5.40 kcal/mol
+     Charging penalty:                        5.40 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  5.08 kcal/mol
+ Total Charge: -3
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 22
+                                            38   Conj_Acid 12.43
+                                            40   Conj_Acid 11.87
+                                            33   Conj_Acid  6.16
+                                             3   Conj_Base  3.23
+                                             8   Conj_Base  3.33
+                                            12   Conj_Base  3.53
+                                            45   Conj_Acid  7.11
+                                            46   Conj_Acid  3.00
+                                            28   Conj_Base  0.03
+                                            43   Conj_Acid  9.04
+                                            44   Conj_Acid  9.04
+                                            18   Conj_Base -1.97
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 1.81 kcal/mol
+     Charging penalty:                        0.38 kcal/mol
+     Neutralization penalty:                  1.43 kcal/mol
+ Overall Penalty (tautomerization included):  5.35 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 23
+                                            41   Conj_Acid 12.25
+                                            43   Conj_Acid 11.87
+                                            33   Conj_Acid  2.72
+                                            34   Conj_Acid  2.72
+                                            35   Conj_Acid  2.63
+                                            36   Conj_Acid  3.04
+                                            49   Conj_Acid  2.85
+                                            46   Conj_Acid  7.13
+                                            47   Conj_Acid 11.68
+                                            48   Conj_Acid 11.68
+                                            18   Conj_Base -2.11
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 6.65 kcal/mol
+     Charging penalty:                        1.61 kcal/mol
+     Neutralization penalty:                  5.04 kcal/mol
+ Overall Penalty (tautomerization included):  5.48 kcal/mol
+ Total Charge: 1
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 24
+                                            38   Conj_Acid 12.25
+                                            40   Conj_Acid 11.87
+                                            33   Conj_Acid  3.64
+                                             3   Conj_Base  6.09
+                                             4   Conj_Base  6.09
+                                             8   Conj_Base  3.80
+                                            46   Conj_Acid  2.85
+                                            43   Conj_Acid  7.13
+                                            44   Conj_Acid 11.68
+                                            45   Conj_Acid 11.68
+                                            18   Conj_Base -2.11
+                                            20   Conj_Base -2.40
+ pKa penalty:                                 5.46 kcal/mol
+     Charging penalty:                        4.76 kcal/mol
+     Neutralization penalty:                  0.70 kcal/mol
+ Overall Penalty (tautomerization included):  5.64 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 25
+                                            38   Conj_Acid 12.62
+                                            40   Conj_Acid 12.23
+                                            33   Conj_Acid  6.16
+                                             3   Conj_Base  3.23
+                                             8   Conj_Base  3.33
+                                            12   Conj_Base  3.53
+                                            24   Conj_Base  2.34
+                                            46   Conj_Acid  1.73
+                                            43   Conj_Acid  5.20
+                                            44   Conj_Acid  7.94
+                                            45   Conj_Acid  7.94
+                                            18   Conj_Base -1.83
+                                            20   Conj_Base -2.12
+ pKa penalty:                                 3.54 kcal/mol
+     Charging penalty:                        3.53 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  5.92 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+---------------------------

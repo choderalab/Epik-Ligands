@@ -1,0 +1,84 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ ACT 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/ACETATE ION/pH_10.0/ACETATE ION_pH_10.0-before_epik.mol2" 
+  1
+    0.0000 
+    0.0000 
+    0.0000 
+    0.0000 
+  5.80816811836164e-06
+  -1
+  1
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[7] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 2 50.597000 -7.080000 41.583000 1 2 "ACT " " C  " 6 0 C  <> <>
+  2 15 50.991000 -7.218000 42.861000 1 70 "ACT " " O  " 8 0 O  <> <>
+  3 18 51.393000 -7.334000 40.483000 1 70 "ACT " " OXT" 8 -1 OXT    4.830    1.474 
+  4 3 49.215000 -6.884000 41.136000 1 2 "ACT " " CH3" 6 0 CH3  <> <>
+  5 41 48.573490 -6.680992 42.006203 1 21 "ACT " " H1 " 1 0 H1  <> <>
+  6 41 48.862780 -7.791998 40.624649 1 21 "ACT " " H2 " 1 0 H2  <> <>
+  7 41 49.171578 -6.031917 40.441688 1 21 "ACT " " H3 " 1 0 H3  <> <>
+  :::
+ } 
+ m_bond[6] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 4 5 1
+  5 4 6 1
+  6 4 7 1
+  :::
+ } 
+} 
+

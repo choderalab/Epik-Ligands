@@ -1,0 +1,228 @@
+New run:
+PDB code: COA; Molecule: COENZYME A_pH_4.0; pH 4.0
+Retrieving PDB structure from RCSB ligand expo: COENZYME A_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: COENZYME A_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+
+Charging state completed.
+State 2
+Charging stage output:
+
+Charging state completed.
+State 3
+Charging stage output:
+
+Charging state completed.
+State 4
+Charging stage output:
+
+Charging state completed.
+State 5
+Charging stage output:
+
+Charging state completed.
+State 6
+Charging stage output:
+
+Charging state completed.
+State 7
+Charging stage output:
+
+Charging state completed.
+State 8
+Charging stage output:
+
+Charging state completed.
+State 9
+Charging stage output:
+
+Charging state completed.
+State 10
+Charging stage output:
+
+Charging state completed.
+State 11
+Charging stage output:
+
+Charging state completed.
+State 12
+Charging stage output:
+
+Charging state completed.
+State 13
+Charging stage output:
+
+Charging state completed.
+State 14
+Charging stage output:
+
+Charging state completed.
+State 15
+Charging stage output:
+
+Charging state completed.
+State 16
+Charging stage output:
+
+Charging state completed.
+State 17
+Charging stage output:
+
+Charging state completed.
+State 18
+Charging stage output:
+
+Charging state completed.
+State 19
+Charging stage output:
+
+Charging state completed.
+State 20
+Charging stage output:
+
+Charging state completed.
+State 21
+Charging stage output:
+
+Charging state completed.
+State 22
+Charging stage output:
+
+Charging state completed.
+State 23
+Charging stage output:
+
+Charging state completed.
+State 24
+Charging stage output:
+
+Charging state completed.
+State 25
+Charging stage output:
+
+Charging state completed.
+State 26
+Charging stage output:
+
+Charging state completed.
+State 27
+Charging stage output:
+
+Charging state completed.
+State 28
+Charging stage output:
+
+Charging state completed.
+State 29
+Charging stage output:
+
+Charging state completed.
+State 30
+Charging stage output:
+
+Charging state completed.
+State 31
+Charging stage output:
+
+Charging state completed.
+State 32
+Charging stage output:
+
+Charging state completed.
+State 33
+Charging stage output:
+
+Charging state completed.
+State 34
+Charging stage output:
+
+Charging state completed.
+State 35
+Charging stage output:
+
+Charging state completed.
+State 36
+Charging stage output:
+
+Charging state completed.
+State 37
+Charging stage output:
+
+Charging state completed.
+State 38
+Charging stage output:
+
+Charging state completed.
+State 39
+Charging stage output:
+
+Charging state completed.
+State 40
+Charging stage output:
+
+Charging state completed.
+State 41
+Charging stage output:
+
+Charging state completed.
+State 42
+Charging stage output:
+
+Charging state completed.
+State 43
+Charging stage output:
+
+Charging state completed.
+Writing Epik data for state 1
+Writing Epik data for state 2
+Writing Epik data for state 3
+Writing Epik data for state 4
+Writing Epik data for state 5
+Writing Epik data for state 6
+Writing Epik data for state 7
+Writing Epik data for state 8
+Writing Epik data for state 9
+Writing Epik data for state 10
+Writing Epik data for state 11
+Writing Epik data for state 12
+Writing Epik data for state 13
+Writing Epik data for state 14
+Writing Epik data for state 15
+Writing Epik data for state 16
+Writing Epik data for state 17
+Writing Epik data for state 18
+Writing Epik data for state 19
+Writing Epik data for state 20
+Writing Epik data for state 21
+Writing Epik data for state 22
+Writing Epik data for state 23
+Writing Epik data for state 24
+Writing Epik data for state 25
+Writing Epik data for state 26
+Writing Epik data for state 27
+Writing Epik data for state 28
+Writing Epik data for state 29
+Writing Epik data for state 30
+Writing Epik data for state 31
+Writing Epik data for state 32
+Writing Epik data for state 33
+Writing Epik data for state 34
+Writing Epik data for state 35
+Writing Epik data for state 36
+Writing Epik data for state 37
+Writing Epik data for state 38
+Writing Epik data for state 39
+Writing Epik data for state 40
+Writing Epik data for state 41
+Writing Epik data for state 42
+Writing Epik data for state 43
+Run completed.
+Status: Success

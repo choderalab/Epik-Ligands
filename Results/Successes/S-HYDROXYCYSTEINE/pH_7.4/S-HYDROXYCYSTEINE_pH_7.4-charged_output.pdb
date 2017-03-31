@@ -1,0 +1,53 @@
+COMPND    2-amino-3-hydroxysulfanyl-propanoate
+ATOM      0 N    CSO     1      23.026   5.596  17.684  1.00 20.00           N
+ATOM      0 CA   CSO     1      23.866   4.555  18.252  1.00 20.00           C
+ATOM      0 CB   CSO     1      23.491   3.181  17.677  1.00 20.00           C
+ATOM      0 SG   CSO     1      22.103   2.441  18.558  1.00 20.00           S
+ATOM      0 C    CSO     1      25.347   4.780  17.993  1.00 20.00           C
+ATOM      0 O    CSO     1      26.181   4.456  18.837  1.00 20.00           O
+ATOM      0 OXT  CSO     1      25.660   5.321  16.814  1.00 20.00           O
+ATOM      0 OD   CSO     1      22.564   2.073  20.251  1.00 20.00           O
+ATOM      0 H    CSO     1      23.148   5.610  16.591  1.00 20.00           H
+ATOM      0 HN2  CSO     1      21.974   5.395  17.933  1.00 20.00           H
+ATOM      0 HA   CSO     1      23.662   4.638  19.330  1.00 20.00           H
+ATOM      0 HB2  CSO     1      23.209   3.291  16.619  1.00 20.00           H
+ATOM      0 HB3  CSO     1      24.353   2.502  17.758  1.00 20.00           H
+ATOM      0 HD   CSO     1      21.832   1.616  20.933  1.00 20.00           H
+TER       1      CSO     1 
+END
+COMPND    2-azaniumyl-3-hydroxysulfanyl-propanoate
+ATOM      0 N    CSO     1      23.026   5.596  17.684  1.00 20.00           N
+ATOM      0 CA   CSO     1      23.866   4.555  18.252  1.00 20.00           C
+ATOM      0 CB   CSO     1      23.491   3.181  17.677  1.00 20.00           C
+ATOM      0 SG   CSO     1      22.103   2.441  18.558  1.00 20.00           S
+ATOM      0 C    CSO     1      25.347   4.780  17.993  1.00 20.00           C
+ATOM      0 O    CSO     1      26.181   4.456  18.837  1.00 20.00           O
+ATOM      0 OXT  CSO     1      25.660   5.321  16.814  1.00 20.00           O
+ATOM      0 OD   CSO     1      22.564   2.073  20.251  1.00 20.00           O
+ATOM      0 H    CSO     1      21.971   5.377  17.905  1.00 20.00           H
+ATOM      0 HN2  CSO     1      23.173   5.632  16.594  1.00 20.00           H
+ATOM      0 HA   CSO     1      23.662   4.638  19.330  1.00 20.00           H
+ATOM      0 HB2  CSO     1      23.209   3.291  16.619  1.00 20.00           H
+ATOM      0 HB3  CSO     1      24.353   2.502  17.758  1.00 20.00           H
+ATOM      0 HD   CSO     1      21.832   1.616  20.933  1.00 20.00           H
+ATOM      0 H15  CSO     1      23.298   6.567  18.123  1.00 20.00           H
+TER       1      CSO     1 
+END
+COMPND    2-amino-3-hydroxysulfanyl-propanoic acid
+ATOM      0 N    CSO     1      23.026   5.596  17.684  1.00 20.00           N
+ATOM      0 CA   CSO     1      23.866   4.555  18.252  1.00 20.00           C
+ATOM      0 CB   CSO     1      23.491   3.181  17.677  1.00 20.00           C
+ATOM      0 SG   CSO     1      22.103   2.441  18.558  1.00 20.00           S
+ATOM      0 C    CSO     1      25.347   4.780  17.993  1.00 20.00           C
+ATOM      0 O    CSO     1      26.181   4.456  18.837  1.00 20.00           O
+ATOM      0 OXT  CSO     1      25.660   5.321  16.814  1.00 20.00           O
+ATOM      0 OD   CSO     1      22.564   2.073  20.251  1.00 20.00           O
+ATOM      0 H    CSO     1      23.148   5.610  16.591  1.00 20.00           H
+ATOM      0 HN2  CSO     1      21.974   5.395  17.933  1.00 20.00           H
+ATOM      0 HA   CSO     1      23.662   4.638  19.330  1.00 20.00           H
+ATOM      0 HB2  CSO     1      23.209   3.291  16.619  1.00 20.00           H
+ATOM      0 HB3  CSO     1      24.353   2.502  17.758  1.00 20.00           H
+ATOM      0 HXT  CSO     1      24.864   5.588  16.103  1.00 20.00           H
+ATOM      0 HD   CSO     1      21.832   1.616  20.933  1.00 20.00           H
+TER       1      CSO     1 
+END

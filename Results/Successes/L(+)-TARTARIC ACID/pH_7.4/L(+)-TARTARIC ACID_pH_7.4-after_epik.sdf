@@ -1,0 +1,124 @@
+TLA
+                    3D
+ Structure written by MMmdl.
+ 14 13  0  0  1  0            999 V2000
+   33.8570   44.6120   63.5440 O   0  0  0  0  0  0
+   33.7530   45.2180   65.6970 O   0  5  0  0  0  0
+   33.4540   45.3610   64.4610 C   0  0  0  0  0  0
+   32.5220   46.5590   64.2260 C   0  0  2  0  0  0
+   31.9470   46.8880   65.5030 O   0  0  0  0  0  0
+   31.4590   46.1860   63.1870 C   0  0  1  0  0  0
+   30.6160   45.1510   63.6960 O   0  0  0  0  0  0
+   30.5240   47.3480   62.8510 C   0  0  0  0  0  0
+   29.3690   47.2240   63.3130 O   0  0  0  0  0  0
+   30.8960   48.3610   62.1450 O   0  5  0  0  0  0
+   33.0380   47.4668   63.8803 H   0  0  0  0  0  0
+   32.5981   47.1749   66.3419 H   0  0  0  0  0  0
+   31.9857   45.8177   62.2943 H   0  0  0  0  0  0
+   31.0526   44.1930   64.0148 H   0  0  0  0  0  0
+  1  3  2  0  0  0
+  2  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  4  6  1  0  0  0
+  4 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  1  0  0  0
+  6  8  1  0  0  0
+  6 13  1  0  0  0
+  7 14  1  0  0  0
+  8  9  2  0  0  0
+  8 10  1  0  0  0
+M  CHG  2   2  -1  10  -1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/L(+)-TARTARIC ACID/pH_7.4/L(+)-TARTARIC ACID_pH_7.4-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0002
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0001
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  0.0001
+
+> <r_epik_Charging_Adjusted_Penalty>
+0.000208589245019752
+
+> <i_epik_Tot_Q>
+-2
+
+> <i_epik_Tot_abs_Q>
+2
+
+$$$$
+TLA
+                    3D
+ Structure written by MMmdl.
+ 15 14  0  0  1  0            999 V2000
+   33.8570   44.6120   63.5440 O   0  0  0  0  0  0
+   33.7530   45.2180   65.6970 O   0  5  0  0  0  0
+   33.4540   45.3610   64.4610 C   0  0  0  0  0  0
+   32.5220   46.5590   64.2260 C   0  0  2  0  0  0
+   31.9470   46.8880   65.5030 O   0  0  0  0  0  0
+   31.4590   46.1860   63.1870 C   0  0  1  0  0  0
+   30.6160   45.1510   63.6960 O   0  0  0  0  0  0
+   30.5240   47.3480   62.8510 C   0  0  0  0  0  0
+   29.3690   47.2240   63.3130 O   0  0  0  0  0  0
+   30.8960   48.3610   62.1450 O   0  0  0  0  0  0
+   33.0380   47.4668   63.8803 H   0  0  0  0  0  0
+   32.5981   47.1749   66.3419 H   0  0  0  0  0  0
+   31.9857   45.8177   62.2943 H   0  0  0  0  0  0
+   31.0526   44.1930   64.0148 H   0  0  0  0  0  0
+   31.9264   48.4172   61.7640 H   0  0  0  0  0  0
+  1  3  2  0  0  0
+  2  3  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  4  6  1  0  0  0
+  4 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  1  0  0  0
+  6  8  1  0  0  0
+  6 13  1  0  0  0
+  7 14  1  0  0  0
+  8  9  2  0  0  0
+  8 10  1  0  0  0
+ 10 15  1  0  0  0
+M  CHG  1   2  -1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/L(+)-TARTARIC ACID/pH_7.4/L(+)-TARTARIC ACID_pH_7.4-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  5.3200
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  5.3200
+
+> <r_epik_State_Penalty>
+  5.4575
+
+> <r_epik_Charging_Adjusted_Penalty>
+5.45748880631095
+
+> <i_epik_Tot_Q>
+-1
+
+> <i_epik_Tot_abs_Q>
+1
+
+$$$$

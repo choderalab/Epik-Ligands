@@ -1,0 +1,26 @@
+New run:
+PDB code: CSO; Molecule: S-HYDROXYCYSTEINE_pH_10.0; pH 10.0
+Retrieving PDB structure from RCSB ligand expo: S-HYDROXYCYSTEINE_pH_10.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: S-HYDROXYCYSTEINE_pH_10.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 2
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+Writing Epik data for state 1
+Writing Epik data for state 2
+Run completed.
+Status: Success

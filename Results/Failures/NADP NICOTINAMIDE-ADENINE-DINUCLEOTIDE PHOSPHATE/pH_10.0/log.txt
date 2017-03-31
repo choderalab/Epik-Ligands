@@ -1,0 +1,78 @@
+New run:
+PDB code: NAP; Molecule: NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE_pH_10.0; pH 10.0
+Retrieving PDB structure from RCSB ligand expo: NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE_pH_10.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE_pH_10.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 2
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 3
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 4
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 5
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 6
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 7
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 8
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 9
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 10
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 11
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 12
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 13
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 14
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 15
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 16
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+Run completed.
+Status: Failure
+Failed states: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16

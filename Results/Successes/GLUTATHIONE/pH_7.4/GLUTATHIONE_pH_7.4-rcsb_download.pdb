@@ -1,0 +1,75 @@
+ATOM      1  N1  GSH A   1      29.428  55.618  21.035  1.00 10.00           N
+ATOM      2  CA1 GSH A   1      30.857  55.360  20.819  1.00 10.00           C
+ATOM      3  C1  GSH A   1      31.172  53.847  20.706  1.00 10.00           C
+ATOM      4  O11 GSH A   1      32.169  53.494  20.068  1.00 10.00           O
+ATOM      5  O12 GSH A   1      30.338  53.018  21.309  1.00 10.00           O
+ATOM      6  CB1 GSH A   1      31.682  56.017  21.948  1.00 10.00           C
+ATOM      7  CG1 GSH A   1      33.168  56.236  21.535  1.00 10.00           C
+ATOM      8  CD1 GSH A   1      33.943  56.783  22.767  1.00 10.00           C
+ATOM      9  OE1 GSH A   1      33.375  57.449  23.647  1.00 10.00           O
+ATOM     10  N2  GSH A   1      35.249  56.484  22.793  1.00 10.00           N
+ATOM     11  CA2 GSH A   1      36.116  57.167  23.759  1.00 10.00           C
+ATOM     12  C2  GSH A   1      37.346  57.714  23.017  1.00 10.00           C
+ATOM     13  O2  GSH A   1      38.471  57.755  23.531  1.00 10.00           O
+ATOM     14  CB2 GSH A   1      36.612  56.159  24.826  1.00 10.00           C
+ATOM     15  SG2 GSH A   1      35.267  55.464  25.837  1.00 10.00           S
+ATOM     16  N3  GSH A   1      37.120  58.164  21.761  1.00 10.00           N
+ATOM     17  CA3 GSH A   1      38.183  58.698  20.898  1.00 10.00           C
+ATOM     18  C3  GSH A   1      37.907  60.166  20.621  1.00 10.00           C
+ATOM     19  O31 GSH A   1      38.580  60.693  19.719  1.00 10.00           O
+ATOM     20  O32 GSH A   1      37.037  60.756  21.312  1.00 10.00           O
+ATOM     21 HN11 GSH A   1      29.273  56.604  21.101  1.00 10.00           H
+ATOM     22 HN12 GSH A   1      28.903  55.249  20.268  1.00 10.00           H
+ATOM     23  HA1 GSH A   1      31.157  55.832  19.872  1.00 10.00           H
+ATOM     24  H12 GSH A   1      30.627  52.123  21.173  1.00 10.00           H
+ATOM     25 HB12 GSH A   1      31.235  56.991  22.194  1.00 10.00           H
+ATOM     26 HB13 GSH A   1      31.652  55.366  22.834  1.00 10.00           H
+ATOM     27 HG12 GSH A   1      33.609  55.281  21.213  1.00 10.00           H
+ATOM     28 HG13 GSH A   1      33.221  56.962  20.710  1.00 10.00           H
+ATOM     29  HN2 GSH A   1      35.627  55.805  22.163  1.00 10.00           H
+ATOM     30  HA2 GSH A   1      35.580  57.992  24.251  1.00 10.00           H
+ATOM     31 HB22 GSH A   1      37.127  55.333  24.314  1.00 10.00           H
+ATOM     32 HB23 GSH A   1      37.319  56.675  25.492  1.00 10.00           H
+ATOM     33  HSG GSH A   1      35.913  54.669  26.637  1.00 10.00           H
+ATOM     34  HN3 GSH A   1      36.187  58.132  21.404  1.00 10.00           H
+ATOM     35 HA31 GSH A   1      39.155  58.595  21.403  1.00 10.00           H
+ATOM     36 HA32 GSH A   1      38.202  58.141  19.949  1.00 10.00           H
+ATOM     37  H32 GSH A   1      36.976  61.663  21.037  1.00 10.00           H
+CONECT    1    2   21   22
+CONECT    2    1    3    6   23
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3   24
+CONECT    6    2    7   25   26
+CONECT    7    6    8   27   28
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8   11   29
+CONECT   11   10   12   14   30
+CONECT   12   11   13   16
+CONECT   13   12
+CONECT   14   11   15   31   32
+CONECT   15   14   33
+CONECT   16   12   17   34
+CONECT   17   16   18   35   36
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   37
+CONECT   21    1
+CONECT   22    1
+CONECT   23    2
+CONECT   24    5
+CONECT   25    6
+CONECT   26    6
+CONECT   27    7
+CONECT   28    7
+CONECT   29   10
+CONECT   30   11
+CONECT   31   14
+CONECT   32   14
+CONECT   33   15
+CONECT   34   16
+CONECT   35   17
+CONECT   36   17
+CONECT   37   20
+END   

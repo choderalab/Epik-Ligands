@@ -1,0 +1,514 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ FBP 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_7.4/BETA-FRUCTOSE-1,6-DIPHOSPHATE_pH_7.4-before_epik.mol2 
+  1
+    0.0786 
+    0.0786 
+    0.0000 
+    0.0615 
+  0.140018015453623
+  -4
+  4
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[30] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 99.925000 23.147000 35.799000 1 15 "FBP " " P1 " 15 0 P1  <> <>
+  2 15 100.069000 22.491000 34.416000 1 70 "FBP " " O1P" 8 0 O1P  <> <>
+  3 18 99.164000 22.339000 36.736000 1 70 "FBP " " O2P" 8 -1 O2P    6.199    0.618 
+  4 18 99.436000 24.517000 35.475000 1 70 "FBP " " O3P" 8 -1 O3P    6.199    0.618 
+  5 16 101.330000 23.234000 36.357000 1 70 "FBP " " O1 " 8 0 O1  <> <>
+  6 3 102.372000 23.619000 35.433000 1 2 "FBP " " C1 " 6 0 C1  <> <>
+  7 3 103.602000 23.761000 36.271000 1 2 "FBP " " C2 " 6 0 C2  <> <>
+  8 16 103.276000 24.731000 37.201000 1 70 "FBP " " O2 " 8 0 O2  <> <>
+  9 3 104.860000 24.229000 35.485000 1 2 "FBP " " C3 " 6 0 C3  <> <>
+  10 16 104.641000 25.561000 34.956000 1 70 "FBP " " O3 " 8 0 O3   -1.773    0.950 
+  11 3 105.927000 24.042000 36.590000 1 2 "FBP " " C4 " 6 0 C4  <> <>
+  12 16 107.308000 24.188000 36.165000 1 70 "FBP " " O4 " 8 0 O4   -1.629    0.950 
+  13 3 105.502000 22.627000 37.184000 1 2 "FBP " " C5 " 6 0 C5  <> <>
+  14 16 104.024000 22.526000 36.940000 1 70 "FBP " " O5 " 8 0 O5  <> <>
+  15 3 105.781000 22.568000 38.676000 1 2 "FBP " " C6 " 6 0 C6  <> <>
+  16 16 105.415000 21.296000 39.390000 1 70 "FBP " " O6 " 8 0 O6  <> <>
+  17 107 106.213000 20.006000 39.458000 1 15 "FBP " " P2 " 15 0 P2  <> <>
+  18 15 107.448000 20.270000 38.657000 1 70 "FBP " " O4P" 8 0 O4P  <> <>
+  19 18 105.202000 19.056000 38.878000 1 70 "FBP " " O5P" 8 -1 O5P    6.270    0.618 
+  20 18 106.582000 19.621000 40.837000 1 70 "FBP " " O6P" 8 -1 O6P    6.270    0.618 
+  21 41 102.490761 22.837561 34.667985 1 21 "FBP " " H11" 1 0 H11  <> <>
+  22 41 102.099956 24.568254 34.948326 1 21 "FBP " " H12" 1 0 H12  <> <>
+  23 42 102.937901 25.722674 36.865929 1 21 "FBP " " HO2" 1 0 HO2   11.691    2.220 
+  24 41 105.146300 23.756255 34.533924 1 21 "FBP " " H3 " 1 0 H3  <> <>
+  25 42 103.888954 25.723821 34.169924 1 21 "FBP " " HO3" 1 0 HO3   12.692    1.474 
+  26 41 106.012089 24.871425 37.307506 1 21 "FBP " " H4 " 1 0 H4  <> <>
+  27 42 107.656688 25.143866 35.746986 1 21 "FBP " " HO4" 1 0 HO4   12.880    1.117 
+  28 41 106.029831 21.771149 36.738003 1 21 "FBP " " H5 " 1 0 H5  <> <>
+  29 41 106.857670 22.706909 38.853440 1 21 "FBP " " H61" 1 0 H61  <> <>
+  30 41 105.219588 23.364808 39.185818 1 21 "FBP " " H62" 1 0 H62  <> <>
+  :::
+ } 
+ m_bond[30] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 1 5 1
+  5 5 6 1
+  6 6 7 1
+  7 6 21 1
+  8 6 22 1
+  9 7 8 1
+  10 7 9 1
+  11 7 14 1
+  12 8 23 1
+  13 9 10 1
+  14 9 11 1
+  15 9 24 1
+  16 10 25 1
+  17 11 12 1
+  18 11 13 1
+  19 11 26 1
+  20 12 27 1
+  21 13 14 1
+  22 13 15 1
+  23 13 28 1
+  24 15 16 1
+  25 15 29 1
+  26 15 30 1
+  27 16 17 1
+  28 17 18 2
+  29 17 19 1
+  30 17 20 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ FBP 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_7.4/BETA-FRUCTOSE-1,6-DIPHOSPHATE_pH_7.4-before_epik.mol2 
+  1
+    1.6201 
+    0.0362 
+    1.5839 
+    1.7140 
+  1.75021010871721
+  -3
+  3
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 99.925000 23.147000 35.799000 1 15 "FBP " " P1 " 15 0 P1  <> <>
+  2 15 100.069000 22.491000 34.416000 1 70 "FBP " " O1P" 8 0 O1P  <> <>
+  3 18 99.164000 22.339000 36.736000 1 70 "FBP " " O2P" 8 -1 O2P    6.199    0.618 
+  4 18 99.436000 24.517000 35.475000 1 70 "FBP " " O3P" 8 -1 O3P    6.199    0.618 
+  5 16 101.330000 23.234000 36.357000 1 70 "FBP " " O1 " 8 0 O1  <> <>
+  6 3 102.372000 23.619000 35.433000 1 2 "FBP " " C1 " 6 0 C1  <> <>
+  7 3 103.602000 23.761000 36.271000 1 2 "FBP " " C2 " 6 0 C2  <> <>
+  8 16 103.276000 24.731000 37.201000 1 70 "FBP " " O2 " 8 0 O2  <> <>
+  9 3 104.860000 24.229000 35.485000 1 2 "FBP " " C3 " 6 0 C3  <> <>
+  10 16 104.641000 25.561000 34.956000 1 70 "FBP " " O3 " 8 0 O3   -1.885    0.950 
+  11 3 105.927000 24.042000 36.590000 1 2 "FBP " " C4 " 6 0 C4  <> <>
+  12 16 107.308000 24.188000 36.165000 1 70 "FBP " " O4 " 8 0 O4   -1.903    0.950 
+  13 3 105.502000 22.627000 37.184000 1 2 "FBP " " C5 " 6 0 C5  <> <>
+  14 16 104.024000 22.526000 36.940000 1 70 "FBP " " O5 " 8 0 O5  <> <>
+  15 3 105.781000 22.568000 38.676000 1 2 "FBP " " C6 " 6 0 C6  <> <>
+  16 16 105.415000 21.296000 39.390000 1 70 "FBP " " O6 " 8 0 O6  <> <>
+  17 107 106.213000 20.006000 39.458000 1 15 "FBP " " P2 " 15 0 P2  <> <>
+  18 15 107.448000 20.270000 38.657000 1 70 "FBP " " O4P" 8 0 O4P  <> <>
+  19 18 105.202000 19.056000 38.878000 1 70 "FBP " " O5P" 8 -1 O5P    3.322    0.610 
+  20 16 106.582000 19.621000 40.837000 1 70 "FBP " " O6P" 8 0 O6P  <> <>
+  21 41 102.490761 22.837561 34.667985 1 21 "FBP " " H11" 1 0 H11  <> <>
+  22 41 102.099956 24.568254 34.948326 1 21 "FBP " " H12" 1 0 H12  <> <>
+  23 42 102.937901 25.722674 36.865929 1 21 "FBP " " HO2" 1 0 HO2   11.606    2.220 
+  24 41 105.146300 23.756255 34.533924 1 21 "FBP " " H3 " 1 0 H3  <> <>
+  25 42 103.888954 25.723821 34.169924 1 21 "FBP " " HO3" 1 0 HO3   12.544    1.474 
+  26 41 106.012089 24.871425 37.307506 1 21 "FBP " " H4 " 1 0 H4  <> <>
+  27 42 107.656688 25.143866 35.746986 1 21 "FBP " " HO4" 1 0 HO4   12.521    1.117 
+  28 41 106.029831 21.771149 36.738003 1 21 "FBP " " H5 " 1 0 H5  <> <>
+  29 41 106.857670 22.706909 38.853440 1 21 "FBP " " H61" 1 0 H61  <> <>
+  30 41 105.219588 23.364808 39.185818 1 21 "FBP " " H62" 1 0 H62  <> <>
+  31 42 107.314036 20.220365 41.398147 1 21 "FBP " "HOP6" 1 0 HOP6    6.270    0.708 
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 1 5 1
+  5 5 6 1
+  6 6 7 1
+  7 6 21 1
+  8 6 22 1
+  9 7 8 1
+  10 7 9 1
+  11 7 14 1
+  12 8 23 1
+  13 9 10 1
+  14 9 11 1
+  15 9 24 1
+  16 10 25 1
+  17 11 12 1
+  18 11 13 1
+  19 11 26 1
+  20 12 27 1
+  21 13 14 1
+  22 13 15 1
+  23 13 28 1
+  24 15 16 1
+  25 15 29 1
+  26 15 30 1
+  27 16 17 1
+  28 17 18 2
+  29 17 19 1
+  30 17 20 1
+  31 20 31 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ FBP 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_7.4/BETA-FRUCTOSE-1,6-DIPHOSPHATE_pH_7.4-before_epik.mol2 
+  1
+    1.7170 
+    0.0424 
+    1.6746 
+    1.9016 
+  1.94405177106468
+  -3
+  3
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 99.925000 23.147000 35.799000 1 15 "FBP " " P1 " 15 0 P1  <> <>
+  2 15 100.069000 22.491000 34.416000 1 70 "FBP " " O1P" 8 0 O1P  <> <>
+  3 18 99.164000 22.339000 36.736000 1 70 "FBP " " O2P" 8 -1 O2P    3.265    0.618 
+  4 16 99.436000 24.517000 35.475000 1 70 "FBP " " O3P" 8 0 O3P  <> <>
+  5 16 101.330000 23.234000 36.357000 1 70 "FBP " " O1 " 8 0 O1  <> <>
+  6 3 102.372000 23.619000 35.433000 1 2 "FBP " " C1 " 6 0 C1  <> <>
+  7 3 103.602000 23.761000 36.271000 1 2 "FBP " " C2 " 6 0 C2  <> <>
+  8 16 103.276000 24.731000 37.201000 1 70 "FBP " " O2 " 8 0 O2  <> <>
+  9 3 104.860000 24.229000 35.485000 1 2 "FBP " " C3 " 6 0 C3  <> <>
+  10 16 104.641000 25.561000 34.956000 1 70 "FBP " " O3 " 8 0 O3   -2.047    0.950 
+  11 3 105.927000 24.042000 36.590000 1 2 "FBP " " C4 " 6 0 C4  <> <>
+  12 16 107.308000 24.188000 36.165000 1 70 "FBP " " O4 " 8 0 O4   -1.742    0.950 
+  13 3 105.502000 22.627000 37.184000 1 2 "FBP " " C5 " 6 0 C5  <> <>
+  14 16 104.024000 22.526000 36.940000 1 70 "FBP " " O5 " 8 0 O5  <> <>
+  15 3 105.781000 22.568000 38.676000 1 2 "FBP " " C6 " 6 0 C6  <> <>
+  16 16 105.415000 21.296000 39.390000 1 70 "FBP " " O6 " 8 0 O6  <> <>
+  17 107 106.213000 20.006000 39.458000 1 15 "FBP " " P2 " 15 0 P2  <> <>
+  18 15 107.448000 20.270000 38.657000 1 70 "FBP " " O4P" 8 0 O4P  <> <>
+  19 18 105.202000 19.056000 38.878000 1 70 "FBP " " O5P" 8 -1 O5P    6.270    0.618 
+  20 18 106.582000 19.621000 40.837000 1 70 "FBP " " O6P" 8 -1 O6P    6.270    0.618 
+  21 42 98.428497 24.656625 35.056142 1 21 "FBP " "HOP3" 1 0 HOP3    6.199    2.220 
+  22 41 102.490761 22.837561 34.667985 1 21 "FBP " " H11" 1 0 H11  <> <>
+  23 41 102.099956 24.568254 34.948326 1 21 "FBP " " H12" 1 0 H12  <> <>
+  24 42 102.937901 25.722674 36.865929 1 21 "FBP " " HO2" 1 0 HO2   11.098    2.220 
+  25 41 105.146300 23.756255 34.533924 1 21 "FBP " " H3 " 1 0 H3  <> <>
+  26 42 103.888954 25.723821 34.169924 1 21 "FBP " " HO3" 1 0 HO3   12.332    1.474 
+  27 41 106.012089 24.871425 37.307506 1 21 "FBP " " H4 " 1 0 H4  <> <>
+  28 42 107.656688 25.143866 35.746986 1 21 "FBP " " HO4" 1 0 HO4   12.733    1.117 
+  29 41 106.029831 21.771149 36.738003 1 21 "FBP " " H5 " 1 0 H5  <> <>
+  30 41 106.857670 22.706909 38.853440 1 21 "FBP " " H61" 1 0 H61  <> <>
+  31 41 105.219588 23.364808 39.185818 1 21 "FBP " " H62" 1 0 H62  <> <>
+  :::
+ } 
+ m_bond[31] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 1 5 1
+  5 4 21 1
+  6 5 6 1
+  7 6 7 1
+  8 6 22 1
+  9 6 23 1
+  10 7 8 1
+  11 7 9 1
+  12 7 14 1
+  13 8 24 1
+  14 9 10 1
+  15 9 11 1
+  16 9 25 1
+  17 10 26 1
+  18 11 12 1
+  19 11 13 1
+  20 11 27 1
+  21 12 28 1
+  22 13 14 1
+  23 13 15 1
+  24 13 29 1
+  25 15 16 1
+  26 15 30 1
+  27 15 31 1
+  28 16 17 1
+  29 17 18 2
+  30 17 19 1
+  31 17 20 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ FBP 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-FRUCTOSE-1,6-DIPHOSPHATE/pH_7.4/BETA-FRUCTOSE-1,6-DIPHOSPHATE_pH_7.4-before_epik.mol2 
+  1
+    3.2586 
+    0.0001 
+    3.2585 
+    3.5043 
+  3.50442962001414
+  -2
+  2
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[32] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 99.925000 23.147000 35.799000 1 15 "FBP " " P1 " 15 0 P1  <> <>
+  2 15 100.069000 22.491000 34.416000 1 70 "FBP " " O1P" 8 0 O1P  <> <>
+  3 18 99.164000 22.339000 36.736000 1 70 "FBP " " O2P" 8 -1 O2P    3.265    0.618 
+  4 16 99.436000 24.517000 35.475000 1 70 "FBP " " O3P" 8 0 O3P  <> <>
+  5 16 101.330000 23.234000 36.357000 1 70 "FBP " " O1 " 8 0 O1  <> <>
+  6 3 102.372000 23.619000 35.433000 1 2 "FBP " " C1 " 6 0 C1  <> <>
+  7 3 103.602000 23.761000 36.271000 1 2 "FBP " " C2 " 6 0 C2  <> <>
+  8 16 103.276000 24.731000 37.201000 1 70 "FBP " " O2 " 8 0 O2  <> <>
+  9 3 104.860000 24.229000 35.485000 1 2 "FBP " " C3 " 6 0 C3  <> <>
+  10 16 104.641000 25.561000 34.956000 1 70 "FBP " " O3 " 8 0 O3   -2.159    0.950 
+  11 3 105.927000 24.042000 36.590000 1 2 "FBP " " C4 " 6 0 C4  <> <>
+  12 16 107.308000 24.188000 36.165000 1 70 "FBP " " O4 " 8 0 O4   -2.016    0.950 
+  13 3 105.502000 22.627000 37.184000 1 2 "FBP " " C5 " 6 0 C5  <> <>
+  14 16 104.024000 22.526000 36.940000 1 70 "FBP " " O5 " 8 0 O5  <> <>
+  15 3 105.781000 22.568000 38.676000 1 2 "FBP " " C6 " 6 0 C6  <> <>
+  16 16 105.415000 21.296000 39.390000 1 70 "FBP " " O6 " 8 0 O6  <> <>
+  17 107 106.213000 20.006000 39.458000 1 15 "FBP " " P2 " 15 0 P2  <> <>
+  18 15 107.448000 20.270000 38.657000 1 70 "FBP " " O4P" 8 0 O4P  <> <>
+  19 18 105.202000 19.056000 38.878000 1 70 "FBP " " O5P" 8 -1 O5P    3.322    0.610 
+  20 16 106.582000 19.621000 40.837000 1 70 "FBP " " O6P" 8 0 O6P  <> <>
+  21 42 98.428497 24.656625 35.056142 1 21 "FBP " "HOP3" 1 0 HOP3    6.199    2.220 
+  22 41 102.490761 22.837561 34.667985 1 21 "FBP " " H11" 1 0 H11  <> <>
+  23 41 102.099956 24.568254 34.948326 1 21 "FBP " " H12" 1 0 H12  <> <>
+  24 42 102.937901 25.722674 36.865929 1 21 "FBP " " HO2" 1 0 HO2   11.013    2.220 
+  25 41 105.146300 23.756255 34.533924 1 21 "FBP " " H3 " 1 0 H3  <> <>
+  26 42 103.888954 25.723821 34.169924 1 21 "FBP " " HO3" 1 0 HO3   12.185    1.474 
+  27 41 106.012089 24.871425 37.307506 1 21 "FBP " " H4 " 1 0 H4  <> <>
+  28 42 107.656688 25.143866 35.746986 1 21 "FBP " " HO4" 1 0 HO4   12.373    1.117 
+  29 41 106.029831 21.771149 36.738003 1 21 "FBP " " H5 " 1 0 H5  <> <>
+  30 41 106.857670 22.706909 38.853440 1 21 "FBP " " H61" 1 0 H61  <> <>
+  31 41 105.219588 23.364808 39.185818 1 21 "FBP " " H62" 1 0 H62  <> <>
+  32 42 107.314036 20.220365 41.398147 1 21 "FBP " "HOP6" 1 0 HOP6    6.270    0.708 
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 1 5 1
+  5 4 21 1
+  6 5 6 1
+  7 6 7 1
+  8 6 22 1
+  9 6 23 1
+  10 7 8 1
+  11 7 9 1
+  12 7 14 1
+  13 8 24 1
+  14 9 10 1
+  15 9 11 1
+  16 9 25 1
+  17 10 26 1
+  18 11 12 1
+  19 11 13 1
+  20 11 27 1
+  21 12 28 1
+  22 13 14 1
+  23 13 15 1
+  24 13 29 1
+  25 15 16 1
+  26 15 30 1
+  27 15 31 1
+  28 16 17 1
+  29 17 18 2
+  30 17 19 1
+  31 17 20 1
+  32 20 32 1
+  :::
+ } 
+} 
+

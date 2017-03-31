@@ -1,0 +1,162 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ ACY 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/ACETIC ACID/pH_7.4/ACETIC ACID_pH_7.4-before_epik.mol2" 
+  1
+    0.0000 
+    0.0000 
+    0.0000 
+    0.0011 
+  0.00107124499197225
+  -2
+  2
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[7] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  :::
+  1 2 -8.682000 8.170000 3.803000 1 2 "ACY " " C  " 6 0 C 
+  2 15 -9.467000 8.524000 4.783000 1 70 "ACY " " O  " 8 0 O 
+  3 115 -8.192000 7.009000 3.580000 1 70 "ACY " " OXT" 8 -2 OXT 
+  4 3 -8.402000 9.294000 2.821000 1 2 "ACY " " CH3" 6 0 CH3 
+  5 41 -8.896368 10.214044 3.166138 1 21 "ACY " " H1 " 1 0 H1 
+  6 41 -8.789887 9.019299 1.828991 1 21 "ACY " " H2 " 1 0 H2 
+  7 41 -7.316937 9.462787 2.756595 1 21 "ACY " " H3 " 1 0 H3 
+  :::
+ } 
+ m_bond[6] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 4 5 1
+  5 4 6 1
+  6 4 7 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ ACY 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/ACETIC ACID/pH_7.4/ACETIC ACID_pH_7.4-before_epik.mol2" 
+  1
+    3.5077 
+    0.0000 
+    3.5077 
+    3.7424 
+  3.74238256444011
+  -1
+  1
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[8] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 2 -8.682000 8.170000 3.803000 1 2 "ACY " " C  " 6 0 C  <> <>
+  2 15 -9.467000 8.524000 4.783000 1 70 "ACY " " O  " 8 0 O  <> <>
+  3 18 -8.192000 7.009000 3.580000 1 70 "ACY " " OXT" 8 -1 OXT  <> <>
+  4 3 -8.402000 9.294000 2.821000 1 2 "ACY " " CH3" 6 0 CH3  <> <>
+  5 45 -8.386715 6.185562 4.282876 1 21 "ACY " " HXT" 1 0 HXT    4.830    2.220 
+  6 41 -8.896368 10.214044 3.166138 1 21 "ACY " " H1 " 1 0 H1  <> <>
+  7 41 -8.789887 9.019299 1.828991 1 21 "ACY " " H2 " 1 0 H2  <> <>
+  8 41 -7.316937 9.462787 2.756595 1 21 "ACY " " H3 " 1 0 H3  <> <>
+  :::
+ } 
+ m_bond[7] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 3 5 1
+  5 4 6 1
+  6 4 7 1
+  7 4 8 1
+  :::
+ } 
+} 
+

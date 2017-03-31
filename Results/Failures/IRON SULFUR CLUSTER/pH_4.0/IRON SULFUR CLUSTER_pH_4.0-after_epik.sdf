@@ -1,0 +1,64 @@
+SF4
+                    3D
+ Structure written by MMmdl.
+ 12 16  0  0  1  0            999 V2000
+   40.9710   -0.0190   22.6690 Fe  0  0  0  0  0  0
+   39.5560    2.3190   22.8040 Fe  0  0  0  0  0  0
+   42.0770    2.1610   23.8610 Fe  0  0  0  0  0  0
+   41.7840    2.1350   21.1450 Fe  0  0  0  0  0  0
+   41.2800    3.9450   22.6080 S   0  0  0  0  0  0
+   43.1720    0.7840   22.3460 S   0  0  0  0  0  0
+   39.7220    0.8750   20.8270 S   0  0  0  0  0  0
+   40.1410    1.0600   24.5750 S   0  0  0  0  0  0
+   41.3688    5.0414   22.6109 H   0  0  0  0  0  0
+   44.1815    0.3691   22.2087 H   0  0  0  0  0  0
+   39.0933    0.5132   20.0000 H   0  0  0  0  0  0
+   39.6676    0.7819   25.5282 H   0  0  0  0  0  0
+  1  6  1  0  0  0
+  1  7  1  0  0  0
+  1  8  1  0  0  0
+  2  5  1  0  0  0
+  2  7  1  0  0  0
+  2  8  1  0  0  0
+  3  5  1  0  0  0
+  3  6  1  0  0  0
+  3  8  1  0  0  0
+  4  5  1  0  0  0
+  4  6  1  0  0  0
+  4  7  1  0  0  0
+  5  9  1  0  0  0
+  6 10  1  0  0  0
+  7 11  1  0  0  0
+  8 12  1  0  0  0
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/IRON SULFUR CLUSTER/pH_4.0/IRON SULFUR CLUSTER_pH_4.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_lp_tautomer_probability>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+ -0.0000
+
+> <r_epik_Charging_Adjusted_Penalty>
+0
+
+> <i_epik_Tot_Q>
+0
+
+> <i_epik_Tot_abs_Q>
+0
+
+$$$$

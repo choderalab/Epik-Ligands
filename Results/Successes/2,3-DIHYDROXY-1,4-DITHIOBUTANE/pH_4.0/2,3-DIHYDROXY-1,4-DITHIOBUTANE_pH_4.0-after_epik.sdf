@@ -1,0 +1,71 @@
+DTT
+                    3D
+ Structure written by MMmdl.
+ 18 17  0  0  1  0            999 V2000
+    3.6130   21.8750   25.3710 S   0  0  0  0  0  0
+    2.1140   21.6520   24.3500 C   0  0  0  0  0  0
+    1.3170   22.8990   24.0120 C   0  0  2  0  0  0
+    0.5700   23.1840   25.1820 O   0  0  0  0  0  0
+    0.3130   22.7130   22.8140 C   0  0  1  0  0  0
+   -0.9220   23.3320   23.2010 O   0  0  0  0  0  0
+    0.7400   23.4630   21.5380 C   0  0  0  0  0  0
+    2.3950   23.1260   20.7570 S   0  0  0  0  0  0
+    4.2267   21.0041   25.6446 H   0  0  0  0  0  0
+    2.3920   21.2083   23.3826 H   0  0  0  0  0  0
+    1.4114   20.9850   24.8710 H   0  0  0  0  0  0
+    2.0054   23.7273   23.7883 H   0  0  0  0  0  0
+    1.0877   23.3495   26.1384 H   0  0  0  0  0  0
+    0.1780   21.6422   22.6012 H   0  0  0  0  0  0
+   -1.4548   22.9830   24.0979 H   0  0  0  0  0  0
+    0.0222   23.2525   20.7315 H   0  0  0  0  0  0
+    0.7602   24.5445   21.7378 H   0  0  0  0  0  0
+    2.6932   23.6653   19.8459 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  9  1  0  0  0
+  2  3  1  0  0  0
+  2 10  1  0  0  0
+  2 11  1  0  0  0
+  3  4  1  0  0  0
+  3  5  1  0  0  0
+  3 12  1  0  0  0
+  4 13  1  0  0  0
+  5  6  1  0  0  0
+  5  7  1  0  0  0
+  5 14  1  0  0  0
+  6 15  1  0  0  0
+  7  8  1  0  0  0
+  7 16  1  0  0  0
+  7 17  1  0  0  0
+  8 18  1  0  0  0
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_4.0/2,3-DIHYDROXY-1,4-DITHIOBUTANE_pH_4.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_lp_tautomer_probability>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+ -0.0000
+
+> <r_epik_Charging_Adjusted_Penalty>
+0
+
+> <i_epik_Tot_Q>
+0
+
+> <i_epik_Tot_abs_Q>
+0
+
+$$$$

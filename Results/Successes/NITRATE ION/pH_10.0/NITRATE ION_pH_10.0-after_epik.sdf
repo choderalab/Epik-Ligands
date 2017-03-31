@@ -1,0 +1,44 @@
+NO3
+                    3D
+ Structure written by MMmdl.
+  4  3  0  0  1  0            999 V2000
+   -7.5290    9.8780   13.8730 N   0  3  0  0  0  0
+   -7.7300   10.1330   12.6950 O   0  0  0  0  0  0
+   -6.6050    9.2020   14.2010 O   0  0  0  0  0  0
+   -8.3380   10.3090   14.6660 O   0  0  0  0  0  0
+  1  2  2  0  0  0
+  1  3  1  0  0  0
+  1  4  1  0  0  0
+M  CHG  1   1   1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/NITRATE ION/pH_10.0/NITRATE ION_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_lp_tautomer_probability>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+ -0.0000
+
+> <r_epik_Charging_Adjusted_Penalty>
+0
+
+> <i_epik_Tot_Q>
+1
+
+> <i_epik_Tot_abs_Q>
+1
+
+$$$$

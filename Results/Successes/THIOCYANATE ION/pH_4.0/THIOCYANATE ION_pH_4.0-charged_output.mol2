@@ -1,0 +1,17 @@
+@<TRIPOS>MOLECULE
+thiocyanic acid
+    4     3     1     0     0
+SMALL
+USER_CHARGES
+
+@<TRIPOS>ATOM
+      1 S1        -27.7770   46.9680   47.0340 S.3       1 SCN        -0.0750
+      2 C1        -27.5690   47.8120   48.3140 C.1       1 SCN         0.1987
+      3 N1        -27.4030   48.4730   49.3150 N.1       1 SCN        -0.3199
+      4 H1          0.0000    0.0000    0.0000 H         1 SCN         0.1963
+@<TRIPOS>BOND
+     1    1    2 1
+     2    2    3 3
+     3    1    4 1
+@<TRIPOS>SUBSTRUCTURE
+     1 SCN         1 GROUP   0 A     ****

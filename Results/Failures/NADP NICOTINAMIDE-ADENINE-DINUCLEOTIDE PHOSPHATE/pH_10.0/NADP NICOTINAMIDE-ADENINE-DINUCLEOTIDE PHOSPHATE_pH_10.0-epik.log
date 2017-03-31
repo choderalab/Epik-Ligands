@@ -1,0 +1,426 @@
+COMMAND:
+ /cbio/jclab/share/schrodinger/schrodinger2016-4/epik-v3.8/bin/Linux-x86_64/epik_app -imae /scratch/8332595.hal-sched1.local/tmpqth749a2/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE_pH_10.0-before_epik.mae -omae /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE/pH_10.0/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE_pH_10.0-epik.mae -ms 50 -ph 10.0 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: /cbio/jclab/share/schrodinger/schrodinger2016-4
+
+Running Epik version     3.8015
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        /scratch/8332595.hal-sched1.local/tmpqth749a2/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE_pH_10.0-before_epik.mae
+Output file name:                       /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE/pH_10.0/NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE_pH_10.0-epik.mae
+Maximum number of states set to: 50
+Structure adjustment calculation requested.
+  Target pH set to 10.000
+Minimum probability set to 4.539993e-05
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 1.000000e+01 and minimum probability 4.539993e-05
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: NAP
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            53   Conj_Acid 11.95
+                                            64   Conj_Acid 11.92
+                                            66   Conj_Acid 11.34
+                                            69   Conj_Acid 11.46
+                                            70   Conj_Acid 11.46
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            32   Conj_Base -2.36
+                                            34   Conj_Base -2.80
+                                            43   Conj_Base -1.34
+                                            38   Conj_Base  1.03
+                                            40   Conj_Base -1.57
+ pKa penalty:                                 0.06 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.06 kcal/mol
+ Overall Penalty (tautomerization included):  0.06 kcal/mol
+ Total Charge: -3
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                            53   Conj_Acid 11.95
+                                            64   Conj_Acid 14.98
+                                            34   Conj_Base 11.34
+                                            68   Conj_Acid 11.70
+                                            69   Conj_Acid 11.70
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            32   Conj_Base -0.03
+                                            43   Conj_Base -0.74
+                                            38   Conj_Base  1.30
+                                            40   Conj_Base -1.24
+ pKa penalty:                                 1.88 kcal/mol
+     Charging penalty:                        1.86 kcal/mol
+     Neutralization penalty:                  0.02 kcal/mol
+ Overall Penalty (tautomerization included):  2.04 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            53   Conj_Acid 11.95
+                                            64   Conj_Acid 12.07
+                                            66   Conj_Acid 11.62
+                                            41   Conj_Base 11.46
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            32   Conj_Base -2.25
+                                            34   Conj_Base -2.59
+                                            43   Conj_Base -0.24
+                                            38   Conj_Base  1.98
+ pKa penalty:                                 2.04 kcal/mol
+     Charging penalty:                        2.01 kcal/mol
+     Neutralization penalty:                  0.03 kcal/mol
+ Overall Penalty (tautomerization included):  2.17 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 4
+                                            53   Conj_Acid 11.95
+                                            64   Conj_Acid 12.07
+                                            66   Conj_Acid 11.62
+                                            41   Conj_Base 11.46
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            32   Conj_Base -2.25
+                                            34   Conj_Base -2.59
+                                            43   Conj_Base -0.24
+                                            38   Conj_Base  1.98
+ pKa penalty:                                 2.04 kcal/mol
+     Charging penalty:                        2.01 kcal/mol
+     Neutralization penalty:                  0.03 kcal/mol
+ Overall Penalty (tautomerization included):  2.17 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 5
+                                            63   Conj_Acid 11.92
+                                            65   Conj_Acid 11.34
+                                             9   Conj_Base 11.95
+                                            68   Conj_Acid 11.46
+                                            69   Conj_Acid 11.46
+                                             3   Conj_Base  3.13
+                                            47   Conj_Base  6.36
+                                            48   Conj_Base  6.36
+                                            15   Conj_Base  2.88
+                                            19   Conj_Base  4.02
+                                            21   Conj_Base -0.44
+                                            56   Conj_Acid 13.07
+                                            57   Conj_Acid 13.07
+                                            32   Conj_Base -2.36
+                                            34   Conj_Base -2.80
+                                            43   Conj_Base -1.34
+                                            38   Conj_Base  1.03
+                                            40   Conj_Base -1.57
+ pKa penalty:                                 2.73 kcal/mol
+     Charging penalty:                        2.67 kcal/mol
+     Neutralization penalty:                  0.05 kcal/mol
+ Overall Penalty (tautomerization included):  2.83 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 6
+                                            53   Conj_Acid 11.95
+                                            65   Conj_Acid 14.44
+                                            32   Conj_Base 11.92
+                                            68   Conj_Acid 11.58
+                                            69   Conj_Acid 11.58
+                                             3   Conj_Base  3.05
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            34   Conj_Base -0.44
+                                            43   Conj_Base -0.97
+                                            38   Conj_Base  1.19
+                                            40   Conj_Base -1.39
+ pKa penalty:                                 2.65 kcal/mol
+     Charging penalty:                        2.62 kcal/mol
+     Neutralization penalty:                  0.02 kcal/mol
+ Overall Penalty (tautomerization included):  2.85 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 7
+                                            53   Conj_Acid 11.95
+                                            63   Conj_Acid 11.92
+                                            65   Conj_Acid 11.34
+                                            68   Conj_Acid 11.46
+                                            69   Conj_Acid 11.46
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  3.95
+                                            19   Conj_Base  6.17
+                                            21   Conj_Base -0.79
+                                            18   Conj_Base 13.07
+                                             9   Conj_Base -2.34
+                                            32   Conj_Base -2.36
+                                            34   Conj_Base -2.80
+                                            43   Conj_Base -1.34
+                                            38   Conj_Base  1.03
+                                            40   Conj_Base -1.57
+ pKa penalty:                                 4.25 kcal/mol
+     Charging penalty:                        4.19 kcal/mol
+     Neutralization penalty:                  0.06 kcal/mol
+ Overall Penalty (tautomerization included):  4.52 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 8
+                                            53   Conj_Acid 11.95
+                                            64   Conj_Acid 15.13
+                                            34   Conj_Base 11.62
+                                            41   Conj_Base 11.70
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            32   Conj_Base  0.09
+                                            43   Conj_Base  0.35
+                                            38   Conj_Base  2.25
+ pKa penalty:                                 4.56 kcal/mol
+     Charging penalty:                        4.55 kcal/mol
+     Neutralization penalty:                  0.01 kcal/mol
+ Overall Penalty (tautomerization included):  4.52 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 9
+                                            53   Conj_Acid 11.95
+                                            64   Conj_Acid 15.13
+                                            34   Conj_Base 11.62
+                                            41   Conj_Base 11.70
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            32   Conj_Base  0.09
+                                            43   Conj_Base  0.35
+                                            38   Conj_Base  2.25
+ pKa penalty:                                 4.56 kcal/mol
+     Charging penalty:                        4.55 kcal/mol
+     Neutralization penalty:                  0.01 kcal/mol
+ Overall Penalty (tautomerization included):  4.52 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 10
+                                            63   Conj_Acid 14.98
+                                             9   Conj_Base 11.95
+                                            34   Conj_Base 11.34
+                                            67   Conj_Acid 11.70
+                                            68   Conj_Acid 11.70
+                                             3   Conj_Base  3.14
+                                            47   Conj_Base  6.36
+                                            48   Conj_Base  6.36
+                                            15   Conj_Base  2.88
+                                            19   Conj_Base  4.02
+                                            21   Conj_Base -0.44
+                                            56   Conj_Acid 13.07
+                                            57   Conj_Acid 13.07
+                                            32   Conj_Base -0.03
+                                            43   Conj_Base -0.74
+                                            38   Conj_Base  1.30
+                                            40   Conj_Base -1.24
+ pKa penalty:                                 4.54 kcal/mol
+     Charging penalty:                        4.53 kcal/mol
+     Neutralization penalty:                  0.01 kcal/mol
+ Overall Penalty (tautomerization included):  4.86 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 11
+                                            63   Conj_Acid 12.07
+                                            65   Conj_Acid 11.62
+                                             9   Conj_Base 11.95
+                                            41   Conj_Base 11.46
+                                             3   Conj_Base  3.13
+                                            47   Conj_Base  6.36
+                                            48   Conj_Base  6.36
+                                            15   Conj_Base  2.88
+                                            19   Conj_Base  4.02
+                                            21   Conj_Base -0.44
+                                            56   Conj_Acid 13.07
+                                            57   Conj_Acid 13.07
+                                            32   Conj_Base -2.25
+                                            34   Conj_Base -2.59
+                                            43   Conj_Base -0.24
+                                            38   Conj_Base  1.98
+ pKa penalty:                                 4.70 kcal/mol
+     Charging penalty:                        4.68 kcal/mol
+     Neutralization penalty:                  0.02 kcal/mol
+ Overall Penalty (tautomerization included):  4.99 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 12
+                                            63   Conj_Acid 12.07
+                                            65   Conj_Acid 11.62
+                                             9   Conj_Base 11.95
+                                            41   Conj_Base 11.46
+                                             3   Conj_Base  3.13
+                                            47   Conj_Base  6.36
+                                            48   Conj_Base  6.36
+                                            15   Conj_Base  2.88
+                                            19   Conj_Base  4.02
+                                            21   Conj_Base -0.44
+                                            56   Conj_Acid 13.07
+                                            57   Conj_Acid 13.07
+                                            32   Conj_Base -2.25
+                                            34   Conj_Base -2.59
+                                            43   Conj_Base -0.24
+                                            38   Conj_Base  1.98
+ pKa penalty:                                 4.70 kcal/mol
+     Charging penalty:                        4.68 kcal/mol
+     Neutralization penalty:                  0.02 kcal/mol
+ Overall Penalty (tautomerization included):  4.99 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 13
+                                            53   Conj_Acid 11.95
+                                            65   Conj_Acid 14.72
+                                            32   Conj_Base 12.07
+                                            41   Conj_Base 11.58
+                                             3   Conj_Base  3.05
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            34   Conj_Base -0.23
+                                            43   Conj_Base  0.12
+                                            38   Conj_Base  2.15
+ pKa penalty:                                 5.01 kcal/mol
+     Charging penalty:                        5.00 kcal/mol
+     Neutralization penalty:                  0.01 kcal/mol
+ Overall Penalty (tautomerization included):  5.17 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 14
+                                            53   Conj_Acid 11.95
+                                            65   Conj_Acid 14.72
+                                            32   Conj_Base 12.07
+                                            41   Conj_Base 11.58
+                                             3   Conj_Base  3.05
+                                            47   Conj_Base  6.09
+                                            48   Conj_Base  6.09
+                                            15   Conj_Base  2.83
+                                            19   Conj_Base  3.98
+                                            21   Conj_Base -0.49
+                                            57   Conj_Acid 13.07
+                                            58   Conj_Acid 13.07
+                                             9   Conj_Base -2.34
+                                            34   Conj_Base -0.23
+                                            43   Conj_Base  0.12
+                                            38   Conj_Base  2.15
+ pKa penalty:                                 5.01 kcal/mol
+     Charging penalty:                        5.00 kcal/mol
+     Neutralization penalty:                  0.01 kcal/mol
+ Overall Penalty (tautomerization included):  5.17 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 15
+                                            64   Conj_Acid 14.44
+                                             9   Conj_Base 11.95
+                                            32   Conj_Base 11.92
+                                            67   Conj_Acid 11.58
+                                            68   Conj_Acid 11.58
+                                             3   Conj_Base  3.14
+                                            47   Conj_Base  6.36
+                                            48   Conj_Base  6.36
+                                            15   Conj_Base  2.88
+                                            19   Conj_Base  4.02
+                                            21   Conj_Base -0.44
+                                            56   Conj_Acid 13.07
+                                            57   Conj_Acid 13.07
+                                            34   Conj_Base -0.44
+                                            43   Conj_Base -0.97
+                                            38   Conj_Base  1.19
+                                            40   Conj_Base -1.39
+ pKa penalty:                                 5.31 kcal/mol
+     Charging penalty:                        5.30 kcal/mol
+     Neutralization penalty:                  0.02 kcal/mol
+ Overall Penalty (tautomerization included):  5.68 kcal/mol
+ Total Charge: -5
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 16
+                                            53   Conj_Acid 11.08
+                                            64   Conj_Acid 11.92
+                                            66   Conj_Acid 11.34
+                                            69   Conj_Acid 11.46
+                                            70   Conj_Acid 11.46
+                                            74   Conj_Acid  6.09
+                                             3   Conj_Base  3.04
+                                            47   Conj_Base  3.18
+                                            15   Conj_Base  2.77
+                                            19   Conj_Base  3.94
+                                            21   Conj_Base -0.54
+                                            57   Conj_Acid 13.05
+                                            58   Conj_Acid 13.05
+                                            32   Conj_Base -2.36
+                                            34   Conj_Base -2.80
+                                            43   Conj_Base -1.34
+                                            38   Conj_Base  1.03
+                                            40   Conj_Base -1.57
+ pKa penalty:                                 5.44 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  5.44 kcal/mol
+ Overall Penalty (tautomerization included):  5.88 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+---------------------------

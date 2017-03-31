@@ -1,0 +1,15 @@
+COMPND    formate
+ATOM      0 C    FMT     1       0.767  33.924  -2.279  1.00 20.00           C
+ATOM      0 O1   FMT     1       2.218  33.182  -2.070  1.00 20.00           O
+ATOM      0 O2   FMT     1       0.268  34.803  -1.195  1.00 20.00           O
+ATOM      0 H    FMT     1       0.195  33.762  -3.204  1.00 20.00           H
+TER       1      FMT     1 
+END
+COMPND    formic acid
+ATOM      0 C    FMT     1       0.767  33.924  -2.279  1.00 20.00           C
+ATOM      0 O1   FMT     1       2.218  33.182  -2.070  1.00 20.00           O
+ATOM      0 O2   FMT     1       0.268  34.803  -1.195  1.00 20.00           O
+ATOM      0 H    FMT     1       0.195  33.762  -3.204  1.00 20.00           H
+ATOM      0 HO2  FMT     1      -0.700  35.315  -1.303  1.00 20.00           H
+TER       1      FMT     1 
+END

@@ -1,0 +1,63 @@
+COMMAND:
+ /cbio/jclab/share/schrodinger/schrodinger2016-4/epik-v3.8/bin/Linux-x86_64/epik_app -imae /scratch/8333014.hal-sched1.local/tmpp44nmbcb/PEPTIDE DERIVED CHROMOPHORE_pH_10.0-before_epik.mae -omae /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/PEPTIDE DERIVED CHROMOPHORE/pH_10.0/PEPTIDE DERIVED CHROMOPHORE_pH_10.0-epik.mae -ms 50 -ph 10.0 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: /cbio/jclab/share/schrodinger/schrodinger2016-4
+
+Running Epik version     3.8015
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        /scratch/8333014.hal-sched1.local/tmpp44nmbcb/PEPTIDE DERIVED CHROMOPHORE_pH_10.0-before_epik.mae
+Output file name:                       /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/PEPTIDE DERIVED CHROMOPHORE/pH_10.0/PEPTIDE DERIVED CHROMOPHORE_pH_10.0-epik.mae
+Maximum number of states set to: 50
+Structure adjustment calculation requested.
+  Target pH set to 10.000
+Minimum probability set to 4.539993e-05
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 1.000000e+01 and minimum probability 4.539993e-05
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: CRO
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            31   Conj_Acid 11.95
+                                            22   Conj_Base  7.78
+                                             1   Conj_Base  5.13
+                                             7   Conj_Base  1.64
+                                             5   Conj_Base -2.34
+ pKa penalty:                                 0.01 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.01 kcal/mol
+ Overall Penalty (tautomerization included):  0.01 kcal/mol
+ Total Charge: -3
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                             5   Conj_Base 11.95
+                                            22   Conj_Base  7.81
+                                             1   Conj_Base  6.85
+                                             7   Conj_Base  2.62
+ pKa penalty:                                 2.67 kcal/mol
+     Charging penalty:                        2.67 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  2.86 kcal/mol
+ Total Charge: -4
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            31   Conj_Acid 11.95
+                                            39   Conj_Acid  7.78
+                                             1   Conj_Base  5.13
+                                             7   Conj_Base  1.64
+                                             5   Conj_Base -2.34
+ pKa penalty:                                 3.04 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  3.04 kcal/mol
+ Overall Penalty (tautomerization included):  3.23 kcal/mol
+ Total Charge: -2
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis.
+---------------------------

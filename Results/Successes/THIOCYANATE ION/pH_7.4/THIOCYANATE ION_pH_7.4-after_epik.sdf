@@ -1,0 +1,41 @@
+SCN
+                    3D
+ Structure written by MMmdl.
+  3  2  0  0  1  0            999 V2000
+  -27.7770   46.9680   47.0340 S   0  0  0  0  0  0
+  -27.5690   47.8120   48.3140 C   0  0  0  0  0  0
+  -27.4030   48.4730   49.3150 N   0  0  0  0  0  0
+  1  2  1  0  0  0
+  2  3  3  0  0  0
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/THIOCYANATE ION/pH_7.4/THIOCYANATE ION_pH_7.4-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_lp_tautomer_probability>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+ -0.0000
+
+> <r_epik_Charging_Adjusted_Penalty>
+0
+
+> <i_epik_Tot_Q>
+0
+
+> <i_epik_Tot_abs_Q>
+0
+
+$$$$

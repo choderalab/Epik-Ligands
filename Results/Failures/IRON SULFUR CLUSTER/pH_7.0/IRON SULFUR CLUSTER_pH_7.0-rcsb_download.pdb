@@ -1,0 +1,17 @@
+ATOM      1 FE1  SF4 A   1      40.971  -0.019  22.669  1.00 10.00          FE
+ATOM      2 FE2  SF4 A   1      39.556   2.319  22.804  1.00 10.00          FE
+ATOM      3 FE3  SF4 A   1      42.077   2.161  23.861  1.00 10.00          FE
+ATOM      4 FE4  SF4 A   1      41.784   2.135  21.145  1.00 10.00          FE
+ATOM      5  S1  SF4 A   1      41.280   3.945  22.608  1.00 10.00           S
+ATOM      6  S2  SF4 A   1      43.172   0.784  22.346  1.00 10.00           S
+ATOM      7  S3  SF4 A   1      39.722   0.875  20.827  1.00 10.00           S
+ATOM      8  S4  SF4 A   1      40.141   1.060  24.575  1.00 10.00           S
+CONECT    1    6    7    8
+CONECT    2    5    7    8
+CONECT    3    5    6    8
+CONECT    4    5    6    7
+CONECT    5    2    3    4
+CONECT    6    1    3    4
+CONECT    7    1    2    4
+CONECT    8    1    2    3
+END   

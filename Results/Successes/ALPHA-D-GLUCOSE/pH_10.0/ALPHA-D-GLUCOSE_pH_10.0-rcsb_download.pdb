@@ -1,0 +1,49 @@
+ATOM      1  C1  GLC A   1       8.537  13.141  37.436  1.00 10.00           C
+ATOM      2  C2  GLC A   1       8.657  12.625  38.866  1.00 10.00           C
+ATOM      3  C3  GLC A   1       8.946  13.753  39.819  1.00 10.00           C
+ATOM      4  C4  GLC A   1      10.145  14.523  39.360  1.00 10.00           C
+ATOM      5  C5  GLC A   1       9.847  15.161  37.965  1.00 10.00           C
+ATOM      6  C6  GLC A   1      11.109  15.823  37.373  1.00 10.00           C
+ATOM      7  O1  GLC A   1       7.343  13.747  37.260  1.00 10.00           O
+ATOM      8  O2  GLC A   1       7.430  12.031  39.245  1.00 10.00           O
+ATOM      9  O3  GLC A   1       9.253  13.149  41.094  1.00 10.00           O
+ATOM     10  O4  GLC A   1      10.317  15.675  40.245  1.00 10.00           O
+ATOM     11  O5  GLC A   1       9.352  14.183  37.085  1.00 10.00           O
+ATOM     12  O6  GLC A   1      10.583  16.542  36.238  1.00 10.00           O
+ATOM     13  H1  GLC A   1       8.756  12.230  36.860  1.00 10.00           H
+ATOM     14  H2  GLC A   1       9.480  11.896  38.906  1.00 10.00           H
+ATOM     15  H3  GLC A   1       8.087  14.437  39.879  1.00 10.00           H
+ATOM     16  H4  GLC A   1      11.012  13.847  39.341  1.00 10.00           H
+ATOM     17  H5  GLC A   1       9.086  15.944  38.101  1.00 10.00           H
+ATOM     18  H61 GLC A   1      11.595  16.496  38.095  1.00 10.00           H
+ATOM     19  H62 GLC A   1      11.894  15.101  37.105  1.00 10.00           H
+ATOM     20  HO1 GLC A   1       6.932  13.889  38.105  1.00 10.00           H
+ATOM     21  HO2 GLC A   1       7.419  11.898  40.186  1.00 10.00           H
+ATOM     22  HO3 GLC A   1       9.320  12.207  40.991  1.00 10.00           H
+ATOM     23  HO4 GLC A   1      10.354  15.379  41.147  1.00 10.00           H
+ATOM     24  HO6 GLC A   1      10.467  17.457  36.468  1.00 10.00           H
+CONECT    1    2    7   11   13
+CONECT    2    1    3    8   14
+CONECT    3    2    4    9   15
+CONECT    4    3    5   10   16
+CONECT    5    4    6   11   17
+CONECT    6    5   12   18   19
+CONECT    7    1   20
+CONECT    8    2   21
+CONECT    9    3   22
+CONECT   10    4   23
+CONECT   11    1    5
+CONECT   12    6   24
+CONECT   13    1
+CONECT   14    2
+CONECT   15    3
+CONECT   16    4
+CONECT   17    5
+CONECT   18    6
+CONECT   19    6
+CONECT   20    7
+CONECT   21    8
+CONECT   22    9
+CONECT   23   10
+CONECT   24   12
+END   

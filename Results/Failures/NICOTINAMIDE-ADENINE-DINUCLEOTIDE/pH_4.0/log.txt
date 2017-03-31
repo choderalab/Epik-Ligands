@@ -1,0 +1,38 @@
+New run:
+PDB code: NAD; Molecule: NICOTINAMIDE-ADENINE-DINUCLEOTIDE_pH_4.0; pH 4.0
+Retrieving PDB structure from RCSB ligand expo: NICOTINAMIDE-ADENINE-DINUCLEOTIDE_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: NICOTINAMIDE-ADENINE-DINUCLEOTIDE_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 2
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 3
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 4
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 5
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+State 6
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+Run completed.
+Status: Failure
+Failed states: 1 2 3 4 5 6

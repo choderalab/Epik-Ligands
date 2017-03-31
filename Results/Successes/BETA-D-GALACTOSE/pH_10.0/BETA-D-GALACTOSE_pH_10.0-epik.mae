@@ -1,0 +1,572 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ GAL 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2 
+  1
+    0.0029 
+    0.0000 
+    0.0029 
+    0.0019 
+  0.0018789140805465
+  0
+  0
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[24] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 4.917000 90.579000 82.825000 1 2 "GAL " " C1 " 6 C1  <> <>
+  2 3 4.266000 91.826000 82.131000 1 2 "GAL " " C2 " 6 C2  <> <>
+  3 3 4.688000 91.932000 80.680000 1 2 "GAL " " C3 " 6 C3  <> <>
+  4 3 6.237000 91.798000 80.545000 1 2 "GAL " " C4 " 6 C4  <> <>
+  5 3 6.741000 90.512000 81.139000 1 2 "GAL " " C5 " 6 C5  <> <>
+  6 3 8.268000 90.598000 81.059000 1 2 "GAL " " C6 " 6 C6  <> <>
+  7 16 5.162000 90.127000 84.186000 1 70 "GAL " " O1 " 8 O1   -2.873    0.950 
+  8 16 2.834000 91.865000 82.221000 1 70 "GAL " " O2 " 8 O2   -1.942    0.950 
+  9 16 4.152000 93.123000 80.095000 1 70 "GAL " " O3 " 8 O3   -1.011    0.950 
+  10 16 6.919000 92.828000 81.225000 1 70 "GAL " " O4 " 8 O4   -1.255    0.950 
+  11 16 6.348000 90.446000 82.531000 1 70 "GAL " " O5 " 8 O5  <> <>
+  12 16 9.020000 89.410000 81.129000 1 70 "GAL " " O6 " 8 O6   -0.277    0.950 
+  13 41 4.033331 90.008279 82.503431 1 21 "GAL " " H1 " 1 H1  <> <>
+  14 41 4.561313 92.732503 82.679673 1 21 "GAL " " H2 " 1 H2  <> <>
+  15 41 4.201827 91.149680 80.078659 1 21 "GAL " " H3 " 1 H3  <> <>
+  16 41 6.510472 91.889911 79.483508 1 21 "GAL " " H4 " 1 H4  <> <>
+  17 41 6.312705 89.624137 80.650879 1 21 "GAL " " H5 " 1 H5  <> <>
+  18 41 8.559854 91.054825 80.101852 1 21 "GAL " " H61" 1 H61  <> <>
+  19 41 8.644581 91.213756 81.889079 1 21 "GAL " " H62" 1 H62  <> <>
+  20 42 4.326109 90.041030 84.895856 1 21 "GAL " " HO1" 1 HO1   13.098    0.590 
+  21 42 2.342658 91.799931 83.203013 1 21 "GAL " " HO2" 1 HO2   12.470    0.603 
+  22 42 3.069811 93.316177 80.134370 1 21 "GAL " " HO3" 1 HO3   13.691    0.730 
+  23 42 6.722865 93.879714 80.969208 1 21 "GAL " " HO4" 1 HO4   13.372    0.730 
+  24 42 10.117869 89.449939 81.073429 1 21 "GAL " " HO6" 1 HO6   14.460    0.530 
+  :::
+ } 
+ m_bond[24] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 7 1
+  3 1 11 1
+  4 1 13 1
+  5 2 3 1
+  6 2 8 1
+  7 2 14 1
+  8 3 4 1
+  9 3 9 1
+  10 3 15 1
+  11 4 5 1
+  12 4 10 1
+  13 4 16 1
+  14 5 6 1
+  15 5 11 1
+  16 5 17 1
+  17 6 12 1
+  18 6 18 1
+  19 6 19 1
+  20 7 20 1
+  21 8 21 1
+  22 9 22 1
+  23 10 23 1
+  24 12 24 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ GAL 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2 
+  1
+    3.3715 
+    3.3715 
+    0.0000 
+    3.5974 
+  6.96889283215854
+  -1
+  1
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[23] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 4.917000 90.579000 82.825000 1 2 "GAL " " C1 " 6 0 C1  <> <>
+  2 3 4.266000 91.826000 82.131000 1 2 "GAL " " C2 " 6 0 C2  <> <>
+  3 3 4.688000 91.932000 80.680000 1 2 "GAL " " C3 " 6 0 C3  <> <>
+  4 3 6.237000 91.798000 80.545000 1 2 "GAL " " C4 " 6 0 C4  <> <>
+  5 3 6.741000 90.512000 81.139000 1 2 "GAL " " C5 " 6 0 C5  <> <>
+  6 3 8.268000 90.598000 81.059000 1 2 "GAL " " C6 " 6 0 C6  <> <>
+  7 16 5.162000 90.127000 84.186000 1 70 "GAL " " O1 " 8 0 O1   -0.708    0.950 
+  8 18 2.834000 91.865000 82.221000 1 70 "GAL " " O2 " 8 -1 O2   12.470    2.220 
+  9 16 4.152000 93.123000 80.095000 1 70 "GAL " " O3 " 8 0 O3    1.230    0.730 
+  10 16 6.919000 92.828000 81.225000 1 70 "GAL " " O4 " 8 0 O4    0.012    0.950 
+  11 16 6.348000 90.446000 82.531000 1 70 "GAL " " O5 " 8 0 O5  <> <>
+  12 16 9.020000 89.410000 81.129000 1 70 "GAL " " O6 " 8 0 O6   -0.118    0.950 
+  13 41 4.033331 90.008279 82.503431 1 21 "GAL " " H1 " 1 0 H1  <> <>
+  14 41 4.561313 92.732503 82.679673 1 21 "GAL " " H2 " 1 0 H2  <> <>
+  15 41 4.201827 91.149680 80.078659 1 21 "GAL " " H3 " 1 0 H3  <> <>
+  16 41 6.510472 91.889911 79.483508 1 21 "GAL " " H4 " 1 0 H4  <> <>
+  17 41 6.312705 89.624137 80.650879 1 21 "GAL " " H5 " 1 0 H5  <> <>
+  18 41 8.559854 91.054825 80.101852 1 21 "GAL " " H61" 1 0 H61  <> <>
+  19 41 8.644581 91.213756 81.889079 1 21 "GAL " " H62" 1 0 H62  <> <>
+  20 42 4.326109 90.041030 84.895856 1 21 "GAL " " HO1" 1 0 HO1   14.986    0.590 
+  21 42 3.069811 93.316177 80.134370 1 21 "GAL " " HO3" 1 0 HO3   16.632    0.730 
+  22 42 6.722865 93.879714 80.969208 1 21 "GAL " " HO4" 1 0 HO4   15.035    0.730 
+  23 42 10.117869 89.449939 81.073429 1 21 "GAL " " HO6" 1 0 HO6   14.614    0.530 
+  :::
+ } 
+ m_bond[23] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 7 1
+  3 1 11 1
+  4 1 13 1
+  5 2 3 1
+  6 2 8 1
+  7 2 14 1
+  8 3 4 1
+  9 3 9 1
+  10 3 15 1
+  11 4 5 1
+  12 4 10 1
+  13 4 16 1
+  14 5 6 1
+  15 5 11 1
+  16 5 17 1
+  17 6 12 1
+  18 6 18 1
+  19 6 19 1
+  20 7 20 1
+  21 9 21 1
+  22 10 22 1
+  23 12 23 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ GAL 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2 
+  1
+    4.2272 
+    4.2271 
+    0.0000 
+    4.5121 
+  8.73921594169781
+  -1
+  1
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[23] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 4.917000 90.579000 82.825000 1 2 "GAL " " C1 " 6 0 C1  <> <>
+  2 3 4.266000 91.826000 82.131000 1 2 "GAL " " C2 " 6 0 C2  <> <>
+  3 3 4.688000 91.932000 80.680000 1 2 "GAL " " C3 " 6 0 C3  <> <>
+  4 3 6.237000 91.798000 80.545000 1 2 "GAL " " C4 " 6 0 C4  <> <>
+  5 3 6.741000 90.512000 81.139000 1 2 "GAL " " C5 " 6 0 C5  <> <>
+  6 3 8.268000 90.598000 81.059000 1 2 "GAL " " C6 " 6 0 C6  <> <>
+  7 18 5.162000 90.127000 84.186000 1 70 "GAL " " O1 " 8 -1 O1   13.098    0.590 
+  8 16 2.834000 91.865000 82.221000 1 70 "GAL " " O2 " 8 0 O2    1.101    2.220 
+  9 16 4.152000 93.123000 80.095000 1 70 "GAL " " O3 " 8 0 O3    0.256    0.950 
+  10 16 6.919000 92.828000 81.225000 1 70 "GAL " " O4 " 8 0 O4   -0.375    0.950 
+  11 16 6.348000 90.446000 82.531000 1 70 "GAL " " O5 " 8 0 O5   -1.982    0.900 
+  12 16 9.020000 89.410000 81.129000 1 70 "GAL " " O6 " 8 0 O6    0.111    0.950 
+  13 41 4.033331 90.008279 82.503431 1 21 "GAL " " H1 " 1 0 H1  <> <>
+  14 41 4.561313 92.732503 82.679673 1 21 "GAL " " H2 " 1 0 H2  <> <>
+  15 41 4.201827 91.149680 80.078659 1 21 "GAL " " H3 " 1 0 H3  <> <>
+  16 41 6.510472 91.889911 79.483508 1 21 "GAL " " H4 " 1 0 H4  <> <>
+  17 41 6.312705 89.624137 80.650879 1 21 "GAL " " H5 " 1 0 H5  <> <>
+  18 41 8.559854 91.054825 80.101852 1 21 "GAL " " H61" 1 0 H61  <> <>
+  19 41 8.644581 91.213756 81.889079 1 21 "GAL " " H62" 1 0 H62  <> <>
+  20 42 2.342658 91.799931 83.203013 1 21 "GAL " " HO2" 1 0 HO2   16.464    0.730 
+  21 42 3.069811 93.316177 80.134370 1 21 "GAL " " HO3" 1 0 HO3   15.354    0.730 
+  22 42 6.722865 93.879714 80.969208 1 21 "GAL " " HO4" 1 0 HO4   14.526    0.730 
+  23 42 10.117869 89.449939 81.073429 1 21 "GAL " " HO6" 1 0 HO6   14.836    0.530 
+  :::
+ } 
+ m_bond[23] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 7 1
+  3 1 11 1
+  4 1 13 1
+  5 2 3 1
+  6 2 8 1
+  7 2 14 1
+  8 3 4 1
+  9 3 9 1
+  10 3 15 1
+  11 4 5 1
+  12 4 10 1
+  13 4 16 1
+  14 5 6 1
+  15 5 11 1
+  16 5 17 1
+  17 6 12 1
+  18 6 18 1
+  19 6 19 1
+  20 8 20 1
+  21 9 21 1
+  22 10 22 1
+  23 12 23 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ GAL 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2 
+  1
+    4.6005 
+    4.6004 
+    0.0001 
+    4.9106 
+  9.51098700906672
+  -1
+  1
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[23] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 4.917000 90.579000 82.825000 1 2 "GAL " " C1 " 6 0 C1  <> <>
+  2 3 4.266000 91.826000 82.131000 1 2 "GAL " " C2 " 6 0 C2  <> <>
+  3 3 4.688000 91.932000 80.680000 1 2 "GAL " " C3 " 6 0 C3  <> <>
+  4 3 6.237000 91.798000 80.545000 1 2 "GAL " " C4 " 6 0 C4  <> <>
+  5 3 6.741000 90.512000 81.139000 1 2 "GAL " " C5 " 6 0 C5  <> <>
+  6 3 8.268000 90.598000 81.059000 1 2 "GAL " " C6 " 6 0 C6  <> <>
+  7 16 5.162000 90.127000 84.186000 1 70 "GAL " " O1 " 8 0 O1   -2.117    0.950 
+  8 16 2.834000 91.865000 82.221000 1 70 "GAL " " O2 " 8 0 O2   -0.675    0.950 
+  9 16 4.152000 93.123000 80.095000 1 70 "GAL " " O3 " 8 0 O3    1.243    0.730 
+  10 18 6.919000 92.828000 81.225000 1 70 "GAL " " O4 " 8 -1 O4   13.372    0.730 
+  11 16 6.348000 90.446000 82.531000 1 70 "GAL " " O5 " 8 0 O5  <> <>
+  12 16 9.020000 89.410000 81.129000 1 70 "GAL " " O6 " 8 0 O6    0.615    0.950 
+  13 41 4.033331 90.008279 82.503431 1 21 "GAL " " H1 " 1 0 H1  <> <>
+  14 41 4.561313 92.732503 82.679673 1 21 "GAL " " H2 " 1 0 H2  <> <>
+  15 41 4.201827 91.149680 80.078659 1 21 "GAL " " H3 " 1 0 H3  <> <>
+  16 41 6.510472 91.889911 79.483508 1 21 "GAL " " H4 " 1 0 H4  <> <>
+  17 41 6.312705 89.624137 80.650879 1 21 "GAL " " H5 " 1 0 H5  <> <>
+  18 41 8.559854 91.054825 80.101852 1 21 "GAL " " H61" 1 0 H61  <> <>
+  19 41 8.644581 91.213756 81.889079 1 21 "GAL " " H62" 1 0 H62  <> <>
+  20 42 4.326109 90.041030 84.895856 1 21 "GAL " " HO1" 1 0 HO1   13.934    0.590 
+  21 42 2.342658 91.799931 83.203013 1 21 "GAL " " HO2" 1 0 HO2   14.133    0.730 
+  22 42 3.069811 93.316177 80.134370 1 21 "GAL " " HO3" 1 0 HO3   16.650    0.730 
+  23 42 10.117869 89.449939 81.073429 1 21 "GAL " " HO6" 1 0 HO6   15.324    0.530 
+  :::
+ } 
+ m_bond[23] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 7 1
+  3 1 11 1
+  4 1 13 1
+  5 2 3 1
+  6 2 8 1
+  7 2 14 1
+  8 3 4 1
+  9 3 9 1
+  10 3 15 1
+  11 4 5 1
+  12 4 10 1
+  13 4 16 1
+  14 5 6 1
+  15 5 11 1
+  16 5 17 1
+  17 6 12 1
+  18 6 18 1
+  19 6 19 1
+  20 7 20 1
+  21 8 21 1
+  22 9 22 1
+  23 12 23 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ GAL 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2 
+  1
+    5.0360 
+    5.0360 
+    0.0000 
+    5.3756 
+  10.4115789400651
+  -1
+  1
+  "This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[23] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 4.917000 90.579000 82.825000 1 2 "GAL " " C1 " 6 0 C1  <> <>
+  2 3 4.266000 91.826000 82.131000 1 2 "GAL " " C2 " 6 0 C2  <> <>
+  3 3 4.688000 91.932000 80.680000 1 2 "GAL " " C3 " 6 0 C3  <> <>
+  4 3 6.237000 91.798000 80.545000 1 2 "GAL " " C4 " 6 0 C4  <> <>
+  5 3 6.741000 90.512000 81.139000 1 2 "GAL " " C5 " 6 0 C5  <> <>
+  6 3 8.268000 90.598000 81.059000 1 2 "GAL " " C6 " 6 0 C6  <> <>
+  7 16 5.162000 90.127000 84.186000 1 70 "GAL " " O1 " 8 0 O1   -1.637    0.950 
+  8 16 2.834000 91.865000 82.221000 1 70 "GAL " " O2 " 8 0 O2    0.285    0.950 
+  9 18 4.152000 93.123000 80.095000 1 70 "GAL " " O3 " 8 -1 O3   13.691    0.730 
+  10 16 6.919000 92.828000 81.225000 1 70 "GAL " " O4 " 8 0 O4    0.953    0.950 
+  11 16 6.348000 90.446000 82.531000 1 70 "GAL " " O5 " 8 0 O5  <> <>
+  12 16 9.020000 89.410000 81.129000 1 70 "GAL " " O6 " 8 0 O6    0.186    0.950 
+  13 41 4.033331 90.008279 82.503431 1 21 "GAL " " H1 " 1 0 H1  <> <>
+  14 41 4.561313 92.732503 82.679673 1 21 "GAL " " H2 " 1 0 H2  <> <>
+  15 41 4.201827 91.149680 80.078659 1 21 "GAL " " H3 " 1 0 H3  <> <>
+  16 41 6.510472 91.889911 79.483508 1 21 "GAL " " H4 " 1 0 H4  <> <>
+  17 41 6.312705 89.624137 80.650879 1 21 "GAL " " H5 " 1 0 H5  <> <>
+  18 41 8.559854 91.054825 80.101852 1 21 "GAL " " H61" 1 0 H61  <> <>
+  19 41 8.644581 91.213756 81.889079 1 21 "GAL " " H62" 1 0 H62  <> <>
+  20 42 4.326109 90.041030 84.895856 1 21 "GAL " " HO1" 1 0 HO1   14.290    0.590 
+  21 42 2.342658 91.799931 83.203013 1 21 "GAL " " HO2" 1 0 HO2   15.393    0.730 
+  22 42 6.722865 93.879714 80.969208 1 21 "GAL " " HO4" 1 0 HO4   16.269    0.730 
+  23 42 10.117869 89.449939 81.073429 1 21 "GAL " " HO6" 1 0 HO6   14.908    0.530 
+  :::
+ } 
+ m_bond[23] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 7 1
+  3 1 11 1
+  4 1 13 1
+  5 2 3 1
+  6 2 8 1
+  7 2 14 1
+  8 3 4 1
+  9 3 9 1
+  10 3 15 1
+  11 4 5 1
+  12 4 10 1
+  13 4 16 1
+  14 5 6 1
+  15 5 11 1
+  16 5 17 1
+  17 6 12 1
+  18 6 18 1
+  19 6 19 1
+  20 7 20 1
+  21 8 21 1
+  22 10 22 1
+  23 12 23 1
+  :::
+ } 
+} 
+

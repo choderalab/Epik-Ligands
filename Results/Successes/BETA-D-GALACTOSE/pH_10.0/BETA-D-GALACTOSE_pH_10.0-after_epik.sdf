@@ -1,0 +1,416 @@
+GAL
+                    3D
+ Structure written by MMmdl.
+ 24 24  0  0  1  0            999 V2000
+    4.9170   90.5790   82.8250 C   0  0  2  0  0  0
+    4.2660   91.8260   82.1310 C   0  0  1  0  0  0
+    4.6880   91.9320   80.6800 C   0  0  2  0  0  0
+    6.2370   91.7980   80.5450 C   0  0  2  0  0  0
+    6.7410   90.5120   81.1390 C   0  0  1  0  0  0
+    8.2680   90.5980   81.0590 C   0  0  0  0  0  0
+    5.1620   90.1270   84.1860 O   0  0  0  0  0  0
+    2.8340   91.8650   82.2210 O   0  0  0  0  0  0
+    4.1520   93.1230   80.0950 O   0  0  0  0  0  0
+    6.9190   92.8280   81.2250 O   0  0  0  0  0  0
+    6.3480   90.4460   82.5310 O   0  0  0  0  0  0
+    9.0200   89.4100   81.1290 O   0  0  0  0  0  0
+    4.0333   90.0083   82.5034 H   0  0  0  0  0  0
+    4.5613   92.7325   82.6797 H   0  0  0  0  0  0
+    4.2018   91.1497   80.0787 H   0  0  0  0  0  0
+    6.5105   91.8899   79.4835 H   0  0  0  0  0  0
+    6.3127   89.6241   80.6509 H   0  0  0  0  0  0
+    8.5599   91.0548   80.1019 H   0  0  0  0  0  0
+    8.6446   91.2138   81.8891 H   0  0  0  0  0  0
+    4.3261   90.0410   84.8959 H   0  0  0  0  0  0
+    2.3427   91.7999   83.2030 H   0  0  0  0  0  0
+    3.0698   93.3162   80.1344 H   0  0  0  0  0  0
+    6.7229   93.8797   80.9692 H   0  0  0  0  0  0
+   10.1179   89.4499   81.0734 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  7  1  0  0  0
+  1 11  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  2 14  1  0  0  0
+  3  4  1  0  0  0
+  3  9  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  4 10  1  0  0  0
+  4 16  1  0  0  0
+  5  6  1  0  0  0
+  5 11  1  0  0  0
+  5 17  1  0  0  0
+  6 12  1  0  0  0
+  6 18  1  0  0  0
+  6 19  1  0  0  0
+  7 20  1  0  0  0
+  8 21  1  0  0  0
+  9 22  1  0  0  0
+ 10 23  1  0  0  0
+ 12 24  1  0  0  0
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0029
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0029
+
+> <r_epik_State_Penalty>
+  0.0019
+
+> <r_epik_Charging_Adjusted_Penalty>
+0.0018789140805465
+
+> <i_epik_Tot_Q>
+0
+
+> <i_epik_Tot_abs_Q>
+0
+
+> <s_epik_Chemistry_Notes>
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$
+GAL
+                    3D
+ Structure written by MMmdl.
+ 23 23  0  0  1  0            999 V2000
+    4.9170   90.5790   82.8250 C   0  0  2  0  0  0
+    4.2660   91.8260   82.1310 C   0  0  1  0  0  0
+    4.6880   91.9320   80.6800 C   0  0  2  0  0  0
+    6.2370   91.7980   80.5450 C   0  0  2  0  0  0
+    6.7410   90.5120   81.1390 C   0  0  1  0  0  0
+    8.2680   90.5980   81.0590 C   0  0  0  0  0  0
+    5.1620   90.1270   84.1860 O   0  0  0  0  0  0
+    2.8340   91.8650   82.2210 O   0  5  0  0  0  0
+    4.1520   93.1230   80.0950 O   0  0  0  0  0  0
+    6.9190   92.8280   81.2250 O   0  0  0  0  0  0
+    6.3480   90.4460   82.5310 O   0  0  0  0  0  0
+    9.0200   89.4100   81.1290 O   0  0  0  0  0  0
+    4.0333   90.0083   82.5034 H   0  0  0  0  0  0
+    4.5613   92.7325   82.6797 H   0  0  0  0  0  0
+    4.2018   91.1497   80.0787 H   0  0  0  0  0  0
+    6.5105   91.8899   79.4835 H   0  0  0  0  0  0
+    6.3127   89.6241   80.6509 H   0  0  0  0  0  0
+    8.5599   91.0548   80.1019 H   0  0  0  0  0  0
+    8.6446   91.2138   81.8891 H   0  0  0  0  0  0
+    4.3261   90.0410   84.8959 H   0  0  0  0  0  0
+    3.0698   93.3162   80.1344 H   0  0  0  0  0  0
+    6.7229   93.8797   80.9692 H   0  0  0  0  0  0
+   10.1179   89.4499   81.0734 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  7  1  0  0  0
+  1 11  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  2 14  1  0  0  0
+  3  4  1  0  0  0
+  3  9  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  4 10  1  0  0  0
+  4 16  1  0  0  0
+  5  6  1  0  0  0
+  5 11  1  0  0  0
+  5 17  1  0  0  0
+  6 12  1  0  0  0
+  6 18  1  0  0  0
+  6 19  1  0  0  0
+  7 20  1  0  0  0
+  9 21  1  0  0  0
+ 10 22  1  0  0  0
+ 12 23  1  0  0  0
+M  CHG  1   8  -1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  3.3715
+
+> <r_epik_Ionization_Penalty_Charging>
+  3.3715
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  3.5974
+
+> <r_epik_Charging_Adjusted_Penalty>
+6.96889283215854
+
+> <i_epik_Tot_Q>
+-1
+
+> <i_epik_Tot_abs_Q>
+1
+
+> <s_epik_Chemistry_Notes>
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$
+GAL
+                    3D
+ Structure written by MMmdl.
+ 23 23  0  0  1  0            999 V2000
+    4.9170   90.5790   82.8250 C   0  0  2  0  0  0
+    4.2660   91.8260   82.1310 C   0  0  1  0  0  0
+    4.6880   91.9320   80.6800 C   0  0  2  0  0  0
+    6.2370   91.7980   80.5450 C   0  0  2  0  0  0
+    6.7410   90.5120   81.1390 C   0  0  1  0  0  0
+    8.2680   90.5980   81.0590 C   0  0  0  0  0  0
+    5.1620   90.1270   84.1860 O   0  5  0  0  0  0
+    2.8340   91.8650   82.2210 O   0  0  0  0  0  0
+    4.1520   93.1230   80.0950 O   0  0  0  0  0  0
+    6.9190   92.8280   81.2250 O   0  0  0  0  0  0
+    6.3480   90.4460   82.5310 O   0  0  0  0  0  0
+    9.0200   89.4100   81.1290 O   0  0  0  0  0  0
+    4.0333   90.0083   82.5034 H   0  0  0  0  0  0
+    4.5613   92.7325   82.6797 H   0  0  0  0  0  0
+    4.2018   91.1497   80.0787 H   0  0  0  0  0  0
+    6.5105   91.8899   79.4835 H   0  0  0  0  0  0
+    6.3127   89.6241   80.6509 H   0  0  0  0  0  0
+    8.5599   91.0548   80.1019 H   0  0  0  0  0  0
+    8.6446   91.2138   81.8891 H   0  0  0  0  0  0
+    2.3427   91.7999   83.2030 H   0  0  0  0  0  0
+    3.0698   93.3162   80.1344 H   0  0  0  0  0  0
+    6.7229   93.8797   80.9692 H   0  0  0  0  0  0
+   10.1179   89.4499   81.0734 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  7  1  0  0  0
+  1 11  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  2 14  1  0  0  0
+  3  4  1  0  0  0
+  3  9  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  4 10  1  0  0  0
+  4 16  1  0  0  0
+  5  6  1  0  0  0
+  5 11  1  0  0  0
+  5 17  1  0  0  0
+  6 12  1  0  0  0
+  6 18  1  0  0  0
+  6 19  1  0  0  0
+  8 20  1  0  0  0
+  9 21  1  0  0  0
+ 10 22  1  0  0  0
+ 12 23  1  0  0  0
+M  CHG  1   7  -1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  4.2272
+
+> <r_epik_Ionization_Penalty_Charging>
+  4.2271
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  4.5121
+
+> <r_epik_Charging_Adjusted_Penalty>
+8.73921594169781
+
+> <i_epik_Tot_Q>
+-1
+
+> <i_epik_Tot_abs_Q>
+1
+
+> <s_epik_Chemistry_Notes>
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$
+GAL
+                    3D
+ Structure written by MMmdl.
+ 23 23  0  0  1  0            999 V2000
+    4.9170   90.5790   82.8250 C   0  0  2  0  0  0
+    4.2660   91.8260   82.1310 C   0  0  1  0  0  0
+    4.6880   91.9320   80.6800 C   0  0  2  0  0  0
+    6.2370   91.7980   80.5450 C   0  0  2  0  0  0
+    6.7410   90.5120   81.1390 C   0  0  1  0  0  0
+    8.2680   90.5980   81.0590 C   0  0  0  0  0  0
+    5.1620   90.1270   84.1860 O   0  0  0  0  0  0
+    2.8340   91.8650   82.2210 O   0  0  0  0  0  0
+    4.1520   93.1230   80.0950 O   0  0  0  0  0  0
+    6.9190   92.8280   81.2250 O   0  5  0  0  0  0
+    6.3480   90.4460   82.5310 O   0  0  0  0  0  0
+    9.0200   89.4100   81.1290 O   0  0  0  0  0  0
+    4.0333   90.0083   82.5034 H   0  0  0  0  0  0
+    4.5613   92.7325   82.6797 H   0  0  0  0  0  0
+    4.2018   91.1497   80.0787 H   0  0  0  0  0  0
+    6.5105   91.8899   79.4835 H   0  0  0  0  0  0
+    6.3127   89.6241   80.6509 H   0  0  0  0  0  0
+    8.5599   91.0548   80.1019 H   0  0  0  0  0  0
+    8.6446   91.2138   81.8891 H   0  0  0  0  0  0
+    4.3261   90.0410   84.8959 H   0  0  0  0  0  0
+    2.3427   91.7999   83.2030 H   0  0  0  0  0  0
+    3.0698   93.3162   80.1344 H   0  0  0  0  0  0
+   10.1179   89.4499   81.0734 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  7  1  0  0  0
+  1 11  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  2 14  1  0  0  0
+  3  4  1  0  0  0
+  3  9  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  4 10  1  0  0  0
+  4 16  1  0  0  0
+  5  6  1  0  0  0
+  5 11  1  0  0  0
+  5 17  1  0  0  0
+  6 12  1  0  0  0
+  6 18  1  0  0  0
+  6 19  1  0  0  0
+  7 20  1  0  0  0
+  8 21  1  0  0  0
+  9 22  1  0  0  0
+ 12 23  1  0  0  0
+M  CHG  1  10  -1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  4.6005
+
+> <r_epik_Ionization_Penalty_Charging>
+  4.6004
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0001
+
+> <r_epik_State_Penalty>
+  4.9106
+
+> <r_epik_Charging_Adjusted_Penalty>
+9.51098700906672
+
+> <i_epik_Tot_Q>
+-1
+
+> <i_epik_Tot_abs_Q>
+1
+
+> <s_epik_Chemistry_Notes>
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$
+GAL
+                    3D
+ Structure written by MMmdl.
+ 23 23  0  0  1  0            999 V2000
+    4.9170   90.5790   82.8250 C   0  0  2  0  0  0
+    4.2660   91.8260   82.1310 C   0  0  1  0  0  0
+    4.6880   91.9320   80.6800 C   0  0  2  0  0  0
+    6.2370   91.7980   80.5450 C   0  0  2  0  0  0
+    6.7410   90.5120   81.1390 C   0  0  1  0  0  0
+    8.2680   90.5980   81.0590 C   0  0  0  0  0  0
+    5.1620   90.1270   84.1860 O   0  0  0  0  0  0
+    2.8340   91.8650   82.2210 O   0  0  0  0  0  0
+    4.1520   93.1230   80.0950 O   0  5  0  0  0  0
+    6.9190   92.8280   81.2250 O   0  0  0  0  0  0
+    6.3480   90.4460   82.5310 O   0  0  0  0  0  0
+    9.0200   89.4100   81.1290 O   0  0  0  0  0  0
+    4.0333   90.0083   82.5034 H   0  0  0  0  0  0
+    4.5613   92.7325   82.6797 H   0  0  0  0  0  0
+    4.2018   91.1497   80.0787 H   0  0  0  0  0  0
+    6.5105   91.8899   79.4835 H   0  0  0  0  0  0
+    6.3127   89.6241   80.6509 H   0  0  0  0  0  0
+    8.5599   91.0548   80.1019 H   0  0  0  0  0  0
+    8.6446   91.2138   81.8891 H   0  0  0  0  0  0
+    4.3261   90.0410   84.8959 H   0  0  0  0  0  0
+    2.3427   91.7999   83.2030 H   0  0  0  0  0  0
+    6.7229   93.8797   80.9692 H   0  0  0  0  0  0
+   10.1179   89.4499   81.0734 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  7  1  0  0  0
+  1 11  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  2 14  1  0  0  0
+  3  4  1  0  0  0
+  3  9  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  4 10  1  0  0  0
+  4 16  1  0  0  0
+  5  6  1  0  0  0
+  5 11  1  0  0  0
+  5 17  1  0  0  0
+  6 12  1  0  0  0
+  6 18  1  0  0  0
+  6 19  1  0  0  0
+  7 20  1  0  0  0
+  8 21  1  0  0  0
+ 10 22  1  0  0  0
+ 12 23  1  0  0  0
+M  CHG  1   9  -1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/BETA-D-GALACTOSE/pH_10.0/BETA-D-GALACTOSE_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  5.0360
+
+> <r_epik_Ionization_Penalty_Charging>
+  5.0360
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  5.3756
+
+> <r_epik_Charging_Adjusted_Penalty>
+10.4115789400651
+
+> <i_epik_Tot_Q>
+-1
+
+> <i_epik_Tot_abs_Q>
+1
+
+> <s_epik_Chemistry_Notes>
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$

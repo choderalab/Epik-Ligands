@@ -1,0 +1,15 @@
+ATOM      1  C   ACE A   1       0.772 -10.072   6.578  1.00 10.00           C
+ATOM      2  O   ACE A   1       1.973 -10.223   6.862  1.00 10.00           O
+ATOM      3  CH3 ACE A   1      -0.322 -10.677   7.405  1.00 10.00           C
+ATOM      4  H   ACE A   1       0.685  -9.453   5.669  1.00 10.00           H
+ATOM      5  H1  ACE A   1      -1.191 -10.444   7.018  1.00 10.00           H
+ATOM      6  H2  ACE A   1      -0.269 -10.331   8.320  1.00 10.00           H
+ATOM      7  H3  ACE A   1      -0.221 -11.652   7.418  1.00 10.00           H
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1    5    6    7
+CONECT    4    1
+CONECT    5    3
+CONECT    6    3
+CONECT    7    3
+END   

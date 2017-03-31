@@ -1,0 +1,138 @@
+New run:
+PDB code: ADP; Molecule: ADENOSINE-5'-DIPHOSPHATE_pH_4.0; pH 4.0
+Retrieving PDB structure from RCSB ligand expo: ADENOSINE-5'-DIPHOSPHATE_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: ADENOSINE-5'-DIPHOSPHATE_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+
+Charging state completed.
+State 2
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 3
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 4
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 5
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 6
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 7
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 8
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 9
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 10
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 11
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 12
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 13
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+Writing Epik data for state 1
+Writing Epik data for state 2
+Writing Epik data for state 3
+Writing Epik data for state 4
+Writing Epik data for state 5
+Writing Epik data for state 6
+Writing Epik data for state 7
+Writing Epik data for state 8
+Writing Epik data for state 9
+Writing Epik data for state 10
+Writing Epik data for state 11
+Writing Epik data for state 12
+Writing Epik data for state 13
+Run completed.
+Status: Success

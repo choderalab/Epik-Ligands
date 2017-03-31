@@ -1,0 +1,83 @@
+FMT
+                    3D
+ Structure written by MMmdl.
+  4  3  0  0  1  0            999 V2000
+    0.7670   33.9240   -2.2790 C   0  0  0  0  0  0
+    2.2180   33.1820   -2.0700 O   0  0  0  0  0  0
+    0.2680   34.8030   -1.1950 O   0  5  0  0  0  0
+    0.1946   33.7619   -3.2042 H   0  0  0  0  0  0
+  1  2  2  0  0  0
+  1  3  1  0  0  0
+  1  4  1  0  0  0
+M  CHG  1   3  -1
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/FORMIC ACID/pH_7.0/FORMIC ACID_pH_7.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0003
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0003
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  0.0002
+
+> <r_epik_Charging_Adjusted_Penalty>
+0.000485184074619272
+
+> <i_epik_Tot_Q>
+-1
+
+> <i_epik_Tot_abs_Q>
+1
+
+$$$$
+FMT
+                    3D
+ Structure written by MMmdl.
+  5  4  0  0  1  0            999 V2000
+    0.7670   33.9240   -2.2790 C   0  0  0  0  0  0
+    2.2180   33.1820   -2.0700 O   0  0  0  0  0  0
+    0.2680   34.8030   -1.1950 O   0  0  0  0  0  0
+    0.1946   33.7619   -3.2042 H   0  0  0  0  0  0
+   -0.6997   35.3146   -1.3033 H   0  0  0  0  0  0
+  1  2  2  0  0  0
+  1  3  1  0  0  0
+  1  4  1  0  0  0
+  3  5  1  0  0  0
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/FORMIC ACID/pH_7.0/FORMIC ACID_pH_7.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  4.4903
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  4.4903
+
+> <r_epik_State_Penalty>
+  4.7914
+
+> <r_epik_Charging_Adjusted_Penalty>
+4.79138994686246
+
+> <i_epik_Tot_Q>
+0
+
+> <i_epik_Tot_abs_Q>
+0
+
+$$$$

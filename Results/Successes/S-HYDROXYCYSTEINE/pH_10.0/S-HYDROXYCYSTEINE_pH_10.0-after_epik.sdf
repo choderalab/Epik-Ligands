@@ -1,0 +1,124 @@
+CSO
+                    3D
+ Structure written by MMmdl.
+ 14 13  0  0  1  0            999 V2000
+   23.0260    5.5960   17.6840 N   0  0  0  0  0  0
+   23.8660    4.5550   18.2520 C   0  0  1  0  0  0
+   23.4910    3.1810   17.6770 C   0  0  0  0  0  0
+   22.1030    2.4410   18.5580 S   0  0  0  0  0  0
+   25.3470    4.7800   17.9930 C   0  0  0  0  0  0
+   26.1810    4.4560   18.8370 O   0  0  0  0  0  0
+   25.6600    5.3210   16.8140 O   0  6  0  0  0  0
+   22.5640    2.0730   20.2510 O   0  0  0  0  0  0
+   23.1478    5.6097   16.5909 H   0  0  0  0  0  0
+   21.9737    5.3947   17.9332 H   0  0  0  0  0  0
+   23.6615    4.6380   19.3296 H   0  0  0  0  0  0
+   23.2091    3.2907   16.6194 H   0  0  0  0  0  0
+   24.3525    2.5019   17.7583 H   0  0  0  0  0  0
+   21.8323    1.6156   20.9332 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  9  1  0  0  0
+  1 10  1  0  0  0
+  2  3  1  0  0  0
+  2  5  1  0  0  0
+  2 11  1  0  0  0
+  3  4  1  0  0  0
+  3 12  1  0  0  0
+  3 13  1  0  0  0
+  4  8  1  0  0  0
+  5  6  2  0  0  0
+  5  7  1  0  0  0
+  8 14  1  0  0  0
+M  CHG  1   7  -2
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/S-HYDROXYCYSTEINE/pH_10.0/S-HYDROXYCYSTEINE_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0002
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0002
+
+> <r_epik_State_Penalty>
+  0.0001
+
+> <r_epik_Charging_Adjusted_Penalty>
+8.89373327641128e-05
+
+> <i_epik_Tot_Q>
+-2
+
+> <i_epik_Tot_abs_Q>
+2
+
+$$$$
+CSO
+                    3D
+ Structure written by MMmdl.
+ 15 14  0  0  1  0            999 V2000
+   23.0260    5.5960   17.6840 N   0  3  0  0  0  0
+   23.8660    4.5550   18.2520 C   0  0  1  0  0  0
+   23.4910    3.1810   17.6770 C   0  0  0  0  0  0
+   22.1030    2.4410   18.5580 S   0  0  0  0  0  0
+   25.3470    4.7800   17.9930 C   0  0  0  0  0  0
+   26.1810    4.4560   18.8370 O   0  0  0  0  0  0
+   25.6600    5.3210   16.8140 O   0  6  0  0  0  0
+   22.5640    2.0730   20.2510 O   0  0  0  0  0  0
+   21.9709    5.3768   17.9046 H   0  0  0  0  0  0
+   23.1730    5.6320   16.5945 H   0  0  0  0  0  0
+   23.6615    4.6380   19.3296 H   0  0  0  0  0  0
+   23.2091    3.2907   16.6194 H   0  0  0  0  0  0
+   24.3525    2.5019   17.7583 H   0  0  0  0  0  0
+   21.8323    1.6156   20.9332 H   0  0  0  0  0  0
+   23.2983    6.5671   18.1231 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  9  1  0  0  0
+  1 10  1  0  0  0
+  1 15  1  0  0  0
+  2  3  1  0  0  0
+  2  5  1  0  0  0
+  2 11  1  0  0  0
+  3  4  1  0  0  0
+  3 12  1  0  0  0
+  3 13  1  0  0  0
+  4  8  1  0  0  0
+  5  6  2  0  0  0
+  5  7  1  0  0  0
+  8 14  1  0  0  0
+M  CHG  2   1   1   7  -2
+M  END
+> <s_m_source_file>
+/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/S-HYDROXYCYSTEINE/pH_10.0/S-HYDROXYCYSTEINE_pH_10.0-before_epik.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  4.8885
+
+> <r_epik_Ionization_Penalty_Charging>
+  4.8885
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  5.2164
+
+> <r_epik_Charging_Adjusted_Penalty>
+10.1049081404686
+
+> <i_epik_Tot_Q>
+-1
+
+> <i_epik_Tot_abs_Q>
+3
+
+$$$$

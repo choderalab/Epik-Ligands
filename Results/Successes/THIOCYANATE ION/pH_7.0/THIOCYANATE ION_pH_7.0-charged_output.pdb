@@ -1,0 +1,7 @@
+COMPND    thiocyanic acid
+ATOM      0 S1   SCN     1     -27.777  46.968  47.034  1.00 20.00           S
+ATOM      0 C1   SCN     1     -27.569  47.812  48.314  1.00 20.00           C
+ATOM      0 N1   SCN     1     -27.403  48.473  49.315  1.00 20.00           N
+ATOM      0 H1   SCN     1       0.000   0.000   0.000  1.00 20.00           H
+TER       1      SCN     1 
+END

@@ -1,0 +1,52 @@
+COMMAND:
+ /cbio/jclab/share/schrodinger/schrodinger2016-4/epik-v3.8/bin/Linux-x86_64/epik_app -imae /scratch/8332595.hal-sched1.local/tmpnr66uxqv/S-HYDROXYCYSTEINE_pH_7.4-before_epik.mae -omae /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/S-HYDROXYCYSTEINE/pH_7.4/S-HYDROXYCYSTEINE_pH_7.4-epik.mae -ms 50 -ph 7.4 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: /cbio/jclab/share/schrodinger/schrodinger2016-4
+
+Running Epik version     3.8015
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        /scratch/8332595.hal-sched1.local/tmpnr66uxqv/S-HYDROXYCYSTEINE_pH_7.4-before_epik.mae
+Output file name:                       /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/S-HYDROXYCYSTEINE/pH_7.4/S-HYDROXYCYSTEINE_pH_7.4-epik.mae
+Maximum number of states set to: 50
+Structure adjustment calculation requested.
+  Target pH set to 7.400
+Minimum probability set to 4.539993e-05
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 7.400000e+00 and minimum probability 4.539993e-05
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: CSO
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                             1   Conj_Base  6.42
+ pKa penalty:                                 0.06 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.06 kcal/mol
+ Overall Penalty (tautomerization included):  0.07 kcal/mol
+ Total Charge: -2
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                             9   Conj_Acid  6.42
+                                            10   Conj_Acid  6.42
+                                            15   Conj_Acid  6.42
+ pKa penalty:                                 1.40 kcal/mol
+     Charging penalty:                        1.40 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  1.28 kcal/mol
+ Total Charge: -1
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            14   Conj_Acid  3.73
+                                             1   Conj_Base  5.50
+ pKa penalty:                                 5.01 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  5.01 kcal/mol
+ Overall Penalty (tautomerization included):  5.86 kcal/mol
+ Total Charge: -1
+---------------------------

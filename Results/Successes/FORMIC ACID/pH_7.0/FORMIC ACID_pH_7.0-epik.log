@@ -1,0 +1,41 @@
+COMMAND:
+ /cbio/jclab/share/schrodinger/schrodinger2016-4/epik-v3.8/bin/Linux-x86_64/epik_app -imae /scratch/8332584.hal-sched1.local/tmp7r769col/FORMIC ACID_pH_7.0-before_epik.mae -omae /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/FORMIC ACID/pH_7.0/FORMIC ACID_pH_7.0-epik.mae -ms 50 -ph 7.0 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: /cbio/jclab/share/schrodinger/schrodinger2016-4
+
+Running Epik version     3.8015
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        /scratch/8332584.hal-sched1.local/tmp7r769col/FORMIC ACID_pH_7.0-before_epik.mae
+Output file name:                       /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/FORMIC ACID/pH_7.0/FORMIC ACID_pH_7.0-epik.mae
+Maximum number of states set to: 50
+Structure adjustment calculation requested.
+  Target pH set to 7.000
+Minimum probability set to 4.539993e-05
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 7.000000e+00 and minimum probability 4.539993e-05
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: FMT
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                             3   Conj_Base  3.71
+ pKa penalty:                                 0.00 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  0.00 kcal/mol
+ Total Charge: -1
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                             5   Conj_Acid  3.71
+ pKa penalty:                                 4.49 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  4.49 kcal/mol
+ Overall Penalty (tautomerization included):  4.79 kcal/mol
+ Total Charge: 0
+---------------------------

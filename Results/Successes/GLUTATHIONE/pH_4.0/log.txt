@@ -1,0 +1,45 @@
+New run:
+PDB code: GSH; Molecule: GLUTATHIONE_pH_4.0; pH 4.0
+Retrieving PDB structure from RCSB ligand expo: GLUTATHIONE_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: GLUTATHIONE_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+
+Charging state completed.
+State 2
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-azaniumyl-5-[[2-(carboxymethylamino)-2-oxo-1-(sulfanylmethyl)ethyl]amino]-5-oxo-pentanoate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+
+Charging state completed.
+State 3
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-azaniumyl-5-[[2-(carboxymethylamino)-2-oxo-1-(sulfanylmethyl)ethyl]amino]-5-oxo-pentanoate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-[[2-[(4-azaniumyl-4-carboxy-butanoyl)amino]-3-sulfanyl-propanoyl]amino]acetate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+
+Charging state completed.
+State 4
+Charging stage output:
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-azaniumyl-5-[[2-(carboxymethylamino)-2-oxo-1-(sulfanylmethyl)ethyl]amino]-5-oxo-pentanoate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-[[2-[(4-azaniumyl-4-carboxy-butanoyl)amino]-3-sulfanyl-propanoyl]amino]acetate
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol [1-carboxy-4-[[2-(carboxymethylamino)-2-oxo-1-(sulfanylmethyl)ethyl]amino]-4-oxo-butyl]ammonium
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+
+Charging state completed.
+Writing Epik data for state 1
+Writing Epik data for state 2
+Writing Epik data for state 3
+Writing Epik data for state 4
+Run completed.
+Status: Success

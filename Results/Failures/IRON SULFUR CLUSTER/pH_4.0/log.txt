@@ -1,0 +1,18 @@
+New run:
+PDB code: SF4; Molecule: IRON SULFUR CLUSTER_pH_4.0; pH 4.0
+Retrieving PDB structure from RCSB ligand expo: IRON SULFUR CLUSTER_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: IRON SULFUR CLUSTER_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+State failed charging.
+omega returned error code 0
+Could not store result, most likely failed during Omega step!
+Run completed.
+Status: Failure
+Failed states: 1

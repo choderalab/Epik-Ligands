@@ -1,0 +1,203 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ DTT 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_7.0/2,3-DIHYDROXY-1,4-DITHIOBUTANE_pH_7.0-before_epik.mol2 
+  1
+    0.0054 
+    0.0000 
+    0.0054 
+    0.0039 
+  0.00393588599805607
+  0
+  0
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[18] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 49 3.613000 21.875000 25.371000 1 13 "DTT " " S1 " 16 S1  <> <>
+  2 3 2.114000 21.652000 24.350000 1 2 "DTT " " C1 " 6 C1  <> <>
+  3 3 1.317000 22.899000 24.012000 1 2 "DTT " " C2 " 6 C2  <> <>
+  4 16 0.570000 23.184000 25.182000 1 70 "DTT " " O2 " 8 O2   -0.435    0.950 
+  5 3 0.313000 22.713000 22.814000 1 2 "DTT " " C3 " 6 C3  <> <>
+  6 16 -0.922000 23.332000 23.201000 1 70 "DTT " " O3 " 8 O3   -0.435    0.950 
+  7 3 0.740000 23.463000 21.538000 1 2 "DTT " " C4 " 6 C4  <> <>
+  8 49 2.395000 23.126000 20.757000 1 13 "DTT " " S4 " 16 S4  <> <>
+  9 41 4.226663 21.004056 25.644630 1 21 "DTT " " HS1" 1 HS1    9.039    1.474 
+  10 41 2.391966 21.208276 23.382610 1 21 "DTT " " H11" 1 H11  <> <>
+  11 41 1.411381 20.984978 24.870967 1 21 "DTT " " H12" 1 H12  <> <>
+  12 41 2.005354 23.727334 23.788321 1 21 "DTT " " H2 " 1 H2  <> <>
+  13 42 1.087678 23.349463 26.138364 1 21 "DTT " " HO2" 1 HO2   13.752    0.730 
+  14 41 0.178037 21.642247 22.601227 1 21 "DTT " " H3 " 1 H3  <> <>
+  15 42 -1.454787 22.983005 24.097850 1 21 "DTT " " HO3" 1 HO3   13.752    0.730 
+  16 41 0.022248 23.252499 20.731451 1 21 "DTT " " H41" 1 H41  <> <>
+  17 41 0.760232 24.544518 21.737773 1 21 "DTT " " H42" 1 H42  <> <>
+  18 41 2.693248 23.665340 19.845868 1 21 "DTT " " HS2" 1 HS2    9.039    1.474 
+  :::
+ } 
+ m_bond[17] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 9 1
+  3 2 3 1
+  4 2 10 1
+  5 2 11 1
+  6 3 4 1
+  7 3 5 1
+  8 3 12 1
+  9 4 13 1
+  10 5 6 1
+  11 5 7 1
+  12 5 14 1
+  13 6 15 1
+  14 7 8 1
+  15 7 16 1
+  16 7 17 1
+  17 8 18 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_m_ct_format
+ :::
+ DTT 
+  /cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/2,3-DIHYDROXY-1,4-DITHIOBUTANE/pH_7.0/2,3-DIHYDROXY-1,4-DITHIOBUTANE_pH_7.0-before_epik.mol2 
+  1
+    2.7886 
+    2.7876 
+    0.0010 
+    2.9728 
+  5.76042460466666
+  -1
+  1
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[17] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 51 3.613000 21.875000 25.371000 1 13 "DTT " " S1 " 16 -1 S1    9.039    2.220 
+  2 3 2.114000 21.652000 24.350000 1 2 "DTT " " C1 " 6 0 C1  <> <>
+  3 3 1.317000 22.899000 24.012000 1 2 "DTT " " C2 " 6 0 C2  <> <>
+  4 16 0.570000 23.184000 25.182000 1 70 "DTT " " O2 " 8 0 O2    1.043    0.860 
+  5 3 0.313000 22.713000 22.814000 1 2 "DTT " " C3 " 6 0 C3  <> <>
+  6 16 -0.922000 23.332000 23.201000 1 70 "DTT " " O3 " 8 0 O3    0.039    0.950 
+  7 3 0.740000 23.463000 21.538000 1 2 "DTT " " C4 " 6 0 C4  <> <>
+  8 49 2.395000 23.126000 20.757000 1 13 "DTT " " S4 " 16 0 S4  <> <>
+  9 41 2.391966 21.208276 23.382610 1 21 "DTT " " H11" 1 0 H11  <> <>
+  10 41 1.411381 20.984978 24.870967 1 21 "DTT " " H12" 1 0 H12  <> <>
+  11 41 2.005354 23.727334 23.788321 1 21 "DTT " " H2 " 1 0 H2  <> <>
+  12 42 1.087678 23.349463 26.138364 1 21 "DTT " " HO2" 1 0 HO2   16.388    0.730 
+  13 41 0.178037 21.642247 22.601227 1 21 "DTT " " H3 " 1 0 H3  <> <>
+  14 42 -1.454787 22.983005 24.097850 1 21 "DTT " " HO3" 1 0 HO3   15.070    0.730 
+  15 41 0.022248 23.252499 20.731451 1 21 "DTT " " H41" 1 0 H41  <> <>
+  16 41 0.760232 24.544518 21.737773 1 21 "DTT " " H42" 1 0 H42  <> <>
+  17 41 2.693248 23.665340 19.845868 1 21 "DTT " " HS2" 1 0 HS2    9.791    1.474 
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 2 3 1
+  3 2 9 1
+  4 2 10 1
+  5 3 4 1
+  6 3 5 1
+  7 3 11 1
+  8 4 12 1
+  9 5 6 1
+  10 5 7 1
+  11 5 13 1
+  12 6 14 1
+  13 7 8 1
+  14 7 15 1
+  15 7 16 1
+  16 8 17 1
+  :::
+ } 
+} 
+

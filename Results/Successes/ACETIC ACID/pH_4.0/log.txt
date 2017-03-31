@@ -1,0 +1,23 @@
+New run:
+PDB code: ACY; Molecule: ACETIC ACID_pH_4.0; pH 4.0
+Retrieving PDB structure from RCSB ligand expo: ACETIC ACID_pH_4.0-rcsb_download.pdb.
+Parsing PDB file.
+Retrieving SDF structure from RCSB ligand expo: ACETIC ACID_pH_4.0-rcsb_download.sdf.
+Parsing SDF file.
+Canonicalizing atom names.
+Assign atom type names.
+Running Epik.
+Epik run completed.
+Assigning charges to protonation states.
+State 1
+Charging stage output:
+
+Charging state completed.
+State 2
+Charging stage output:
+
+Charging state completed.
+Writing Epik data for state 1
+Writing Epik data for state 2
+Run completed.
+Status: Success

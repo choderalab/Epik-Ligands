@@ -1,0 +1,173 @@
+ATOM      1  PA  FAD A   1      21.838   0.805  23.170  1.00 10.00           P
+ATOM      2  O1A FAD A   1      21.303  -0.519  22.722  1.00 10.00           O
+ATOM      3  O2A FAD A   1      21.242   1.938  22.745  1.00 10.00           O
+ATOM      4  O5B FAD A   1      21.519   0.682  24.644  1.00 10.00           O
+ATOM      5  C5B FAD A   1      21.897   1.643  25.685  1.00 10.00           C
+ATOM      6  C4B FAD A   1      20.997   1.330  26.945  1.00 10.00           C
+ATOM      7  O4B FAD A   1      21.460   2.224  28.053  1.00 10.00           O
+ATOM      8  C3B FAD A   1      19.460   1.622  26.806  1.00 10.00           C
+ATOM      9  O3B FAD A   1      18.671   0.579  27.290  1.00 10.00           O
+ATOM     10  C2B FAD A   1      19.298   2.973  27.574  1.00 10.00           C
+ATOM     11  O2B FAD A   1      18.004   3.122  28.103  1.00 10.00           O
+ATOM     12  C1B FAD A   1      20.276   2.783  28.699  1.00 10.00           C
+ATOM     13  N9A FAD A   1      20.801   4.020  29.267  1.00 10.00           N
+ATOM     14  C8A FAD A   1      21.154   5.153  28.575  1.00 10.00           C
+ATOM     15  N7A FAD A   1      21.668   6.097  29.360  1.00 10.00           N
+ATOM     16  C5A FAD A   1      21.563   5.585  30.631  1.00 10.00           C
+ATOM     17  C6A FAD A   1      21.927   6.147  31.932  1.00 10.00           C
+ATOM     18  N6A FAD A   1      22.352   7.373  32.098  1.00 10.00           N
+ATOM     19  N1A FAD A   1      21.585   5.362  32.997  1.00 10.00           N
+ATOM     20  C2A FAD A   1      21.028   4.127  32.847  1.00 10.00           C
+ATOM     21  N3A FAD A   1      20.758   3.492  31.695  1.00 10.00           N
+ATOM     22  C4A FAD A   1      21.094   4.244  30.607  1.00 10.00           C
+ATOM     23  N1  FAD A   1      21.113  -2.231  14.334  1.00 10.00           N
+ATOM     24  C2  FAD A   1      21.370  -3.317  13.619  1.00 10.00           C
+ATOM     25  O2  FAD A   1      22.472  -3.795  13.558  1.00 10.00           O
+ATOM     26  N3  FAD A   1      20.335  -4.062  12.992  1.00 10.00           N
+ATOM     27  C4  FAD A   1      19.064  -3.545  12.870  1.00 10.00           C
+ATOM     28  O4  FAD A   1      18.201  -4.199  12.324  1.00 10.00           O
+ATOM     29  C4X FAD A   1      18.842  -2.220  13.431  1.00 10.00           C
+ATOM     30  N5  FAD A   1      17.621  -1.643  13.324  1.00 10.00           N
+ATOM     31  C5X FAD A   1      17.401  -0.507  14.054  1.00 10.00           C
+ATOM     32  C6  FAD A   1      16.092   0.030  14.034  1.00 10.00           C
+ATOM     33  C7  FAD A   1      15.729   1.049  14.879  1.00 10.00           C
+ATOM     34  C7M FAD A   1      14.319   1.587  14.859  1.00 10.00           C
+ATOM     35  C8  FAD A   1      16.666   1.547  15.852  1.00 10.00           C
+ATOM     36  C8M FAD A   1      16.334   2.718  16.739  1.00 10.00           C
+ATOM     37  C9  FAD A   1      17.942   0.981  15.928  1.00 10.00           C
+ATOM     38  C9A FAD A   1      18.331   0.020  14.992  1.00 10.00           C
+ATOM     39  N10 FAD A   1      19.633  -0.566  14.994  1.00 10.00           N
+ATOM     40  C10 FAD A   1      19.892  -1.653  14.271  1.00 10.00           C
+ATOM     41  C1' FAD A   1      20.685   0.069  15.813  1.00 10.00           C
+ATOM     42  C2' FAD A   1      21.054  -0.797  17.045  1.00 10.00           C
+ATOM     43  O2' FAD A   1      19.858  -1.073  17.768  1.00 10.00           O
+ATOM     44  C3' FAD A   1      21.986   0.046  17.903  1.00 10.00           C
+ATOM     45  O3' FAD A   1      23.172   0.294  17.145  1.00 10.00           O
+ATOM     46  C4' FAD A   1      22.378  -0.732  19.167  1.00 10.00           C
+ATOM     47  O4' FAD A   1      21.231  -1.036  19.962  1.00 10.00           O
+ATOM     48  C5' FAD A   1      23.375   0.117  19.918  1.00 10.00           C
+ATOM     49  O5' FAD A   1      23.884  -0.652  21.183  1.00 10.00           O
+ATOM     50  P   FAD A   1      24.507   0.103  22.345  1.00 10.00           P
+ATOM     51  O1P FAD A   1      24.982  -0.991  23.309  1.00 10.00           O
+ATOM     52  O2P FAD A   1      25.437   1.054  21.950  1.00 10.00           O
+ATOM     53  O3P FAD A   1      23.473   0.866  23.032  1.00 10.00           O
+ATOM     54 HOA2 FAD A   1      21.581   2.778  23.029  1.00 10.00           H
+ATOM     55 H51A FAD A   1      22.988   1.637  25.912  1.00 10.00           H
+ATOM     56 H52A FAD A   1      21.828   2.704  25.349  1.00 10.00           H
+ATOM     57  H4B FAD A   1      21.108   0.232  27.108  1.00 10.00           H
+ATOM     58  H3B FAD A   1      19.108   1.700  25.750  1.00 10.00           H
+ATOM     59 HO3A FAD A   1      17.741   0.755  27.205  1.00 10.00           H
+ATOM     60  H2B FAD A   1      19.466   3.869  26.932  1.00 10.00           H
+ATOM     61 HO2A FAD A   1      17.905   3.943  28.570  1.00 10.00           H
+ATOM     62  H1B FAD A   1      19.760   2.196  29.494  1.00 10.00           H
+ATOM     63  H8A FAD A   1      21.035   5.292  27.487  1.00 10.00           H
+ATOM     64 H61A FAD A   1      22.605   7.764  33.004  1.00 10.00           H
+ATOM     65 H62A FAD A   1      21.653   7.992  31.686  1.00 10.00           H
+ATOM     66  H2A FAD A   1      20.764   3.576  33.766  1.00 10.00           H
+ATOM     67  HN3 FAD A   1      20.509  -4.995  12.618  1.00 10.00           H
+ATOM     68  H6  FAD A   1      15.330  -0.358  13.337  1.00 10.00           H
+ATOM     69 HM71 FAD A   1      14.024   2.414  15.545  1.00 10.00           H
+ATOM     70 HM72 FAD A   1      14.074   1.892  13.815  1.00 10.00           H
+ATOM     71 HM73 FAD A   1      13.616   0.735  15.013  1.00 10.00           H
+ATOM     72 HM81 FAD A   1      17.059   3.103  17.492  1.00 10.00           H
+ATOM     73 HM82 FAD A   1      16.034   3.569  16.084  1.00 10.00           H
+ATOM     74 HM83 FAD A   1      15.380   2.487  17.268  1.00 10.00           H
+ATOM     75  H9  FAD A   1      18.639   1.291  16.723  1.00 10.00           H
+ATOM     76 H1'1 FAD A   1      21.585   0.310  15.201  1.00 10.00           H
+ATOM     77 H1'2 FAD A   1      20.396   1.103  16.114  1.00 10.00           H
+ATOM     78  H2' FAD A   1      21.540  -1.757  16.755  1.00 10.00           H
+ATOM     79 HO2' FAD A   1      20.084  -1.603  18.522  1.00 10.00           H
+ATOM     80  H3' FAD A   1      21.479   0.996  18.193  1.00 10.00           H
+ATOM     81 HO3' FAD A   1      23.753   0.820  17.680  1.00 10.00           H
+ATOM     82  H4' FAD A   1      22.834  -1.714  18.902  1.00 10.00           H
+ATOM     83 HO4' FAD A   1      21.473  -1.517  20.744  1.00 10.00           H
+ATOM     84 H5'1 FAD A   1      24.215   0.451  19.265  1.00 10.00           H
+ATOM     85 H5'2 FAD A   1      22.960   1.119  20.176  1.00 10.00           H
+ATOM     86 HOP2 FAD A   1      25.826   1.526  22.676  1.00 10.00           H
+CONECT    1    2    3    4   53
+CONECT    2    1
+CONECT    3    1   54
+CONECT    4    1    5
+CONECT    5    4    6   55   56
+CONECT    6    5    7    8   57
+CONECT    7    6   12
+CONECT    8    6    9   10   58
+CONECT    9    8   59
+CONECT   10    8   11   12   60
+CONECT   11   10   61
+CONECT   12    7   10   13   62
+CONECT   13   12   14   22
+CONECT   14   13   15   63
+CONECT   15   14   16
+CONECT   16   15   17   22
+CONECT   17   16   18   19
+CONECT   18   17   64   65
+CONECT   19   17   20
+CONECT   20   19   21   66
+CONECT   21   20   22
+CONECT   22   13   16   21
+CONECT   23   24   40
+CONECT   24   23   25   26
+CONECT   25   24
+CONECT   26   24   27   67
+CONECT   27   26   28   29
+CONECT   28   27
+CONECT   29   27   30   40
+CONECT   30   29   31
+CONECT   31   30   32   38
+CONECT   32   31   33   68
+CONECT   33   32   34   35
+CONECT   34   33   69   70   71
+CONECT   35   33   36   37
+CONECT   36   35   72   73   74
+CONECT   37   35   38   75
+CONECT   38   31   37   39
+CONECT   39   38   40   41
+CONECT   40   23   29   39
+CONECT   41   39   42   76   77
+CONECT   42   41   43   44   78
+CONECT   43   42   79
+CONECT   44   42   45   46   80
+CONECT   45   44   81
+CONECT   46   44   47   48   82
+CONECT   47   46   83
+CONECT   48   46   49   84   85
+CONECT   49   48   50
+CONECT   50   49   51   52   53
+CONECT   51   50
+CONECT   52   50   86
+CONECT   53    1   50
+CONECT   54    3
+CONECT   55    5
+CONECT   56    5
+CONECT   57    6
+CONECT   58    8
+CONECT   59    9
+CONECT   60   10
+CONECT   61   11
+CONECT   62   12
+CONECT   63   14
+CONECT   64   18
+CONECT   65   18
+CONECT   66   20
+CONECT   67   26
+CONECT   68   32
+CONECT   69   34
+CONECT   70   34
+CONECT   71   34
+CONECT   72   36
+CONECT   73   36
+CONECT   74   36
+CONECT   75   37
+CONECT   76   41
+CONECT   77   41
+CONECT   78   42
+CONECT   79   43
+CONECT   80   44
+CONECT   81   45
+CONECT   82   46
+CONECT   83   47
+CONECT   84   48
+CONECT   85   48
+CONECT   86   52
+END   

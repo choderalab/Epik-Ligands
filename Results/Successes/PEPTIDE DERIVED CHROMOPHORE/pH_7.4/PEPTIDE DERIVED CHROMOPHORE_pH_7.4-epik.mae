@@ -1,0 +1,596 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ CRO 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/PEPTIDE DERIVED CHROMOPHORE/pH_7.4/PEPTIDE DERIVED CHROMOPHORE_pH_7.4-before_epik.mol2" 
+  1
+  0.5
+    0.2086 
+    0.0000 
+    0.2086 
+    0.2226 
+  0.22264953529807
+  -2
+  2
+  "This compound has an imine and may undergo hydrolysis." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[39] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 26 24.077000 27.513000 36.610000 1 43 "CRO " " N1 " 7 0 N1    5.129    2.220 
+  2 3 25.011000 26.478000 37.078000 1 2 "CRO " " CA1" 6 0 CA1  <> <>
+  3 3 25.931000 26.035000 35.930000 1 2 "CRO " " CB1" 6 0 CB1  <> <>
+  4 3 25.155000 25.422000 34.796000 1 2 "CRO " " CG1" 6 0 CG1  <> <>
+  5 16 26.679000 27.129000 35.461000 1 70 "CRO " " OG1" 8 0 OG1   -2.336    0.950 
+  6 2 25.730000 27.106000 38.245000 1 2 "CRO " " C1 " 6 0 C1  <> <>
+  7 25 26.975000 27.732000 38.216000 1 43 "CRO " " N2 " 7 0 N2    1.644    2.220 
+  8 25 25.274000 27.124000 39.509000 1 43 "CRO " " N3 " 7 0 N3  <> <>
+  9 2 26.043000 27.875000 40.370000 1 2 "CRO " " C2 " 6 0 C2  <> <>
+  10 15 26.022000 27.962000 41.566000 1 70 "CRO " " O2 " 8 0 O2  <> <>
+  11 2 27.197000 28.245000 39.512000 1 2 "CRO " " CA2" 6 0 CA2  <> <>
+  12 3 23.919000 26.721000 39.842000 1 2 "CRO " " CA3" 6 0 CA3  <> <>
+  13 2 23.745000 25.326000 40.360000 1 2 "CRO " " C3 " 6 0 C3  <> <>
+  14 15 22.885000 25.116000 41.193000 1 70 "CRO " " O3 " 8 0 O3  <> <>
+  15 2 28.329000 28.822000 39.960000 1 2 "CRO " " CB2" 6 0 CB2  <> <>
+  16 2 29.437000 29.370000 39.124000 1 2 "CRO " " CG2" 6 0 CG2  <> <>
+  17 2 29.541000 29.103000 37.742000 1 2 "CRO " " CD1" 6 0 CD1  <> <>
+  18 2 30.487000 30.110000 39.805000 1 2 "CRO " " CD2" 6 0 CD2  <> <>
+  19 2 30.707000 29.546000 37.033000 1 2 "CRO " " CE1" 6 0 CE1  <> <>
+  20 2 31.614000 30.563000 39.085000 1 2 "CRO " " CE2" 6 0 CE2  <> <>
+  21 2 31.718000 30.300000 37.721000 1 2 "CRO " " CZ " 6 0 CZ  <> <>
+  22 16 32.894000 30.804000 36.971000 1 70 "CRO " " OH " 8 0 OH  <> <>
+  23 115 24.535000 24.383000 39.849000 1 70 "CRO " " OXT" 8 -2 OXT  <> <>
+  24 43 23.424855 27.821002 37.440567 1 21 "CRO " "HN11" 1 0 HN11  <> <>
+  25 43 24.644903 28.382642 36.247773 1 21 "CRO " " H2 " 1 0 H2  <> <>
+  26 41 24.486609 25.570544 37.411974 1 21 "CRO " " HA1" 1 0 HA1  <> <>
+  27 41 26.675951 25.308908 36.287545 1 21 "CRO " " HB1" 1 0 HB1  <> <>
+  28 41 24.572520 24.567193 35.170196 1 21 "CRO " "HG11" 1 0 HG11  <> <>
+  29 41 25.852559 25.078023 34.018124 1 21 "CRO " "HG12" 1 0 HG12  <> <>
+  30 41 24.472638 26.172660 34.370687 1 21 "CRO " "HG13" 1 0 HG13  <> <>
+  31 42 27.310814 27.701668 36.155883 1 21 "CRO " "HOG1" 1 0 HOG1   11.953    0.945 
+  32 41 23.521106 27.383988 40.624386 1 21 "CRO " "HA31" 1 0 HA31  <> <>
+  33 41 23.285143 26.790052 38.945642 1 21 "CRO " "HA32" 1 0 HA32  <> <>
+  34 41 28.503534 28.924279 41.041239 1 21 "CRO " " HB2" 1 0 HB2  <> <>
+  35 41 28.754000 28.573000 37.226000 1 21 "CRO " " HD1" 1 0 HD1  <> <>
+  36 41 30.405000 30.313000 40.862000 1 21 "CRO " " HD2" 1 0 HD2  <> <>
+  37 41 30.824000 29.313000 35.985000 1 21 "CRO " " HE1" 1 0 HE1  <> <>
+  38 41 32.394000 31.112000 39.591000 1 21 "CRO " " HE2" 1 0 HE2  <> <>
+  39 42 32.986869 30.602479 35.893612 1 21 "CRO " " HOH" 1 0 HOH    7.783    0.746 
+  :::
+ } 
+ m_bond[40] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 24 1
+  3 1 25 1
+  4 2 6 1
+  5 2 26 1
+  6 2 3 1
+  7 3 27 1
+  8 3 4 1
+  9 3 5 1
+  10 4 28 1
+  11 4 29 1
+  12 4 30 1
+  13 5 31 1
+  14 6 8 1
+  15 6 7 2
+  16 7 11 1
+  17 8 12 1
+  18 8 9 1
+  19 9 10 2
+  20 9 11 1
+  21 11 15 2
+  22 12 13 1
+  23 12 32 1
+  24 12 33 1
+  25 13 14 2
+  26 13 23 1
+  27 15 34 1
+  28 15 16 1
+  29 16 18 2
+  30 16 17 1
+  31 17 35 1
+  32 17 19 2
+  33 18 36 1
+  34 18 20 1
+  35 19 21 1
+  36 19 37 1
+  37 20 38 1
+  38 20 21 2
+  39 21 22 1
+  40 22 39 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ CRO 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/PEPTIDE DERIVED CHROMOPHORE/pH_7.4/PEPTIDE DERIVED CHROMOPHORE_pH_7.4-before_epik.mol2" 
+  1
+  0.5
+    0.7305 
+    0.7274 
+    0.0032 
+    0.6946 
+  1.42192740607858
+  -3
+  3
+  "This compound has an imine and may undergo hydrolysis." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[38] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 26 24.077000 27.513000 36.610000 1 43 "CRO " " N1 " 7 0 N1    5.129    2.220 
+  2 3 25.011000 26.478000 37.078000 1 2 "CRO " " CA1" 6 0 CA1  <> <>
+  3 3 25.931000 26.035000 35.930000 1 2 "CRO " " CB1" 6 0 CB1  <> <>
+  4 3 25.155000 25.422000 34.796000 1 2 "CRO " " CG1" 6 0 CG1  <> <>
+  5 16 26.679000 27.129000 35.461000 1 70 "CRO " " OG1" 8 0 OG1   -2.336    0.950 
+  6 2 25.730000 27.106000 38.245000 1 2 "CRO " " C1 " 6 0 C1  <> <>
+  7 25 26.975000 27.732000 38.216000 1 43 "CRO " " N2 " 7 0 N2    1.644    2.220 
+  8 25 25.274000 27.124000 39.509000 1 43 "CRO " " N3 " 7 0 N3  <> <>
+  9 2 26.043000 27.875000 40.370000 1 2 "CRO " " C2 " 6 0 C2  <> <>
+  10 15 26.022000 27.962000 41.566000 1 70 "CRO " " O2 " 8 0 O2  <> <>
+  11 2 27.197000 28.245000 39.512000 1 2 "CRO " " CA2" 6 0 CA2  <> <>
+  12 3 23.919000 26.721000 39.842000 1 2 "CRO " " CA3" 6 0 CA3  <> <>
+  13 2 23.745000 25.326000 40.360000 1 2 "CRO " " C3 " 6 0 C3  <> <>
+  14 15 22.885000 25.116000 41.193000 1 70 "CRO " " O3 " 8 0 O3  <> <>
+  15 2 28.329000 28.822000 39.960000 1 2 "CRO " " CB2" 6 0 CB2  <> <>
+  16 2 29.437000 29.370000 39.124000 1 2 "CRO " " CG2" 6 0 CG2  <> <>
+  17 2 29.541000 29.103000 37.742000 1 2 "CRO " " CD1" 6 0 CD1  <> <>
+  18 2 30.487000 30.110000 39.805000 1 2 "CRO " " CD2" 6 0 CD2  <> <>
+  19 2 30.707000 29.546000 37.033000 1 2 "CRO " " CE1" 6 0 CE1  <> <>
+  20 2 31.614000 30.563000 39.085000 1 2 "CRO " " CE2" 6 0 CE2  <> <>
+  21 2 31.718000 30.300000 37.721000 1 2 "CRO " " CZ " 6 0 CZ  <> <>
+  22 18 32.894000 30.804000 36.971000 1 70 "CRO " " OH " 8 -1 OH    7.783    1.474 
+  23 115 24.535000 24.383000 39.849000 1 70 "CRO " " OXT" 8 -2 OXT  <> <>
+  24 43 23.424855 27.821002 37.440567 1 21 "CRO " "HN11" 1 0 HN11  <> <>
+  25 43 24.644903 28.382642 36.247773 1 21 "CRO " " H2 " 1 0 H2  <> <>
+  26 41 24.486609 25.570544 37.411974 1 21 "CRO " " HA1" 1 0 HA1  <> <>
+  27 41 26.675951 25.308908 36.287545 1 21 "CRO " " HB1" 1 0 HB1  <> <>
+  28 41 24.572520 24.567193 35.170196 1 21 "CRO " "HG11" 1 0 HG11  <> <>
+  29 41 25.852559 25.078023 34.018124 1 21 "CRO " "HG12" 1 0 HG12  <> <>
+  30 41 24.472638 26.172660 34.370687 1 21 "CRO " "HG13" 1 0 HG13  <> <>
+  31 42 27.310814 27.701668 36.155883 1 21 "CRO " "HOG1" 1 0 HOG1   11.953    0.945 
+  32 41 23.521106 27.383988 40.624386 1 21 "CRO " "HA31" 1 0 HA31  <> <>
+  33 41 23.285143 26.790052 38.945642 1 21 "CRO " "HA32" 1 0 HA32  <> <>
+  34 41 28.503534 28.924279 41.041239 1 21 "CRO " " HB2" 1 0 HB2  <> <>
+  35 41 28.754000 28.573000 37.226000 1 21 "CRO " " HD1" 1 0 HD1  <> <>
+  36 41 30.405000 30.313000 40.862000 1 21 "CRO " " HD2" 1 0 HD2  <> <>
+  37 41 30.824000 29.313000 35.985000 1 21 "CRO " " HE1" 1 0 HE1  <> <>
+  38 41 32.394000 31.112000 39.591000 1 21 "CRO " " HE2" 1 0 HE2  <> <>
+  :::
+ } 
+ m_bond[39] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 24 1
+  3 1 25 1
+  4 2 6 1
+  5 2 26 1
+  6 2 3 1
+  7 3 27 1
+  8 3 4 1
+  9 3 5 1
+  10 4 28 1
+  11 4 29 1
+  12 4 30 1
+  13 5 31 1
+  14 6 8 1
+  15 6 7 2
+  16 7 11 1
+  17 8 12 1
+  18 8 9 1
+  19 9 10 2
+  20 9 11 1
+  21 11 15 2
+  22 12 13 1
+  23 12 32 1
+  24 12 33 1
+  25 13 14 2
+  26 13 23 1
+  27 15 34 1
+  28 15 16 1
+  29 16 18 2
+  30 16 17 1
+  31 17 35 1
+  32 17 19 2
+  33 18 36 1
+  34 18 20 1
+  35 19 21 1
+  36 19 37 1
+  37 20 38 1
+  38 20 21 2
+  39 21 22 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ CRO 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/PEPTIDE DERIVED CHROMOPHORE/pH_7.4/PEPTIDE DERIVED CHROMOPHORE_pH_7.4-before_epik.mol2" 
+  1
+  0.5
+    3.4186 
+    3.1008 
+    0.3178 
+    3.6131 
+  6.71384497716905
+  -1
+  3
+  "This compound has an imine and may undergo hydrolysis." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[40] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 24.077000 27.513000 36.610000 1 43 "CRO " " N1 " 7 1 "N1"  <> <>
+  2 3 25.011000 26.478000 37.078000 1 2 "CRO " " CA1" 6 0 "CA1"  <> <>
+  3 3 25.931000 26.035000 35.930000 1 2 "CRO " " CB1" 6 0 "CB1"  <> <>
+  4 3 25.155000 25.422000 34.796000 1 2 "CRO " " CG1" 6 0 "CG1"  <> <>
+  5 16 26.679000 27.129000 35.461000 1 70 "CRO " " OG1" 8 0 "OG1"  <> <>
+  6 2 25.730000 27.106000 38.245000 1 2 "CRO " " C1 " 6 0 "C1"  <> <>
+  7 25 26.975000 27.732000 38.216000 1 43 "CRO " " N2 " 7 0 "N2"   -0.152    1.650 
+  8 25 25.274000 27.124000 39.509000 1 43 "CRO " " N3 " 7 0 "N3"  <> <>
+  9 2 26.043000 27.875000 40.370000 1 2 "CRO " " C2 " 6 0 "C2"  <> <>
+  10 15 26.022000 27.962000 41.566000 1 70 "CRO " " O2 " 8 0 "O2"  <> <>
+  11 2 27.197000 28.245000 39.512000 1 2 "CRO " " CA2" 6 0 "CA2"  <> <>
+  12 3 23.919000 26.721000 39.842000 1 2 "CRO " " CA3" 6 0 "CA3"  <> <>
+  13 2 23.745000 25.326000 40.360000 1 2 "CRO " " C3 " 6 0 "C3"  <> <>
+  14 15 22.885000 25.116000 41.193000 1 70 "CRO " " O3 " 8 0 "O3"  <> <>
+  15 2 28.329000 28.822000 39.960000 1 2 "CRO " " CB2" 6 0 "CB2"  <> <>
+  16 2 29.437000 29.370000 39.124000 1 2 "CRO " " CG2" 6 0 "CG2"  <> <>
+  17 2 29.541000 29.103000 37.742000 1 2 "CRO " " CD1" 6 0 "CD1"  <> <>
+  18 2 30.487000 30.110000 39.805000 1 2 "CRO " " CD2" 6 0 "CD2"  <> <>
+  19 2 30.707000 29.546000 37.033000 1 2 "CRO " " CE1" 6 0 "CE1"  <> <>
+  20 2 31.614000 30.563000 39.085000 1 2 "CRO " " CE2" 6 0 "CE2"  <> <>
+  21 2 31.718000 30.300000 37.721000 1 2 "CRO " " CZ " 6 0 "CZ"  <> <>
+  22 16 32.894000 30.804000 36.971000 1 70 "CRO " " OH " 8 0 "OH"  <> <>
+  23 115 24.535000 24.383000 39.849000 1 70 "CRO " " OXT" 8 -2 "OXT"  <> <>
+  24 44 23.424855 27.821002 37.440567 1 21 "CRO " "HN11" 1 0 "HN11"    5.129    2.220 
+  25 44 23.462648 27.109494 35.791615 1 21 "CRO " " H2 " 1 0 "H2"    5.129    2.220 
+  26 41 24.486609 25.570544 37.411974 1 21 "CRO " " HA1" 1 0 "HA1"  <> <>
+  27 41 26.675951 25.308908 36.287545 1 21 "CRO " " HB1" 1 0 "HB1"  <> <>
+  28 41 24.572520 24.567193 35.170196 1 21 "CRO " "HG11" 1 0 "HG11"  <> <>
+  29 41 25.852559 25.078023 34.018124 1 21 "CRO " "HG12" 1 0 "HG12"  <> <>
+  30 41 24.472638 26.172660 34.370687 1 21 "CRO " "HG13" 1 0 "HG13"  <> <>
+  31 42 27.310814 27.701668 36.155883 1 21 "CRO " "HOG1" 1 0 "HOG1"   11.303    2.000 
+  32 41 23.521106 27.383988 40.624386 1 21 "CRO " "HA31" 1 0 "HA31"  <> <>
+  33 41 23.285143 26.790052 38.945642 1 21 "CRO " "HA32" 1 0 "HA32"  <> <>
+  34 41 28.503534 28.924279 41.041239 1 21 "CRO " " HB2" 1 0 "HB2"  <> <>
+  35 41 28.754000 28.573000 37.226000 1 21 "CRO " " HD1" 1 0 "HD1"  <> <>
+  36 41 30.405000 30.313000 40.862000 1 21 "CRO " " HD2" 1 0 "HD2"  <> <>
+  37 41 30.824000 29.313000 35.985000 1 21 "CRO " " HE1" 1 0 "HE1"  <> <>
+  38 41 32.394000 31.112000 39.591000 1 21 "CRO " " HE2" 1 0 "HE2"  <> <>
+  39 42 32.986869 30.602479 35.893612 1 21 "CRO " " HOH" 1 0 "HOH"    7.549    0.746 
+  40 44 24.644903 28.382642 36.247773 1 21 "CRO " "    " 1 0 ""    5.129    2.220 
+  :::
+ } 
+ m_bond[41] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 24 1
+  3 1 25 1
+  4 1 40 1
+  5 2 6 1
+  6 2 26 1
+  7 2 3 1
+  8 3 27 1
+  9 3 4 1
+  10 3 5 1
+  11 4 28 1
+  12 4 29 1
+  13 4 30 1
+  14 5 31 1
+  15 6 8 1
+  16 6 7 2
+  17 7 11 1
+  18 8 12 1
+  19 8 9 1
+  20 9 10 2
+  21 9 11 1
+  22 11 15 2
+  23 12 13 1
+  24 12 32 1
+  25 12 33 1
+  26 13 14 2
+  27 13 23 1
+  28 15 34 1
+  29 15 16 1
+  30 16 18 2
+  31 16 17 1
+  32 17 35 1
+  33 17 19 2
+  34 18 36 1
+  35 18 20 1
+  36 19 21 1
+  37 19 37 1
+  38 20 38 1
+  39 20 21 2
+  40 21 22 1
+  41 22 39 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_source_file
+ i_m_source_file_index
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_epik_Chemistry_Notes
+ i_m_ct_format
+ :::
+ CRO 
+  "/cbio/jclab/home/rustenburg/PFK/Epik-Ligands/Results/InProgress/PEPTIDE DERIVED CHROMOPHORE/pH_7.4/PEPTIDE DERIVED CHROMOPHORE_pH_7.4-before_epik.mol2" 
+  1
+    3.6218 
+    3.6217 
+    0.0001 
+    3.9149 
+  7.53661999182822
+  -2
+  4
+  "This compound has an imine and may undergo hydrolysis." 
+  2
+ m_depend[6] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_epik_Ionization_Penalty 
+  2 10 r_epik_Ionization_Penalty_Charging 
+  3 10 r_epik_Ionization_Penalty_Neutral 
+  4 10 r_epik_State_Penalty 
+  5 10 r_epik_Charging_Adjusted_Penalty 
+  6 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[39] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_atom_name
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 24.077000 27.513000 36.610000 1 43 "CRO " " N1 " 7 1 "N1"  <> <>
+  2 3 25.011000 26.478000 37.078000 1 2 "CRO " " CA1" 6 0 "CA1"  <> <>
+  3 3 25.931000 26.035000 35.930000 1 2 "CRO " " CB1" 6 0 "CB1"  <> <>
+  4 3 25.155000 25.422000 34.796000 1 2 "CRO " " CG1" 6 0 "CG1"  <> <>
+  5 16 26.679000 27.129000 35.461000 1 70 "CRO " " OG1" 8 0 "OG1"  <> <>
+  6 2 25.730000 27.106000 38.245000 1 2 "CRO " " C1 " 6 0 "C1"  <> <>
+  7 25 26.975000 27.732000 38.216000 1 43 "CRO " " N2 " 7 0 "N2"   -0.152    1.650 
+  8 25 25.274000 27.124000 39.509000 1 43 "CRO " " N3 " 7 0 "N3"  <> <>
+  9 2 26.043000 27.875000 40.370000 1 2 "CRO " " C2 " 6 0 "C2"  <> <>
+  10 15 26.022000 27.962000 41.566000 1 70 "CRO " " O2 " 8 0 "O2"  <> <>
+  11 2 27.197000 28.245000 39.512000 1 2 "CRO " " CA2" 6 0 "CA2"  <> <>
+  12 3 23.919000 26.721000 39.842000 1 2 "CRO " " CA3" 6 0 "CA3"  <> <>
+  13 2 23.745000 25.326000 40.360000 1 2 "CRO " " C3 " 6 0 "C3"  <> <>
+  14 15 22.885000 25.116000 41.193000 1 70 "CRO " " O3 " 8 0 "O3"  <> <>
+  15 2 28.329000 28.822000 39.960000 1 2 "CRO " " CB2" 6 0 "CB2"  <> <>
+  16 2 29.437000 29.370000 39.124000 1 2 "CRO " " CG2" 6 0 "CG2"  <> <>
+  17 2 29.541000 29.103000 37.742000 1 2 "CRO " " CD1" 6 0 "CD1"  <> <>
+  18 2 30.487000 30.110000 39.805000 1 2 "CRO " " CD2" 6 0 "CD2"  <> <>
+  19 2 30.707000 29.546000 37.033000 1 2 "CRO " " CE1" 6 0 "CE1"  <> <>
+  20 2 31.614000 30.563000 39.085000 1 2 "CRO " " CE2" 6 0 "CE2"  <> <>
+  21 2 31.718000 30.300000 37.721000 1 2 "CRO " " CZ " 6 0 "CZ"  <> <>
+  22 18 32.894000 30.804000 36.971000 1 70 "CRO " " OH " 8 -1 "OH"    7.549    1.474 
+  23 115 24.535000 24.383000 39.849000 1 70 "CRO " " OXT" 8 -2 "OXT"  <> <>
+  24 44 23.424855 27.821002 37.440567 1 21 "CRO " "HN11" 1 0 "HN11"    5.129    2.220 
+  25 44 23.462648 27.109494 35.791615 1 21 "CRO " " H2 " 1 0 "H2"    5.129    2.220 
+  26 41 24.486609 25.570544 37.411974 1 21 "CRO " " HA1" 1 0 "HA1"  <> <>
+  27 41 26.675951 25.308908 36.287545 1 21 "CRO " " HB1" 1 0 "HB1"  <> <>
+  28 41 24.572520 24.567193 35.170196 1 21 "CRO " "HG11" 1 0 "HG11"  <> <>
+  29 41 25.852559 25.078023 34.018124 1 21 "CRO " "HG12" 1 0 "HG12"  <> <>
+  30 41 24.472638 26.172660 34.370687 1 21 "CRO " "HG13" 1 0 "HG13"  <> <>
+  31 42 27.310814 27.701668 36.155883 1 21 "CRO " "HOG1" 1 0 "HOG1"   11.303    2.000 
+  32 41 23.521106 27.383988 40.624386 1 21 "CRO " "HA31" 1 0 "HA31"  <> <>
+  33 41 23.285143 26.790052 38.945642 1 21 "CRO " "HA32" 1 0 "HA32"  <> <>
+  34 41 28.503534 28.924279 41.041239 1 21 "CRO " " HB2" 1 0 "HB2"  <> <>
+  35 41 28.754000 28.573000 37.226000 1 21 "CRO " " HD1" 1 0 "HD1"  <> <>
+  36 41 30.405000 30.313000 40.862000 1 21 "CRO " " HD2" 1 0 "HD2"  <> <>
+  37 41 30.824000 29.313000 35.985000 1 21 "CRO " " HE1" 1 0 "HE1"  <> <>
+  38 41 32.394000 31.112000 39.591000 1 21 "CRO " " HE2" 1 0 "HE2"  <> <>
+  39 44 24.644903 28.382642 36.247773 1 21 "CRO " "    " 1 0 ""    5.129    2.220 
+  :::
+ } 
+ m_bond[40] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 24 1
+  3 1 25 1
+  4 1 39 1
+  5 2 6 1
+  6 2 26 1
+  7 2 3 1
+  8 3 27 1
+  9 3 4 1
+  10 3 5 1
+  11 4 28 1
+  12 4 29 1
+  13 4 30 1
+  14 5 31 1
+  15 6 8 1
+  16 6 7 2
+  17 7 11 1
+  18 8 12 1
+  19 8 9 1
+  20 9 10 2
+  21 9 11 1
+  22 11 15 2
+  23 12 13 1
+  24 12 32 1
+  25 12 33 1
+  26 13 14 2
+  27 13 23 1
+  28 15 34 1
+  29 15 16 1
+  30 16 18 2
+  31 16 17 1
+  32 17 35 1
+  33 17 19 2
+  34 18 36 1
+  35 18 20 1
+  36 19 21 1
+  37 19 37 1
+  38 20 38 1
+  39 20 21 2
+  40 21 22 1
+  :::
+ } 
+} 
+
