@@ -11,6 +11,7 @@ Epik run completed.
 Assigning charges to protonation states.
 State 1
 Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 
 Charging state completed.
 State 2
@@ -45,6 +46,70 @@ Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 7
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 8
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 9
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+
+Charging state completed.
+State 10
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-amino-4-[[5-(6-aminopurin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methylsulfanyl]butanoic acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+
+Charging state completed.
+State 11
+Charging stage output:
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-amino-4-[[5-(6-aminopurin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methylsulfanyl]butanoic acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
+Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-amino-4-[[5-(6-amino-1,2-dihydropurin-2-ylium-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methylsulfanyl]butanoic acid
+Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
 
 Charging state completed.
 Writing Epik data for state 1
@@ -53,5 +118,10 @@ Writing Epik data for state 3
 Writing Epik data for state 4
 Writing Epik data for state 5
 Writing Epik data for state 6
+Writing Epik data for state 7
+Writing Epik data for state 8
+Writing Epik data for state 9
+Writing Epik data for state 10
+Writing Epik data for state 11
 Run completed.
 Status: Success

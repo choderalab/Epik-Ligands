@@ -6,7 +6,7 @@ from sys import argv
 import re
 import numpy as np
 import logging
-from openeye import oechem
+from openeye import oechem, oeomega
 import openeye
 from openmoltools import openeye as omtoe, schrodinger
 
@@ -153,6 +153,40 @@ def select_conformers(multiconformers, original_molecule, keep_confs=None):
     return molcopy
 
 
+def clean_input_conformation(inputfile, outputfile, residue_name):
+    """Generates a single conformation using Omega
+
+    :param inputfile: Input structure file name
+    :param outputfile: Output structure file name
+    :return:
+    """
+    ifs = oechem.oemolistream()
+    if not ifs.open(inputfile):
+        oechem.OEThrow.Fatal("Unable to open %s for reading" % inputfile)
+
+    for mol in ifs.GetOEMols():
+        # reference atoms
+        nohydrogens = oechem.OEMol(mol)
+        delete_hydrogens(nohydrogens)
+
+        omegaOpts = oeomega.OEOmegaOptions()
+        omegaOpts.SetFixMol(nohydrogens)
+        omegaOpts.SetMaxConfs(1)
+        omegaOpts.SetSampleHydrogens(True)
+        omega = oeomega.OEOmega(omegaOpts)
+
+        if omega(mol):
+            write_mol2_preserving_atomnames(outputfile,mol,residue_name)
+
+
+def delete_hydrogens(mol):
+    """Removes hydrogen atoms in place"""
+    for atom in mol.GetAtoms():
+        if atom.GetAtomicNum() == 1:
+            mol.DeleteAtom(atom)
+
+
+
 def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.4):
     """Run Epik to get protonation states using PDB residue templates for naming.
 
@@ -254,8 +288,11 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
 
     # Save mol2 file, preserving atom names
     log += "Running Epik.\n"
+    pre_file_path = name + '-before_omega.mol2'
+    write_mol2_preserving_atomnames(pre_file_path, oe_molecule, residue_name)
     mol2_file_path = name + '-before_epik.mol2'
-    write_mol2_preserving_atomnames(mol2_file_path, oe_molecule, residue_name)
+    # regenerate hydrogens
+    clean_input_conformation(pre_file_path,mol2_file_path, residue_name)
 
     # Run epik on mol2 file
     mae_file_path = name + '-epik.mae'
@@ -311,6 +348,20 @@ def enumerate_conformations(name, pdbfile=None, smiles=None, pdbname=None, pH=7.
             oechem.OETriposBondTypeNames(charged_molecule)
             # Store tags.
             oechem.OECopySDData(charged_molecule, sdf_molecule)
+
+            # Fix conformations for hydrogens from Epik
+
+            # Reference atoms
+            nohydrogens = oechem.OEMol(charged_molecule)
+            delete_hydrogens(nohydrogens)
+
+            omegaOpts = oeomega.OEOmegaOptions()
+            omegaOpts.SetFixMol(nohydrogens)
+            omegaOpts.SetMaxConfs(1)
+            omegaOpts.SetSampleHydrogens(True)
+
+            omega = oeomega.OEOmega(omegaOpts)
+            omega(charged_molecule)
             # Store molecule
             charged_molecules.append(charged_molecule)
 
