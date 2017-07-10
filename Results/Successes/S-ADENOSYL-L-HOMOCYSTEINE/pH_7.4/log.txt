@@ -11,42 +11,20 @@ Epik run completed.
 Assigning charges to protonation states.
 State 1
 Charging stage output:
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 
 Charging state completed.
 State 2
 Charging stage output:
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 
 Charging state completed.
 State 3
 Charging stage output:
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-amino-4-[[5-(6-aminopurin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methylsulfanyl]butanoic acid
 Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
-
-Charging state completed.
-State 4
-Charging stage output:
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
-Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-amino-4-[[5-(6-aminopurin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methylsulfanyl]butanoic acid
-Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
-
-Charging state completed.
-State 5
-Charging stage output:
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
-Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-amino-4-[[5-(6-aminopurin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methylsulfanyl]butanoic acid
-Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 
 Charging state completed.
 Writing Epik data for state 1
 Writing Epik data for state 2
 Writing Epik data for state 3
-Writing Epik data for state 4
-Writing Epik data for state 5
 Run completed.
 Status: Success

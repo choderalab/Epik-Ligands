@@ -15,12 +15,10 @@ Charging stage output:
 Charging state completed.
 State 2
 Charging stage output:
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 
 Charging state completed.
 State 3
 Charging stage output:
-Warning: SelectElfDiverseConfs: elfPop.NumConfs 1 <= elfLimit 1
 Warning: SelectElfPop: Unable to remove trans COOH conformers from mol 2-amino-4-[[5-(6-aminopurin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methylsulfanyl]butanoic acid
 Warning: OESEmpBCCPartialCharges: Unable to select ELF-stable conformer population
 
